@@ -1,2 +1,0 @@
-# coronatest
-Begin app
