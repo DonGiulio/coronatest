@@ -4,12 +4,15 @@ import Answer from "./Answer";
 
 const Question = (props) => {
   return(
-    <p><strong>{props.index}</strong>: {props.question}
+    <div>
+    <p><strong>{props.index}</strong>: {props.question}</p>
+    <div>
       {
-        Object.values(props.answers).map((value) => 
-          <Answer answer={value.answer} value={value.value}/>)
+        Object.values(props.answers).map((value, index) => 
+          <Answer key={index} answer={value.answer} value={value.value}/>)
       }
-    </p> )
+    </div>
+    </div>)
 }
 
 export default Question;
