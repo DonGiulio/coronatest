@@ -1,11 +1,14 @@
 import React from 'react';
 
+import Answer from "./Answer";
+
 const Question = (props) => {
   return(
-    <p><strong>{props.number}</strong>: Condizioni generali          
-      <p><input type="radio"/> mi sento stanco, spossato</p>  
-      <p><input type="radio"/> respiro a fatica</p>  
-      <p><input type="radio"/> mi sento bene</p>  
+    <p><strong>{props.index}</strong>: {props.question}
+      {
+        Object.values(props.answers).map((value) => 
+          <Answer answer={value.answer} value={value.value}/>)
+      }
     </p> )
 }
 

@@ -3,12 +3,13 @@ import Question from "./Question";
 
 
 const Test = (props) => {
-  console.log(props.questions)
   return(
     <div>
     {
-      Object.keys(props.questions).map((question, index) => 
-            <Question question={question} number={index + 1}/>)
+      Object.values(props.questions).map((question, index) => 
+                  <Question question={question["question"]} 
+                            answers={question["answers"]} 
+                            index={index + 1}/>)
     }
     </div>
     )
