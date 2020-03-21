@@ -2,8 +2,9 @@
 import React, { useState, useEffect } from 'react';
 // import logo from './logo.svg';
 import { Alert } from 'reactstrap';
-
 import './App.css';
+import questions from "./questions";
+import Test from "./test";
 
 const App = () => {
   const [message, setMessage] = useState('...loading')
@@ -48,14 +49,11 @@ const App = () => {
 
         <hr/>
         <h1>The test</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <p><strong>Section 1</strong>: let's see how your symptoms relate to the Covid-19 flu</p>
+
+        <Test questions={questions}/>
+
       </header>
     </div>
   );
