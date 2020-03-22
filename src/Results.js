@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Question from "./Question";
 import {Button} from 'reactstrap';
 
 class Results extends React.Component {

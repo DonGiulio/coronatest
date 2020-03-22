@@ -3,32 +3,32 @@ const  questions = [
     "id": 1,
     "question": "Condizioni generali",
     "type": "checkbox",
-    "points": 30,
+    "points": 100,
     "answers": [
       {
         "id": 1,
         "answer": "mi sento stanco, spossato",
-        "value": 5
+        "value": 30
       },
       {
         "id": 2,
         "answer": "respiro a fatica",
-        "value": 5
+        "value": 80
       },
       {
         "id": 3,
         "answer": "mi sento bene",
-        "value": 5
+        "value": -20
       },
       {
         "id": 4,
         "answer": "non sento gli odori",
-        "value": 5
+        "value": 40
       },
       {
         "id": 5,
         "answer": "non sento i sapori",
-        "value": 5
+        "value": 40
       }
     ]
   },

@@ -42,9 +42,14 @@ class Test extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    this.setState({current: countTotalAnswers(this.state.answers)});
-    this.setState({points: (this.state.current / this.state.total).toFixed(2)*100})
-    this.setState({showResults: true})
+    this.setState(
+      {
+        answers: new Set(),
+        current: countTotalAnswers(this.state.answers), 
+        points: (this.state.current / this.state.total).toFixed(2)*100, 
+        showResults: true
+      }
+    )
     console.log('total was: ' 
       + this.state.total 
       + " current value is : " 
@@ -65,7 +70,9 @@ class Test extends React.Component {
   }
 
   retest(){
-    this.setState({"showResults": false})
+    this.setState({showResults: false, 
+                   current: 0, 
+                   points: 0})
   }
 
   render(){
