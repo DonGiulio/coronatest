@@ -9,7 +9,11 @@ const Question = (props) => {
     <div>
       {
         Object.values(props.answers).map((value, index) => 
-          <Answer key={index} answer={value.answer} value={value.value}/>)
+          <Answer key={index} 
+                  answer={value} 
+                  addAnswer={props.addAnswer} 
+                  removeAnswer={props.removeAnswer} 
+          />)
       }
     </div>
     </div>)

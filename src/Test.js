@@ -17,12 +17,17 @@ function makeTotal(questions) {
 class Test extends React.Component {
   constructor(props) {
     super(props);
+    
     this.state = {
       total: makeTotal(props.questions),
-      current: 0
+      current: 0,
+      answers: new Set()
+
     };
 
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.addAnswer = this.addAnswer.bind(this);
+    this.removeAnswer = this.removeAnswer.bind(this);
   }
 
   handleSubmit(event) {
@@ -31,6 +36,14 @@ class Test extends React.Component {
       + " current value is : " 
       + this.state.current);
     event.preventDefault();
+  }
+
+  addAnswer(answer){
+    this.state.answers.add(answer);
+  }
+
+  removeAnswer(answer){
+    this.state.answers.delete(answer);
   }
 
   render(){
@@ -42,6 +55,8 @@ class Test extends React.Component {
             <div key={index+1}>
               <Question question={question["question"]} 
                         answers={question["answers"]} 
+                        addAnswer={this.addAnswer}
+                        removeAnswer={this.removeAnswer}
                         index={index + 1}/>
               <hr/>
             </div>)

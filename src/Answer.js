@@ -1,9 +1,7 @@
 import React from 'react';
-import inspect from "./inspect";
-
 
 class Answer extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super(props);
 
     this.handleChange =  this.handleChange.bind(this);
@@ -20,9 +18,11 @@ class Answer extends React.Component {
   render(){
     return (
       <div>
-        <input type="checkbox" onChange={this.handleChange}/> {this.props.answer}
+        <input type="checkbox" onChange={this.handleChange}/> 
+          {this.props.answer.answer}
       </div>  
     )
   }
 }
+
 export default Answer;
