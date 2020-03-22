@@ -19,8 +19,12 @@ class Answer extends React.Component {
   render(){
     return (
       <div>
-        <input name={this.props.question_id} type={this.props.type} onChange={this.handleChange}/> 
-          <label htmlFor={this.props.question_id}>{this.props.answer.answer}</label>
+        <input name={this.props.question_id}
+               type={this.props.type}
+               onChange={this.handleChange}/>
+          <label htmlFor={this.props.question_id}>
+            {this.props.answer.answer}
+          </label>
       </div>  
     )
   }
