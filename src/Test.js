@@ -39,7 +39,8 @@ class Test extends React.Component {
   }
 
   handleSubmit(event) {
-    this.state.setState({current: countTotalAnswers(this.state.answers)});
+    event.preventDefault();
+    this.setState({current: countTotalAnswers(this.state.answers)});
     console.log('total was: ' 
       + this.state.total 
       + " current value is : " 
@@ -49,8 +50,6 @@ class Test extends React.Component {
       + " mark: " 
       + (this.state.current / this.state.total).toFixed(2)*100
       + "%");
-    event.preventDefault();
-    
   }
 
   addAnswer(answer){
@@ -83,6 +82,6 @@ class Test extends React.Component {
 }
 
 Test.propTypes = {
-  questions: PropTypes.object
+  questions: PropTypes.array
 };
 export default Test;

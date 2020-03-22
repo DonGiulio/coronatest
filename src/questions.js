@@ -1,5 +1,6 @@
 const  questions = [
   {
+    "id": 1,
     "question": "Condizioni generali",
     "type": "checkbox",
     "points": 30,
@@ -32,6 +33,7 @@ const  questions = [
     ]
   },
   {
+    "id": 2,
     "question": "Temperatura",
     "type": "radio",
     "points": 30,
@@ -54,6 +56,7 @@ const  questions = [
     ]
   },
   {
+    "id": 3,
     "question": "Tosse",
     "type": "radio",
     "points": 30,
@@ -76,6 +79,7 @@ const  questions = [
     ]
   },
   {
+    "id": 4,
     "question": "Gola",
     "type": "radio",
     "points": 30,
@@ -98,6 +102,7 @@ const  questions = [
     ]
   },
   {
+    "id": 5,
     "question": "Patologie",
     "type": "checkbox",
     "points": 30,
@@ -115,8 +120,9 @@ const  questions = [
     ]
   },
   {
+    "id": 6,
     "question": "Etá",
-    "type": "checkbox",
+    "type": "radio",
     "points": 30,
     "answers": [
       {
@@ -147,6 +153,7 @@ const  questions = [
     ]
   },
   {
+    "id": 7,
     "question": "Posizione",
     "type": "checkbox",
     "points": 30,
@@ -174,6 +181,7 @@ const  questions = [
     ]
   },
   {
+    "id": 8,
     "question": "abitudini proprie",
     "type": "checkbox",
     "points": 30,
@@ -201,6 +209,7 @@ const  questions = [
     ]
   },
   {
+    "id": 9,
     "question": "Contatti recenti",
     "type": "checkbox",
     "points": 30,

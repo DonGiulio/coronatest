@@ -13,21 +13,21 @@ class Answer extends React.Component {
       this.props.addAnswer(this.props.answer);
     } else {
       this.props.removeAnswer(this.props.answer)
-    };
+    }
   }
 
   render(){
     return (
       <div>
-        <input id={this.props.key} type={this.props.type} onChange={this.handleChange}/> 
-          <label htmlFor={this.props.key}>{this.props.answer.answer}</label>
+        <input name={this.props.question_id} type={this.props.type} onChange={this.handleChange}/> 
+          <label htmlFor={this.props.question_id}>{this.props.answer.answer}</label>
       </div>  
     )
   }
 }
 
 Answer.propTypes = {
-  key: PropTypes.number,
+  question_id: PropTypes.number,
   answer: PropTypes.object,
   type: PropTypes.string,
   addAnswer: PropTypes.func,

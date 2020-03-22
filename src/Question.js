@@ -10,7 +10,8 @@ const Question = (props) => {
     <div>
       {
         Object.values(props.question.answers).map((value) => 
-          <Answer key={value["id"]} 
+          <Answer key={value["id"]}
+                  question_id={props.question.id}
                   answer={value} 
                   type={props.question.type}
                   addAnswer={props.addAnswer} 
