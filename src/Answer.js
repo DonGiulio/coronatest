@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Answer extends React.Component {
   constructor(props) {
@@ -18,11 +19,18 @@ class Answer extends React.Component {
   render(){
     return (
       <div>
-        <input type="checkbox" onChange={this.handleChange}/> 
-          {this.props.answer.answer}
+        <input id={this.props.key} type={this.props.type} onChange={this.handleChange}/> 
+          <label htmlFor={this.props.key}>{this.props.answer.answer}</label>
       </div>  
     )
   }
 }
 
+Answer.propTypes = {
+  key: PropTypes.number,
+  answer: PropTypes.object,
+  type: PropTypes.string,
+  addAnswer: PropTypes.func,
+  removeAnswer: PropTypes.func
+};
 export default Answer;

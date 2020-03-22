@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import Question from "./Question";
 
 import {Button} from 'reactstrap';
@@ -7,9 +9,7 @@ function makeTotal(questions) {
   var total = 0;
   
   Object.values(questions).map((question) => 
-    Object.values(question.answers).map((answer) => {
-      return total += answer.value }
-    )
+      total += question.points
   );
   return total;
 }
@@ -39,7 +39,7 @@ class Test extends React.Component {
   }
 
   handleSubmit(event) {
-    this.state.current = countTotalAnswers(this.state.answers);
+    this.state.setState({current: countTotalAnswers(this.state.answers)});
     console.log('total was: ' 
       + this.state.total 
       + " current value is : " 
@@ -68,8 +68,7 @@ class Test extends React.Component {
         {
           Object.values(this.props.questions).map((question, index) => 
             <div key={index+1}>
-              <Question question={question["question"]} 
-                        answers={question["answers"]} 
+              <Question question={question} 
                         addAnswer={this.addAnswer}
                         removeAnswer={this.removeAnswer}
                         index={index + 1}/>
@@ -83,4 +82,7 @@ class Test extends React.Component {
   }
 }
 
+Test.propTypes = {
+  questions: PropTypes.object
+};
 export default Test;
