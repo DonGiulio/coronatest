@@ -14,6 +14,15 @@ function makeTotal(questions) {
   return total;
 }
 
+function countTotalAnswers(answers){
+  var total = 0;
+  answers.forEach((answer) => 
+    total += answer.value
+  )
+  return total;
+}
+
+
 class Test extends React.Component {
   constructor(props) {
     super(props);
@@ -22,7 +31,6 @@ class Test extends React.Component {
       total: makeTotal(props.questions),
       current: 0,
       answers: new Set()
-
     };
 
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -31,11 +39,18 @@ class Test extends React.Component {
   }
 
   handleSubmit(event) {
+    this.state.current = countTotalAnswers(this.state.answers);
     console.log('total was: ' 
       + this.state.total 
       + " current value is : " 
-      + this.state.current);
+      + this.state.current
+      + " answers: "
+      + this.state.answers.size
+      + " mark: " 
+      + (this.state.current / this.state.total).toFixed(2)*100
+      + "%");
     event.preventDefault();
+    
   }
 
   addAnswer(answer){
