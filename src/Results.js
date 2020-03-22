@@ -10,13 +10,20 @@ class Results extends React.Component {
     return(
       <div>
         <h2>Results</h2>
+        <p>
+          your mark is: {this.props.points}%
+        </p>
+        <p>
+          <Button onClick={this.props.retest}>Redo the test</Button>
+        </p>
       </div>
     )
   }
 }
 
 Results.propTypes = {
-  points: PropTypes.number
+  points: PropTypes.number,
+  retest: PropTypes.func
 };
 
 export default Results;
