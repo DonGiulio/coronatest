@@ -26,7 +26,10 @@ class Test extends React.Component {
   }
 
   handleSubmit(event) {
-    console.log('total was: ' + this.state.total);
+    console.log('total was: ' 
+      + this.state.total 
+      + " current value is : " 
+      + this.state.current);
     event.preventDefault();
   }
 
