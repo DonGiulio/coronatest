@@ -2,6 +2,7 @@ const  questions = [
   {
     "id": 1,
     "question": "Condizioni generali",
+    "category": "Condizioni",
     "type": "checkbox",
     "points": 100,
     "answers": [
@@ -35,6 +36,7 @@ const  questions = [
   {
     "id": 2,
     "question": "Temperatura",
+    "category": "Condizioni",
     "type": "radio",
     "points": 30,
     "answers": [
@@ -58,6 +60,7 @@ const  questions = [
   {
     "id": 3,
     "question": "Tosse",
+    "category": "Condizioni",
     "type": "radio",
     "points": 30,
     "answers": [
@@ -81,6 +84,7 @@ const  questions = [
   {
     "id": 4,
     "question": "Gola",
+    "category": "Condizioni",
     "type": "radio",
     "points": 30,
     "answers": [
@@ -104,6 +108,7 @@ const  questions = [
   {
     "id": 5,
     "question": "Patologie",
+    "category": "Gravità",
     "type": "checkbox",
     "points": 30,
     "answers": [
@@ -122,6 +127,7 @@ const  questions = [
   {
     "id": 6,
     "question": "Etá",
+    "category": "Gravità",
     "type": "radio",
     "points": 30,
     "answers": [
@@ -155,6 +161,7 @@ const  questions = [
   {
     "id": 7,
     "question": "Posizione",
+    "category": "Rischio",
     "type": "checkbox",
     "points": 30,
     "answers": [
@@ -183,6 +190,7 @@ const  questions = [
   {
     "id": 8,
     "question": "abitudini proprie",
+    "category": "Rischio",
     "type": "checkbox",
     "points": 30,
     "answers": [
@@ -211,6 +219,7 @@ const  questions = [
   {
     "id": 9,
     "question": "Contatti recenti",
+    "category": "Rischio",
     "type": "checkbox",
     "points": 30,
     "answers": [

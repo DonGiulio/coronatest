@@ -1,7 +1,7 @@
 const  categories = [
   {
     "id": 1,
-    "category": "condizioni",
+    "category": "Condizioni",
     "answers": [
       {
         "id": 1,
@@ -28,7 +28,7 @@ const  categories = [
   },
   {
     "id": 2,
-    "category": "Contesto",
+    "category": "Rischio",
     "answers": [
       {
         "id": 1,
