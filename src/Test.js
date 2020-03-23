@@ -3,36 +3,22 @@ import PropTypes from 'prop-types';
 
 import ShowTest from "./ShowTest";
 import Results from "./Results";
-
-function makeTotal(questions) {
-  var total = 0;
-  
-  Object.values(questions).map((question) => 
-      total += question.points
-  );
-  return total;
-}
-
-function countTotalAnswers(answers){
-  var total = 0;
-  answers.forEach((answer) => 
-    total += answer.value
-  )
-  return total;
-}
-
+import {assignCategoriesToAnswers, calculatePoints} from "./calculations";
 
 class Test extends React.Component {
   constructor(props) {
     super(props);
     
+
     this.state = {
-      total: makeTotal(props.questions),
-      points: 0,
-      current: 0,
+      questions: assignCategoriesToAnswers(this.props.questions),
+      total: {},
+      points: {},
+      current: {},
       answers: new Set(),
       showResults: false,
     };
+    
 
     this.handleSubmit = this.handleSubmit.bind(this);
     this.addAnswer = this.addAnswer.bind(this);
@@ -44,20 +30,16 @@ class Test extends React.Component {
     event.preventDefault();
     this.setState(
       {
-        answers: new Set(),
-        current: countTotalAnswers(this.state.answers), 
-        points: (this.state.current / this.state.total).toFixed(2)*100, 
+        points: calculatePoints(this.state.questions, this.state.answers, this.props.categories), 
         showResults: true
       }
     )
-    console.log('total was: ' 
-      + this.state.total 
-      + " current value is : " 
-      + this.state.current
+
+    console.log(
       + " answers: "
       + this.state.answers.size
       + " mark: " 
-      + (this.state.current / this.state.total).toFixed(2)*100
+      + this.state.points
       + "%");
   }
 
@@ -70,9 +52,12 @@ class Test extends React.Component {
   }
 
   retest(){
-    this.setState({showResults: false, 
-                   current: 0, 
-                   points: 0})
+    this.setState({
+      answers: new Set(),
+      showResults: false, 
+      current: 0, 
+      points: 0
+    })
   }
 
   render(){
@@ -80,7 +65,7 @@ class Test extends React.Component {
       return(<Results points={this.state.points} retest={this.retest}/>)
     } else {
       return(<ShowTest submit={this.handleSubmit}
-                       questions={this.props.questions}
+                       questions={this.state.questions}
                        addAnswer={this.addAnswer}
                        removeAnswer={this.removeAnswer}
               /> )
@@ -89,6 +74,8 @@ class Test extends React.Component {
 }
 
 Test.propTypes = {
-  questions: PropTypes.array
+  questions: PropTypes.array,
+  categories: PropTypes.array
 };
+
 export default Test;
