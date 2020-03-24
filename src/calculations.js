@@ -34,17 +34,11 @@ function countTotalAnswers(answers, categories){
   return total;
 }
 
-function assignCategoryToAnswers(category, answers){
-  return Object.values(answers).map((answer) => {
-    answer.category = category;
-    return answer;
-  }) 
-}
-
 function assignCategoriesToAnswers(questions){
-  return Object.values(questions).map((question) => {
-    question.answers = assignCategoryToAnswers(question.category, question.answers);
-    return question;
+  Object.values(questions).map((question) => {
+    Object.values(question.answers).map((answer) => {
+      answer.category = question.category;
+    })
   });
 }
 

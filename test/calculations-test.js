@@ -49,9 +49,9 @@ test("assignCategoriesToAnswers adds the question category to each answer", (t)=
       })
     })    
 
-    const assignedQuestions = assignCategoriesToAnswers(questions);
+    assignCategoriesToAnswers(questions);
 
-    Object.values(assignedQuestions).forEach((question) => {
+    Object.values(questions).forEach((question) => {
       Object.values(question.answers).forEach((answer) => {
         t.equal(answer.category, question.category, "category " + question.category + " found")
       })
