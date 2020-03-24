@@ -17,7 +17,8 @@
     "test:i": "react-scripts test",
     "eject": "react-scripts eject",
     "api": "cross-env NODE_ENV=testing ARC_LOCAL=1 npx sandbox",
-    "test": "cross-env NODE_ENV=testing PORT=6666 tape test/*-test.js ./test/**/*-test.js | tap-spec",
+    "test": "cross-env NODE_ENV=testing PORT=6666 babel-tape-runner test/*-test.js ./test/**/*-test.js | tap-spec ",
+    "jest": "npm test",
     "serve": "npm run build && npm run api"
   },
   "eslintConfig": {
@@ -37,6 +38,10 @@
   },
   "devDependencies": {
     "@architect/sandbox": "^1.7.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-tape-runner": "^3.0.0",
+    "@babel/preset-react": "^7.9.1",
     "@begin/data": "^1.2.0",
     "cross-env": "^7.0.2",
     "npm-run-all": "^4.1.5",
