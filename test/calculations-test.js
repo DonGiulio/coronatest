@@ -11,7 +11,7 @@ const  questions = [
   {
     "id": 1,
     "question": "Condizioni generali",
-    "category": "Condizioni",
+    "category": "cat1",
     "points": 100,
     "answers": 
       [{ "answer": "mi sento stanco, spossato",
@@ -22,7 +22,7 @@ const  questions = [
   {
     "id": 2,
     "question": "Temperatura",
-    "category": "Condizioni",
+    "category": "cat2",
     "points": 30,
     "answers": 
       [{ "answer": "febbre (sopra i 37,5 ˚c)",
@@ -31,11 +31,31 @@ const  questions = [
          "value": 5 }]
   }];
 
-test("calculatePoints", function (t){t.end()} );
+const answers = [
+  { "answer": "mi sento stanco, spossato",
+    "value": 30 },
+  { "answer": "febbre (sopra i 37,5 ˚c)",
+    "value": 5 }
+]
+test("calculatePoints",  (t) => { 
+  
+  t.end()
+});
 
 test("assignCategoriesToAnswers adds the question category to each answer", (t)=> {
+    Object.values(questions).forEach((question) => {
+      Object.values(question.answers).forEach((answer) => {
+        t.notOk(answer.category, "category " + question.category + " not found")
+      })
+    })    
 
-    assignedQuestions = assignCategoriesToAnswers(questions);
+    const assignedQuestions = assignCategoriesToAnswers(questions);
+
+    Object.values(assignedQuestions).forEach((question) => {
+      Object.values(question.answers).forEach((answer) => {
+        t.equal(answer.category, question.category, "category " + question.category + " found")
+      })
+    })    
     t.end()
   }
 
