@@ -35,17 +35,19 @@ function answersByCategory(answers, categories){
 }
 
 function assignCategoriesToAnswers(questions){
-  Object.values(questions).map((question) => {
+  const copy = [].concat(questions);
+  Object.values(copy).map((question) => {
     Object.values(question.answers).map((answer) => {
       answer.category = question.category;
     })
   });
+  return copy;
 }
 
 function calculatePoints(questions, answers, categories) {
   const totalQuestions = totalsByCategory(questions, categories);
   const totalAnswers = answersByCategory(answers, categories);
-
+ 
   var points = [];
   Object.values(categories).forEach((category) => {
     const total = totalQuestions[category.category];

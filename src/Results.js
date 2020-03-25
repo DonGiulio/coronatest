@@ -14,7 +14,7 @@ class Results extends React.Component {
           <ul>
           {
             Object.values(this.props.categories).map((category) => 
-              <li><strong>{category.category}</strong>: {this.props.points[category.category]}%</li>
+              <li key={category.category} ><strong>{category.category}</strong>: {this.props.points[category.category]}%</li>
             )
           }
           </ul>

@@ -5,20 +5,20 @@ import ShowTest from "./ShowTest";
 import Results from "./Results";
 import {assignCategoriesToAnswers, calculatePoints} from "./calculations";
 
+import inspect from './inspect';
+
 class Test extends React.Component {
   constructor(props) {
     super(props);
     
-    assignCategoriesToAnswers(this.props.questions)
+    
     this.state = {
-      total: {},
-      points: {},
-      current: {},
-      answers: new Set(),
+      questions: assignCategoriesToAnswers(this.props.questions),
+      points: [],
+      answers: [],
       showResults: false,
     };
     
-
     this.handleSubmit = this.handleSubmit.bind(this);
     this.addAnswer = this.addAnswer.bind(this);
     this.removeAnswer = this.removeAnswer.bind(this);
@@ -26,29 +26,46 @@ class Test extends React.Component {
   }
 
   handleSubmit(event) {
-    event.preventDefault();
+    console.log(this.state.answers, "answers");
+    const po = calculatePoints(this.state.questions, 
+                               this.state.answers, 
+                               this.props.categories);
+    console.log(po, "po");
     this.setState(
       {
-        points: calculatePoints(this.props.questions, this.state.answers, this.props.categories), 
+        points: po, 
         showResults: true
       }
     )
+    event.preventDefault();
   }
 
   addAnswer(answer){
-    this.state.answers.add(answer);
+    this.setState( ({ answers }) => ({
+      answers: [answer].concat(answers)
+    })
+    )
   }
 
   removeAnswer(answer){
-    this.state.answers.delete(answer);
+    
+    this.setState( ({ answers }) => {
+      const updated = [].concat(answers);
+      updated.delete(answer);
+      return( {
+              answers: updated
+            })
+    }
+    )
+
+    // this.state.answers.delete(answer);
   }
 
   retest(){
     this.setState({
+      points: [],
       answers: new Set(),
-      showResults: false, 
-      current: 0, 
-      points: 0
+      showResults: false
     })
   }
 
@@ -56,9 +73,10 @@ class Test extends React.Component {
     if(this.state.showResults) {
       return(<Results points={this.state.points} 
                       categories={this.props.categories}
-                      retest={this.retest}/>)
+                      retest={this.retest}
+              />)
     } else {
-      return(<ShowTest questions={this.props.questions}
+      return(<ShowTest questions={this.state.questions}
                        handleSubmit={this.handleSubmit}
                        addAnswer={this.addAnswer}
                        removeAnswer={this.removeAnswer}

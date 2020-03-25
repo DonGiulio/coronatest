@@ -121,15 +121,15 @@ test("calculatePoints",  (t) => {
 });
 
 test("assignCategoriesToAnswers adds the question category to each answer", (t)=> {
+    const assigned = assignCategoriesToAnswers(questions);
+
     Object.values(questions).forEach((question) => {
       Object.values(question.answers).forEach((answer) => {
         t.notOk(answer.category, "category " + question.category + " not found")
       })
     })    
 
-    assignCategoriesToAnswers(questions);
-
-    Object.values(questions).forEach((question) => {
+    Object.values(assigned).forEach((question) => {
       Object.values(question.answers).forEach((answer) => {
         t.equal(answer.category, question.category, "category " + question.category + " found")
       })
