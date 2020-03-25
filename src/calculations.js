@@ -1,5 +1,3 @@
-import inspect from "./inspect";
-
 function totalForCategory(questions, category) {
   var total = 0;
   Object.values(questions).forEach((question) => {
@@ -45,11 +43,16 @@ function assignCategoriesToAnswers(questions){
 }
 
 function calculatePoints(questions, answers, categories) {
-  const totals = totalsByCategory(questions, categories);
-  const results = answersByCategory(answers, categories);
-  console.log(results);
-  const points = Object.values(totals).map((category) => {
-    return {category: results.category} 
+  const totalQuestions = totalsByCategory(questions, categories);
+  const totalAnswers = answersByCategory(answers, categories);
+
+  var points = [];
+  Object.values(categories).forEach((category) => {
+    const total = totalQuestions[category.category];
+    const answers = totalAnswers[category.category];
+    const rawPoints = answers / total;
+    const curPoints = rawPoints.toFixed(2)*100;
+    points[category.category] = curPoints;
   });
   return points;
 }

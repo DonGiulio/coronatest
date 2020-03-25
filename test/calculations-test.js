@@ -1,7 +1,6 @@
 import test from 'tape';
 import {calculatePoints, assignCategoriesToAnswers} from "../src/calculations";
 import rewire from "rewire";
-import inspect from "../src/inspect";
 
 
 const  categories = [
@@ -86,7 +85,6 @@ test("countAnswersInCategory", (t) => {
   const total = countAnswersInCategory(answers, category);
   t.ok(total, "total is not ok")
 
-  inspect(total, "total");
   t.equals(total, 30, "cat1 total was " + total);
 
   t.end();
@@ -110,15 +108,14 @@ test("answersByCategory", (t) => {
 })
 
 
-test.skip("calculatePoints",  (t) => { 
+test("calculatePoints",  (t) => { 
   const points = calculatePoints(questions, answers, categories);
 
-  t.assert(points, "points is an object");
+  t.ok(points, "points is ok");
   
-  inspect(points, "points");
-  t.equal(points.size, 2, "categories counted");
-  t.equal(points["cat1"], 30, "cat1 ok");
-  t.equal(points["cat2"], 12, "cat2 found");
+  t.equal(Object.keys(points).length, 2, "categories counted " + Object.keys(points).length);
+  t.equal(points["cat1"], 30, "points of cat1 was " + points["cat1"]);
+  t.equal(points["cat2"], 40, "points of cat2 was " + points["cat2"]);
   
   t.end()
 });

@@ -13,7 +13,7 @@ function censor(censor) {
     }
 
     // seems to be a harded maximum of 30 serialized objects?
-    if (i >= 10) {
+    if (i >= 30) {
       return "[Unknown]";
     }
     // so we know we aren't using the original object anymore
