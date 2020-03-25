@@ -33,13 +33,6 @@ class Test extends React.Component {
         showResults: true
       }
     )
-
-    console.log(
-      + " answers: "
-      + this.state.answers.size
-      + " mark: " 
-      + this.state.points
-      + "%");
   }
 
   addAnswer(answer){
@@ -61,7 +54,9 @@ class Test extends React.Component {
 
   render(){
     if(this.state.showResults) {
-      return(<Results points={this.state.points} retest={this.retest}/>)
+      return(<Results points={this.state.points} 
+                      categories={this.props.categories}
+                      retest={this.retest}/>)
     } else {
       return(<ShowTest questions={this.props.questions}
                        handleSubmit={this.handleSubmit}

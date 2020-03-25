@@ -9,9 +9,15 @@ class Results extends React.Component {
     return(
       <div>
         <h2>Results</h2>
-        <p>
-          your mark is: {this.props.points}%
-        </p>
+
+          your marks are: 
+          <ul>
+          {
+            Object.values(this.props.categories).map((category) => 
+              <li><strong>{category.category}</strong>: {this.props.points[category.category]}%</li>
+            )
+          }
+          </ul>
         <p>
           <Button onClick={this.props.retest}>Redo the test</Button>
         </p>
@@ -21,7 +27,8 @@ class Results extends React.Component {
 }
 
 Results.propTypes = {
-  points: PropTypes.number,
+  points: PropTypes.array,
+  categories: PropTypes.array,
   retest: PropTypes.func
 };
 
