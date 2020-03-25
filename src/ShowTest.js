@@ -8,7 +8,7 @@ class ShowTest extends React.Component {
 
   render(){
     return(
-      <form onSubmit={this.props.submit}>
+      <form onSubmit={this.props.handleSubmit}>
         {
           Object.values(this.props.questions).map((question, index) => 
             <div key={index+1}>
@@ -27,7 +27,7 @@ class ShowTest extends React.Component {
 
 ShowTest.propTypes = {
   questions: PropTypes.array,
-  submit: PropTypes.func,
+  handleSubmit: PropTypes.func,
   addAnswer: PropTypes.func,
   removeAnswer: PropTypes.func,
 };

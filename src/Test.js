@@ -9,9 +9,8 @@ class Test extends React.Component {
   constructor(props) {
     super(props);
     
-
+    assignCategoriesToAnswers(this.props.questions)
     this.state = {
-      questions: assignCategoriesToAnswers(this.props.questions),
       total: {},
       points: {},
       current: {},
@@ -30,7 +29,7 @@ class Test extends React.Component {
     event.preventDefault();
     this.setState(
       {
-        points: calculatePoints(this.state.questions, this.state.answers, this.props.categories), 
+        points: calculatePoints(this.props.questions, this.state.answers, this.props.categories), 
         showResults: true
       }
     )
@@ -64,8 +63,8 @@ class Test extends React.Component {
     if(this.state.showResults) {
       return(<Results points={this.state.points} retest={this.retest}/>)
     } else {
-      return(<ShowTest submit={this.handleSubmit}
-                       questions={this.state.questions}
+      return(<ShowTest questions={this.props.questions}
+                       handleSubmit={this.handleSubmit}
                        addAnswer={this.addAnswer}
                        removeAnswer={this.removeAnswer}
               /> )
