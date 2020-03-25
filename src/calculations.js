@@ -1,37 +1,39 @@
-function makeTotal(questions, category) {
-  return Object.values(questions).reduce((total, question) => {
-      if(question.category == category.category) {
-        return total += question.points
-      } else return total
-    }
-  )
-}
+import inspect from "./inspect";
 
-function makeTotals(questions, categories) {
-  return Object.values(categories).map((category) => 
-    {category: makeTotal(questions, category)}
-  );
-}
-
-function makeTotalAnswers(answers, category) {
-  return Object.values(answers).reduce((total, answer) => {
-    if(answer.category == category.category) {
-      return total += answer.points
-    } else return total
-  })
-}
-
-function countTotalAnswers(answers, categories){
-  return Object.values(categories).map((category) => {
-    return {category: makeTotalAnswers(answers, category)}
-  });
-  
-
+function totalForCategory(questions, category) {
   var total = 0;
-  answers.forEach((answer) => 
-    total += answer.value
-  )
+  Object.values(questions).forEach((question) => {
+    if(question.category == category.category) {
+       total += question.points
+    } 
+  })
   return total;
+}
+
+function totalsByCategory(questions, categories) {
+  var result = [];
+  Object.values(categories).forEach((category) => 
+    result[category.category] = totalForCategory(questions, category)
+  );
+  return result;
+}
+
+function countAnswersInCategory(answers, category) {
+  var total = 0;
+  Object.values(answers).forEach((answer) => {
+    if(answer.category == category.category) {
+      total += answer.value
+    }
+  })
+  return total;
+}
+
+function answersByCategory(answers, categories){
+  var result = [];
+  Object.values(categories).forEach((category) => {
+    result[category.category] = countAnswersInCategory(answers, category)
+  });
+  return result;
 }
 
 function assignCategoriesToAnswers(questions){
@@ -43,12 +45,13 @@ function assignCategoriesToAnswers(questions){
 }
 
 function calculatePoints(questions, answers, categories) {
-  const totals = makeTotals(questions, categories);
-  const results = countTotalAnswers(answers, categories);
+  const totals = totalsByCategory(questions, categories);
+  const results = answersByCategory(answers, categories);
+  console.log(results);
   const points = Object.values(totals).map((category) => {
     return {category: results.category} 
   });
-
+  return points;
 }
 
 

@@ -1,10 +1,12 @@
 import test from 'tape';
 import {calculatePoints, assignCategoriesToAnswers} from "../src/calculations";
+import rewire from "rewire";
+import inspect from "../src/inspect";
 
 
 const  categories = [
-  {"category": "cat 1", "answers": []},
-  {"category": "cat 2", "answers": []}
+  {"category": "cat1", "answers": []},
+  {"category": "cat2", "answers": []}
 ]
 
 const  questions = [
@@ -33,11 +35,90 @@ const  questions = [
 
 const answers = [
   { "answer": "mi sento stanco, spossato",
+    "category": "cat1",
     "value": 30 },
   { "answer": "febbre (sopra i 37,5 ˚c)",
-    "value": 5 }
+    "category": "cat2",
+    "value": 5 },
+  { "answer": "febbre leggera ( tra 37,0˚c e 37,5˚c)",
+    "category": "cat2",
+    "value": 7 }
 ]
-test("calculatePoints",  (t) => { 
+
+test("totalForCategory", (t) => {
+  const md = rewire("../src/calculations.js")
+
+  const totalForCategory = md.__get__("totalForCategory");
+  t.ok(totalForCategory, "totalForCategory is an object");
+
+  const category = categories[0];
+  const total = totalForCategory(questions, category);
+  t.ok(total, "total is an object");
+
+  t.equals(total, 100, "total counted");
+  t.end()
+})
+
+test("totalsByCategory", (t) => {
+  const md = rewire("../src/calculations.js")
+
+  const totalsByCategory = md.__get__("totalsByCategory");
+  t.ok(totalsByCategory, "totalsByCategory is an object");
+
+  const totals = totalsByCategory(questions, categories);
+
+  t.ok(totals, "totals is an object")
+
+  t.equals(totals["cat1"], 100, "cat1 total was " + totals["cat1"]);
+  t.equals(totals["cat2"], 30, "cat2 total was " + totals["cat2"]);
+
+  t.end();
+  
+})
+
+test("countAnswersInCategory", (t) => {
+  const md = rewire("../src/calculations.js")
+
+  const countAnswersInCategory = md.__get__("countAnswersInCategory");
+  t.ok(countAnswersInCategory, "countAnswersInCategory is an object");
+
+  const category = categories[0];
+  const total = countAnswersInCategory(answers, category);
+  t.ok(total, "total is not ok")
+
+  inspect(total, "total");
+  t.equals(total, 30, "cat1 total was " + total);
+
+  t.end();
+  
+})
+
+test("answersByCategory", (t) => {
+  const md = rewire("../src/calculations.js")
+
+  const answersByCategory = md.__get__("answersByCategory");
+  t.ok(answersByCategory, "answersByCategory is an object");
+
+  const totals = answersByCategory(answers, categories);
+
+  t.ok(totals, "totals is an object")
+
+  t.equals(totals["cat1"], 30, "cat1 total was " + totals["cat1"]);
+  t.equals(totals["cat2"], 12, "cat2 total was " + totals["cat2"]);
+
+  t.end();
+})
+
+
+test.skip("calculatePoints",  (t) => { 
+  const points = calculatePoints(questions, answers, categories);
+
+  t.assert(points, "points is an object");
+  
+  inspect(points, "points");
+  t.equal(points.size, 2, "categories counted");
+  t.equal(points["cat1"], 30, "cat1 ok");
+  t.equal(points["cat2"], 12, "cat2 found");
   
   t.end()
 });
