@@ -1,3 +1,5 @@
+import clone from 'rfdc';
+
 function totalForCategory(questions, category) {
   var total = 0;
   Object.values(questions).forEach((question) => {
@@ -35,7 +37,7 @@ function answersByCategory(answers, categories){
 }
 
 function assignCategoriesToAnswers(questions){
-  const copy = JSON.parse(JSON.stringify(questions));
+  const copy = clone(questions);
 
   Object.values(copy).map((question) => {
     Object.values(question.answers).map((answer) => {
