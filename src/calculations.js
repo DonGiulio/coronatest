@@ -35,12 +35,15 @@ function answersByCategory(answers, categories){
 }
 
 function assignCategoriesToAnswers(questions){
-  const copy = [].concat(questions);
-  Object.values(copy).map((question) => 
-    Object.values(question.answers).map((answer) => 
+  const copy = JSON.parse(JSON.stringify(questions));
+
+  Object.values(copy).map((question) => {
+    Object.values(question.answers).map((answer) => {
       answer.category = question.category
-    )
-  );
+      return null;
+    })
+    return null;
+  });
   return copy;
 }
 
