@@ -53,10 +53,7 @@ class Test extends React.Component {
       return( {
               answers: updated
             })
-    }
-    )
-
-    // this.state.answers.delete(answer);
+    })
   }
 
   retest(){
