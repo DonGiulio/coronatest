@@ -1,7 +1,7 @@
 function totalForCategory(questions, category) {
   var total = 0;
   Object.values(questions).forEach((question) => {
-    if(question.category == category.category) {
+    if(question.category === category.category) {
        total += question.points
     } 
   })
@@ -19,7 +19,7 @@ function totalsByCategory(questions, categories) {
 function countAnswersInCategory(answers, category) {
   var total = 0;
   Object.values(answers).forEach((answer) => {
-    if(answer.category == category.category) {
+    if(answer.category === category.category) {
       total += answer.value
     }
   })
@@ -36,11 +36,11 @@ function answersByCategory(answers, categories){
 
 function assignCategoriesToAnswers(questions){
   const copy = [].concat(questions);
-  Object.values(copy).map((question) => {
-    Object.values(question.answers).map((answer) => {
-      answer.category = question.category;
-    })
-  });
+  Object.values(copy).map((question) => 
+    Object.values(question.answers).map((answer) => 
+      answer.category = question.category
+    )
+  );
   return copy;
 }
 

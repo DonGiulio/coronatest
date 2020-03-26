@@ -5,8 +5,6 @@ import ShowTest from "./ShowTest";
 import Results from "./Results";
 import {assignCategoriesToAnswers, calculatePoints} from "./calculations";
 
-import inspect from './inspect';
-
 class Test extends React.Component {
   constructor(props) {
     super(props);
