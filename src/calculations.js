@@ -1,5 +1,3 @@
-import clone from 'rfdc';
-
 function totalForCategory(questions, category) {
   var total = 0;
   Object.values(questions).forEach((question) => {
@@ -36,19 +34,6 @@ function answersByCategory(answers, categories){
   return result;
 }
 
-function assignCategoriesToAnswers(questions){
-  const copy = clone(questions);
-
-  Object.values(copy).map((question) => {
-    Object.values(question.answers).map((answer) => {
-      answer.category = question.category
-      return null;
-    })
-    return null;
-  });
-  return copy;
-}
-
 function calculatePoints(questions, answers, categories) {
   const totalQuestions = totalsByCategory(questions, categories);
   const totalAnswers = answersByCategory(answers, categories);
@@ -64,5 +49,8 @@ function calculatePoints(questions, answers, categories) {
   return points;
 }
 
+function clone(object){
+  return JSON.parse(JSON.stringify(object));
+}
 
-export {calculatePoints, assignCategoriesToAnswers};
+export {calculatePoints, clone};

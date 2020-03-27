@@ -10,7 +10,7 @@ class Answer extends React.Component {
 
   handleChange(event){
     if(event.target.checked){
-      this.props.addAnswer(this.props.answer);
+      this.props.addAnswer(this.props.answer, this.props.question);
     } else {
       this.props.removeAnswer(this.props.answer)
     }
@@ -19,10 +19,10 @@ class Answer extends React.Component {
   render(){
     return (
       <div>
-        <input name={this.props.question_id}
-               type={this.props.type}
+        <input name={this.props.question.id}
+               type={this.props.question.type}
                onChange={this.handleChange}/>
-          <label htmlFor={this.props.question_id}>
+          <label htmlFor={this.props.question.id}>
             {this.props.answer.answer}
           </label>
       </div>  
@@ -31,7 +31,7 @@ class Answer extends React.Component {
 }
 
 Answer.propTypes = {
-  question_id: PropTypes.number,
+  question: PropTypes.object,
   answer: PropTypes.object,
   type: PropTypes.string,
   addAnswer: PropTypes.func,

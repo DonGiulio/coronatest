@@ -11,9 +11,8 @@ const Question = (props) => {
       {
         Object.values(props.question.answers).map((value) => 
           <Answer key={value["id"]}
-                  question_id={props.question.id}
+                  question={props.question}
                   answer={value} 
-                  type={props.question.type}
                   addAnswer={props.addAnswer} 
                   removeAnswer={props.removeAnswer} 
           />)

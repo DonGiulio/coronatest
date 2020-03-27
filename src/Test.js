@@ -3,19 +3,19 @@ import PropTypes from 'prop-types';
 
 import ShowTest from "./ShowTest";
 import Results from "./Results";
-import {assignCategoriesToAnswers, calculatePoints} from "./calculations";
+import {calculatePoints, clone} from "./calculations";
+
+const INITIAL_STATE = {
+      points: [],
+      answers: [],
+      showResults: false,
+    };
 
 class Test extends React.Component {
   constructor(props) {
     super(props);
     
-    
-    this.state = {
-      questions: assignCategoriesToAnswers(this.props.questions),
-      points: [],
-      answers: [],
-      showResults: false,
-    };
+    this.state = INITIAL_STATE;
     
     this.handleSubmit = this.handleSubmit.bind(this);
     this.addAnswer = this.addAnswer.bind(this);
@@ -24,11 +24,9 @@ class Test extends React.Component {
   }
 
   handleSubmit(event) {
-    console.log(this.state.answers, "answers");
-    const po = calculatePoints(this.state.questions, 
+    const po = calculatePoints(this.props.questions, 
                                this.state.answers, 
                                this.props.categories);
-    console.log(po, "po");
     this.setState(
       {
         points: po, 
@@ -38,30 +36,32 @@ class Test extends React.Component {
     event.preventDefault();
   }
 
-  addAnswer(answer){
-    this.setState( ({ answers }) => ({
-      answers: [answer].concat(answers)
-    })
-    )
+  addAnswer(answer, question){
+    var newAnswers = clone(this.state.answers);    
+
+    if(question.type == "radio"){
+      newAnswers = newAnswers.filter( (curStateAnswer) =>
+        curStateAnswer.question !== question.id
+      )
+    }
+
+    const newAnswer = clone(answer);
+    newAnswer.type = question.type;
+    newAnswer.question = question.id;
+    newAnswers = newAnswers.concat(newAnswer);
+
+    this.setState( {answers: newAnswers})
   }
 
   removeAnswer(answer){
-    
-    this.setState( ({ answers }) => {
-      const updated = [].concat(answers);
-      updated.delete(answer);
-      return( {
-              answers: updated
-            })
-    })
+    this.setState({
+      answers: this.state.answers.filter( (curAnswer) => 
+        curAnswer.id !== answer.id)}
+    );
   }
 
   retest(){
-    this.setState({
-      points: [],
-      answers: new Set(),
-      showResults: false
-    })
+    this.setState(INITIAL_STATE);
   }
 
   render(){
@@ -71,7 +71,7 @@ class Test extends React.Component {
                       retest={this.retest}
               />)
     } else {
-      return(<ShowTest questions={this.state.questions}
+      return(<ShowTest questions={this.props.questions}
                        handleSubmit={this.handleSubmit}
                        addAnswer={this.addAnswer}
                        removeAnswer={this.removeAnswer}
