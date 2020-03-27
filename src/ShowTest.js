@@ -2,25 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Question from "./Question";
-import {Button} from 'reactstrap';
+import {Button, Form, FormGroup} from 'reactstrap';
 
 class ShowTest extends React.Component {
 
   render(){
     return(
-      <form onSubmit={this.props.handleSubmit}>
+      <Form onSubmit={this.props.handleSubmit}>
         {
           Object.values(this.props.questions).map((question, index) => 
-            <div key={index+1}>
+            <FormGroup key={index+1}>
               <Question question={question} 
                         addAnswer={this.props.addAnswer}
                         removeAnswer={this.props.removeAnswer}
                         index={index + 1}/>
               <hr/>
-            </div>)
+            </FormGroup>)
         }
         <Button color="primary" type="submit">Results</Button>
-      </form>
+      </Form>
     )
   }
 }
