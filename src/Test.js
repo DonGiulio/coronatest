@@ -48,6 +48,7 @@ class Test extends React.Component {
     const newAnswer = clone(answer);
     newAnswer.type = question.type;
     newAnswer.question = question.id;
+    newAnswer.category = question.category;
     newAnswers = newAnswers.concat(newAnswer);
 
     this.setState( {answers: newAnswers})
