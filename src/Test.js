@@ -39,7 +39,7 @@ class Test extends React.Component {
   addAnswer(answer, question){
     var newAnswers = clone(this.state.answers);    
 
-    if(question.type == "radio"){
+    if(question.type === "radio"){
       newAnswers = newAnswers.filter( (curStateAnswer) =>
         curStateAnswer.question !== question.id
       )
