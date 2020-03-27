@@ -17,7 +17,11 @@ class Results extends React.Component {
               answer.min_points < points && points <= answer.max_points
             )[0]
             if(typeof explanation === 'undefined'){
-              return(<Alert color="secondary">Non hai risposto ad abbastanza domande per formulare una risposta per la categoria {category.category}</Alert>)
+              return(
+                <Alert color="secondary">
+                  Non hai risposto ad abbastanza domande per formulare 
+                  una risposta per la categoria {category.category}
+                </Alert>)
             }
             return (<Alert color={explanation.color} key={category.category} >
                       <div>

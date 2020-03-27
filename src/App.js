@@ -6,6 +6,7 @@ import questions from "./questions";
 import categories from "./categories";
 import Test from "./Test";
 import Description from "./Description";
+import Donate from "./Donate";
 
 const App = () => {
   const [message, setMessage] = useState('...loading')
@@ -29,10 +30,12 @@ const App = () => {
         <hr/>
         <p>{message}</p>
         <Description />
+        <Donate />
         <hr/>
         <h1>The test</h1>
 
         <Test questions={questions} categories={categories}/>
+        <Donate />
 
       </header>
     </div>
