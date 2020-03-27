@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import inspect from './inspect';
 
 import {Button, Alert} from 'reactstrap';
 
@@ -17,7 +16,6 @@ class Results extends React.Component {
             const explanation = Object.values(category.answers).filter( (answer) => 
               answer.min_points < points && points <= answer.max_points
             )[0]
-            inspect(explanation, "explanation")
             return (<Alert color={explanation.color} key={category.category} >
                       <div>
                         <strong>{category.category}</strong>: 

@@ -1,83 +1,106 @@
 const  questions = [
   {
-    "id": 1,
+    "id": 10,
     "question": "Condizioni generali",
     "category": "Condizioni",
-    "type": "checkbox",
-    "points": 100,
+    "type": "radio",
+    "points": 30,
     "answers": [
       {
-        "id": 1,
+        "id": 101,
+        "answer": "mi sento bene",
+        "value": 0
+      },
+      {
+        "id": 102,
         "answer": "mi sento stanco, spossato",
         "value": 30
-      },
-      {
-        "id": 2,
-        "answer": "respiro a fatica",
-        "value": 80
-      },
-      {
-        "id": 3,
-        "answer": "mi sento bene",
-        "value": -20
-      },
-      {
-        "id": 4,
-        "answer": "non sento gli odori",
-        "value": 40
-      },
-      {
-        "id": 5,
-        "answer": "non sento i sapori",
-        "value": 40
       }
     ]
   },
   {
-    "id": 2,
+    "id": 20,
+    "question": "Respirazione",
+    "category": "Condizioni",
+    "type": "radio",
+    "points": 80,
+    "answers": [
+      {
+        "id": 201,
+        "answer": "respiro bene",
+        "value": 0
+      },
+      {
+        "id": 202,
+        "answer": "respiro a fatica",
+        "value": 80
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Percezione",
+    "category": "Condizioni",
+    "type": "radio",
+    "points": 50,
+    "answers": [
+      {
+        "id": 301,
+        "answer": "Tutto normale",
+        "value": 0
+      },
+      {
+        "id": 302,
+        "answer": "non sento gli odori/sapori",
+        "value": 50
+      }
+    ]
+  },
+  {
+    "id": 40,
     "question": "Temperatura",
     "category": "Condizioni",
     "type": "radio",
-    "points": 30,
+    "points": 60,
     "answers": [
       {
-        "id": 6,
+        "id": 401,
         "answer": "febbre (sopra i 37,5 ˚c)",
-        "value": 5
+        "value": 60
       },
       {
-        "id": 7,
+        "id": 402,
         "answer": "febbre leggera ( tra 37,0˚c e 37,5˚c)",
-        "value": 5
+        "value": 40
       },
       {
-        "id": 8,
+        "id": 403,
         "answer": "niente febbre (sotto i 37,0˚c)",
-        "value": 5
+        "value": 20
       }
     ]
   },
   {
-    "id": 3,
+    "id": 50,
     "question": "Tosse",
     "category": "Condizioni",
     "type": "radio",
-    "points": 30,
+    "points": 60,
     "answers": [
       {
-        "id": 9,
+        "id": 501,
         "answer": "tosse secca",
-        "value": 5
+        "value": 60
       },
       {
-        "id": 10,
+        "id": 502,
         "answer": "tosse con secrezioni",
-        "value": 5
+        "value": 40
       },
       {
-        "id": 11,
+        "id": 503,
         "answer": "niente tosse",
-        "value": 5
+        "value": 20
       }
     ]
   },
