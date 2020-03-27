@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import inspect from './inspect';
 
-import {Button, Jumbotron} from 'reactstrap';
+import {Button, Alert} from 'reactstrap';
 
 class Results extends React.Component {
 
@@ -18,7 +18,7 @@ class Results extends React.Component {
               answer.min_points < points && points <= answer.max_points
             )[0]
             inspect(explanation, "explanation")
-            return (<Jumbotron key={category.category} >
+            return (<Alert color={explanation.color} key={category.category} >
                       <div>
                         <strong>{category.category}</strong>: 
                         {points}%
@@ -27,7 +27,7 @@ class Results extends React.Component {
                         {explanation.title}: { explanation.descrizione }
                       </div>
         
-                    </Jumbotron>)
+                    </Alert>)
           })
         }
         <p>
