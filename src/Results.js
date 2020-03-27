@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import inspect from './inspect';
 
-import {Button} from 'reactstrap';
+import {Button, Jumbotron} from 'reactstrap';
 
 class Results extends React.Component {
 
@@ -9,18 +10,26 @@ class Results extends React.Component {
     return(
       <div>
         <h2>Results</h2>
-
-          your marks are: 
-          <ul>
-          {
-            Object.values(this.props.categories).map((category) => 
-              <li key={category.category} >
-                <strong>{category.category}</strong>: 
-                {this.props.points[category.category]}%
-              </li>
-            )
-          }
-          </ul>
+        your marks are: 
+        {
+          Object.values(this.props.categories).map((category) => {
+            const points = this.props.points[category.category];
+            const explanation = Object.values(category.answers).filter( (answer) => 
+              answer.min_points < points && points <= answer.max_points
+            )[0]
+            inspect(explanation, "explanation")
+            return (<Jumbotron key={category.category} >
+                      <div>
+                        <strong>{category.category}</strong>: 
+                        {points}%
+                      </div>
+                      <div>
+                        {explanation.title}: { explanation.descrizione }
+                      </div>
+        
+                    </Jumbotron>)
+          })
+        }
         <p>
           <Button onClick={this.props.retest}>Redo the test</Button>
         </p>
