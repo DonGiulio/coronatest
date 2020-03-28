@@ -1,6 +1,4 @@
-/* global fetch */
-import React, { useState, useEffect } from 'react';
-// import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import questions from "./questions";
 import categories from "./categories";
@@ -9,20 +7,6 @@ import Description from "./Description";
 import Donate from "./Donate";
 
 const App = () => {
-  const [message, setMessage] = useState('...loading')
-
-  useEffect(() => {
-    async function fetchData () {
-      try {
-        let data = await (await fetch('/api')).json()
-        setMessage(data.message)
-      } catch (err) {
-        setMessage(err.message)
-      }
-    }
-    fetchData()
-  })
-
   return (
     <div className="App">
       <header className="App-header container">
