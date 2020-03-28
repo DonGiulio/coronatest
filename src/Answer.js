@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { withTranslation } from 'react-i18next';
 
 class Answer extends React.Component {
   constructor(props) {
@@ -17,13 +18,15 @@ class Answer extends React.Component {
   }
 
   render(){
+    const {t} = this.props;
+
     return (
       <div>
         <input name={this.props.question.id}
                type={this.props.question.type}
                onChange={this.handleChange}/>
           <label htmlFor={this.props.question.id}>
-            {this.props.answer.answer}
+            {t(this.props.answer.answer)}
           </label>
       </div>  
     )
@@ -37,4 +40,4 @@ Answer.propTypes = {
   addAnswer: PropTypes.func,
   removeAnswer: PropTypes.func
 };
-export default Answer;
+export default withTranslation()(Answer);

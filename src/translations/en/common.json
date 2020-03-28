@@ -12,7 +12,7 @@
 		"test": "The test",
 		"title": "Covid-19 Test"
 	},
-	"questions": {
+	"q": {
 		"category": {
 			"conditions": {
 				"high": "Warning, the test results indicates a high probability that you might be already infected. Don't worry, in the vast majority of cases there's no risk, and infected patients will heal within a few days as in any flu. It is paramount for you to stay at home and take all precautions to avoid infecting others. We strongly recommend you to contact your doctor and tell him/her your symptoms. You should also be mindful about how you feel, in case your conditions worsen, you should contact emergency (by phone, don't go out) and follow their instructions.",
@@ -34,6 +34,76 @@
 				"low": "Compliments, your habits, lifestyle and neighbourhood exposes you to a low risk of infection, thus it's unlikely (but not impossible) that you have been already or will soon be infected. You should not lower your precautions though, the situation could change very quickly and without notice. In particular even though you might keep guard high, your neighbours might become infected, exposing yourself to higher risks. ",
 				"mid": "Warning, your habits, lifestyle, and neighbourhood exposes you to a medium risk. Thus it is hard to say whether you have already been infected, but if you don't start immediately rising your precautions, it's possible that you might be infected soon. You should not worry now, in the vast majority of patients Covid-19 evolves like a normal flu, while only in a minority it worsen and becomes a dangerous disease. So it is important that you protect yourself so that you stay safe and infection free. In case you are already infected you should also take extra precautions, so that you don't infect others.",
 				"name": "Risk"
+			}
+		},
+		"questions": {
+			"age": {
+				"15": "under 15",
+				"35": "between 15 and 35",
+				"50": "between 35 and 50",
+				"75": "between 50 and 75",
+				"100": "more than 75",
+				"question": "Age"
+			},
+			"breathing": {
+				"hard": "it is hard to breathe",
+				"question": "Breathing",
+				"well": "I breathe well"
+			},
+			"conditions": {
+				"have": "I have other conditions",
+				"none": "I don't have pre existing conditions",
+				"question": "Conditions"
+			},
+			"cough": {
+				"dry": "dry cough",
+				"none": "no cough",
+				"question": "Cough",
+				"wet": "wet cough"
+			},
+			"general_conditions": {
+				"exhausted": "I feel tired, exhausted",
+				"feel_great": "I feel great",
+				"question": "General conditions"
+			},
+			"location": {
+				"great": "in my vicinity there is a great number of infected people",
+				"no": "in my vicinity there are no known cases of infection",
+				"question": "Location",
+				"remote": "I live in a remote area, in my vicinity there is no one",
+				"some": "in my vicinity there are some cases of infection"
+			},
+			"own_habits": {
+				"14_days": "I am confined at home since 14 days or more",
+				"gloves": "I always wear rubber gloves when I a out",
+				"mask": "I always wear a surgical mask when I am out",
+				"question": "own habits",
+				"recently": "I got out of home recently"
+			},
+			"perception": {
+				"no_smell": "I can not smell or taste",
+				"ok": "I can smell and taste",
+				"question": "Perception"
+			},
+			"recent_contacts": {
+				"crowd": "I have been out within a crowd and people were near me",
+				"distanza": "I've been out in the past few days, but I kept good distance from everyone",
+				"infected_no_protection": "I have been in the vicinity of people known to be infected with covid-19 without protections",
+				"infected_with_protection": "I've been in the vicinity of people known to be infected with covid-19, with protections",
+				"no_one": "I met no one, I haven't been out for two weeks",
+				"question": "recent contacts"
+			},
+			"temperature": {
+				"high": "fever (above 37,5 ˚c)",
+				"mid": "light fever (between 37,0˚c and 37,5˚c)",
+				"none": "no fever (below 37,0˚c)",
+				"question": "Temperature"
+			},
+			"throat": {
+				"aches": "my throat aches",
+				"itches": "I feel something at my throat",
+				"ok": "my throat is fine",
+				"question": "Throat"
 			}
 		}
 	}

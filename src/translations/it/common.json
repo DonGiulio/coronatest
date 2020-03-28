@@ -12,7 +12,7 @@
 		"test": "Il test",
 		"title": "Test Covid-19"
 	},
-	"questions": {
+	"q": {
 		"category": {
 			"conditions": {
 				"high": "Attenzione, il risultato del test indica un'alta probabilità che tu sia infetto. Non c'è da avere paura, la stragrande maggioranza degli infetti non corre alcun pericolo grave e se la cava con qualche giorno di riposo, come in una qualsiasi influenza. In questa fase è fondamentale però che tu rimanga a casa, e che limiti i contatti con altre persone, per non rischiare di contagiarle. Ti consigliamo di avvertire il servizio sanitario per comunicargli i sintomi. Fai attenzione ai tuoi sintomi, se dovessero aggravarsi contatta il pronto soccorso (per telefono, senza uscire di casa) e attieniti alle loro disposizioni",
@@ -34,6 +34,76 @@
 				"low": "Complimenti le tue abitudini, stile di vita e il contesto in cui vivi ti espone a un basso rischio di contagio, per cui è improbabile (ma non impossibile) che tu abbia contratto o contragga il virus nel futuro prossimo. Non c'è da abbassare la guardia però, in quanto la situazione può cambiare rapidamente e senza preavviso, in particolare pure se tu mantenessi le tue abitudini, nel tuo vicinato potrebbero aumentare i casi, esponendoti a maggiori rischi di ammalarti.",
 				"mid": "Attenzione, Le tue abitudini, stile di vita e il contesto in cui vivi ti espongono a un rischio medio, per cui è difficile prevedere se tu abbia o meno già contratto il virus, ma nel caso in cui non inizi a prendere maggiori precauzioni è probabile che tu lo contragga presto. Non c'è da temere però, nella maggior parte degli infetti la malattia ha un decorso come una normale influenza, mentre solo in una certa percentuale di contagiati si aggrava e diventa pericolosa. Perciò è importante che tu protegga te stesso in modo da non contrarlo, e nel caso tu l'abbia già protegga gli altri per non essere responsabile degli eventuali rischi a cui li esporresti",
 				"name": "Rischio"
+			}
+		},
+		"questions": {
+			"age": {
+				"15": "meno di 15 anni",
+				"35": "tra 15 e 35 anni",
+				"50": "tra 35 e 50 anni",
+				"75": "tra 50 e 75 anni",
+				"100": "oltre 75 anni",
+				"question": "Etá"
+			},
+			"breathing": {
+				"hard": "respiro a fatica",
+				"question": "Respirazione",
+				"well": "respiro bene"
+			},
+			"conditions": {
+				"have": "soffro di altre patologie",
+				"none": "non ho altre patologie",
+				"question": "Patologie"
+			},
+			"cough": {
+				"dry": "tosse secca",
+				"none": "niente tosse",
+				"question": "Tosse",
+				"wet": "tosse con secrezioni"
+			},
+			"general_conditions": {
+				"exhausted": "mi sento stanco, spossato",
+				"feel_great": "mi sento bene",
+				"question": "Condizioni generali"
+			},
+			"location": {
+				"great": "nelle mie vicinanze c'è un gran numero di contagiati",
+				"no": "nelle mie vicinanze non ci sono casi riconosciuti",
+				"question": "Posizione",
+				"remote": "nelle mie vicinanze non c'è nessuno, vivo in una zona molto remota",
+				"some": "nelle mie vicinanze c'è qualche caso di contagio"
+			},
+			"own_habits": {
+				"14_days": "non esco di casa da più di 2 settimane",
+				"gloves": "indosso i guanti di lattice quando esco di casa",
+				"mask": "indosso la mascherina quando esco di casa",
+				"question": "abitudini proprie",
+				"recently": "sono uscito di casa di recente"
+			},
+			"perception": {
+				"no_smell": "non sento gli odori/sapori",
+				"ok": "Sento gli odori e i sapori",
+				"question": "Percezione"
+			},
+			"recent_contacts": {
+				"crowd": "sono stato in mezzo alla folla con estranei che mi stavano vicino",
+				"distanza": "sono stato fuori nei giorni scorsi e mi sono tenuto a buona distanza da tutti",
+				"infected_no_protection": "sono stato in presenza di persone infette dal covid-19 (corona virus), senza protezioni",
+				"infected_with_protection": "sono stato in presenza di persone infette dal covid-19 (corona virus), ma eravamo protetti",
+				"no_one": "non esco di casa da due settimane, non ho incontrato nessuno",
+				"question": "Contatti recenti"
+			},
+			"temperature": {
+				"high": "febbre (sopra i 37,5 ˚c)",
+				"mid": "febbre leggera (tra 37,0˚c e 37,5˚c)",
+				"none": "niente febbre (sotto i 37,0˚c)",
+				"question": "Temperatura"
+			},
+			"throat": {
+				"aches": "mi fa male la gola",
+				"itches": "sento un fastidio alla gola",
+				"ok": "la mia gola va bene",
+				"question": "Gola"
 			}
 		}
 	}

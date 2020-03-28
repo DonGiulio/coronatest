@@ -1,274 +1,274 @@
 const  questions = [
   {
     "id": 10,
-    "question": "Condizioni generali",
-    "category": "common:questions.category.conditions.name",
+    "question": "common:q.questions.general_conditions.question",
+    "category": "common:q.category.conditions.name",
     "type": "radio",
     "points": 30,
     "answers": [
       {
         "id": 101,
-        "answer": "mi sento bene",
+        "answer": "common:q.questions.general_conditions.feel_great",
         "value": 0
       },
       {
         "id": 102,
-        "answer": "mi sento stanco, spossato",
+        "answer": "common:q.questions.general_conditions.exhausted",
         "value": 30
       }
     ]
   },
   {
     "id": 20,
-    "question": "Respirazione",
-    "category": "common:questions.category.conditions.name",
+    "question": "common:q.questions.breathing.question",
+    "category": "common:q.category.conditions.name",
     "type": "radio",
     "points": 80,
     "answers": [
       {
         "id": 201,
-        "answer": "respiro bene",
+        "answer": "common:q.questions.breathing.well",
         "value": 0
       },
       {
         "id": 202,
-        "answer": "respiro a fatica",
+        "answer": "common:q.questions.breathing.hard",
         "value": 80
       }
     ]
   },
   {
     "id": 30,
-    "question": "Percezione",
-    "category": "common:questions.category.conditions.name",
+    "question": "common:q.questions.perception.question",
+    "category": "common:q.category.conditions.name",
     "type": "radio",
     "points": 50,
     "answers": [
       {
         "id": 301,
-        "answer": "Tutto normale",
+        "answer": "common:q.questions.perception.ok",
         "value": 0
       },
       {
         "id": 302,
-        "answer": "non sento gli odori/sapori",
+        "answer": "common:q.questions.perception.no_smell",
         "value": 50
       }
     ]
   },
   {
     "id": 40,
-    "question": "Temperatura",
-    "category": "common:questions.category.conditions.name",
+    "question": "common:q.questions.temperature.question",
+    "category": "common:q.category.conditions.name",
     "type": "radio",
     "points": 60,
     "answers": [
       {
         "id": 401,
-        "answer": "febbre (sopra i 37,5 ˚c)",
+        "answer": "common:q.questions.temperature.high",
         "value": 60
       },
       {
         "id": 402,
-        "answer": "febbre leggera ( tra 37,0˚c e 37,5˚c)",
+        "answer": "common:q.questions.temperature.mid",
         "value": 40
       },
       {
         "id": 403,
-        "answer": "niente febbre (sotto i 37,0˚c)",
+        "answer": "common:q.questions.temperature.none",
         "value": 20
       }
     ]
   },
   {
     "id": 50,
-    "question": "Tosse",
-    "category": "common:questions.category.conditions.name",
+    "question": "common:q.questions.cough.question",
+    "category": "common:q.category.conditions.name",
     "type": "radio",
     "points": 60,
     "answers": [
       {
         "id": 501,
-        "answer": "tosse secca",
+        "answer": "common:q.questions.cough.dry",
         "value": 60
       },
       {
         "id": 502,
-        "answer": "tosse con secrezioni",
+        "answer": "common:q.questions.cough.wet",
         "value": 40
       },
       {
         "id": 503,
-        "answer": "niente tosse",
+        "answer": "common:q.questions.cough.none",
         "value": 20
       }
     ]
   },
   {
-    "id": 4,
-    "question": "Gola",
-    "category": "common:questions.category.conditions.name",
+    "id": 60,
+    "question": "common:q.questions.throat.question",
+    "category": "common:q.category.conditions.name",
     "type": "radio",
     "points": 30,
     "answers": [
       {
-        "id": 12,
-        "answer": "mi fa male la gola",
+        "id": 601,
+        "answer": "common:q.questions.throat.aches",
         "value": 5
       },
       {
-        "id": 13,
-        "answer": "sento un fastidio alla gola",
+        "id": 602,
+        "answer": "common:q.questions.throat.itches",
         "value": 5
       },
       {
-        "id": 14,
-        "answer": "la mia gola va bene",
+        "id": 603,
+        "answer": "common:q.questions.throat.ok",
         "value": 5
       }
     ]
   },
   {
-    "id": 5,
-    "question": "Patologie",
-    "category": "common:questions.category.gravity.name",
+    "id": 70,
+    "question": "common:q.questions.conditions.question",
+    "category": "common:q.category.gravity.name",
     "type": "checkbox",
     "points": 30,
     "answers": [
       {
-        "id": 15,
-        "answer": "soffro di altre patologie",
+        "id": 701,
+        "answer": "common:q.questions.conditions.have",
         "value": 5
       },
       {
-        "id": 16,
-        "answer": "non ho altre patologie",
+        "id": 702,
+        "answer": "common:q.questions.conditions.none",
         "value": 5
       }
     ]
   },
   {
-    "id": 6,
-    "question": "Etá",
-    "category": "common:questions.category.gravity.name",
+    "id": 80,
+    "question": "common:q.questions.age.question",
+    "category": "common:q.category.gravity.name",
     "type": "radio",
     "points": 30,
     "answers": [
       {
-        "id": 17,
-        "answer": "meno di 15 anni",
+        "id": 801,
+        "answer": "common:q.questions.age.15",
         "value": 5
       },
       {
-        "id": 18,
-        "answer": "tra 15 e 35 anni",
+        "id": 802,
+        "answer": "common:q.questions.age.35",
         "value": 5
       },
       {
-        "id": 19,
-        "answer": "tra 35 e 50 anni",
+        "id": 803,
+        "answer": "common:q.questions.age.50",
         "value": 5
       },
       {
-        "id": 20,
-        "answer": "tra 50 e 75 anni",
+        "id": 804,
+        "answer": "common:q.questions.age.75",
         "value": 5
       },
       {
-        "id": 21,
-        "answer": "oltre 75 anni",
+        "id": 805,
+        "answer": "common:q.questions.age.100",
         "value": 5
       }
     ]
   },
   {
-    "id": 7,
-    "question": "Posizione",
-    "category": "common:questions.category.risk",
+    "id": 90,
+    "question": "common:q.questions.location.question",
+    "category": "common:q.category.risk",
     "type": "checkbox",
     "points": 30,
     "answers": [
       {
-        "id": 22,
-        "answer": "nelle mie vicinanze c'è un gran numero di contagiati",
+        "id": 901,
+        "answer": "common:q.questions.location.great",
         "value": 5
       },
       {
-        "id": 23,
-        "answer": "nelle mie vicinanze c'è qualche caso di contagio ",
+        "id": 902,
+        "answer": "common:q.questions.location.some",
         "value": 5
       },
       {
-        "id": 24,
-        "answer": "nelle mie vicinanze non ci sono casi riconosciuti",
+        "id": 903,
+        "answer": "common:q.questions.location.no",
         "value": 5
       },
       {
-        "id": 25,
-        "answer": "nelle mie vicinanze non c'è nessuno, vivo in una zona molto remota",
+        "id": 904,
+        "answer": "common:q.questions.location.remote",
         "value": 5
       }
     ]
   },
   {
-    "id": 8,
-    "question": "abitudini proprie",
-    "category": "common:questions.category.risk",
+    "id": 100,
+    "question": "common:q.questions.own_habits.question",
+    "category": "common:q.category.risk",
     "type": "checkbox",
     "points": 30,
     "answers": [
       {
-        "id": 26,
-        "answer": "indosso la mascherina quando esco di casa",
+        "id": 1001,
+        "answer": "common:q.questions.own_habits.mask",
         "value": 5
       },
       {
-        "id": 27,
-        "answer": "indosso i guanti di lattice quando esco di casa",
+        "id": 1002,
+        "answer": "common:q.questions.own_habits.gloves",
         "value": 5
       },
       {
-        "id": 28,
-        "answer": "non esco di casa da più di 2 settimane",
+        "id": 1003,
+        "answer": "common:q.questions.own_habits.14_days",
         "value": 5
       },
       {
-        "id": 29,
-        "answer": "sono uscito di casa di recente",
+        "id": 1004,
+        "answer": "common:q.questions.own_habits.recently",
         "value": 5
       }
     ]
   },
   {
-    "id": 9,
-    "question": "Contatti recenti",
-    "category": "common:questions.category.risk",
+    "id": 110,
+    "question": "common:q.questions.recent_contacts.question",
+    "category": "common:q.category.risk",
     "type": "checkbox",
     "points": 30,
     "answers": [
       {
-        "id": 30,
-        "answer": "sono stato in mezzo alla folla con estranei che mi stavano vicino",
+        "id": 1101,
+        "answer": "common:q.questions.recent_contacts.crowd",
         "value": 5
       },
       {
-        "id": 31,
-        "answer": "sono stato in presenza di persone infette dal covid-19 (corona virus), senza protezioni",
+        "id": 1102,
+        "answer": "common:q.questions.recent_contacts.infected_no_protection",
         "value": 5
       },
       {
-        "id": 32,
-        "answer": "sono stato in presenza di persone infette dal covid-19 (corona virus), ma eravamo protetti",
+        "id": 1103,
+        "answer": "common:q.questions.recent_contacts.infected_with_protection",
         "value": 5
       },
       {
-        "id": 33,
-        "answer": "sono stato fuori nei giorni scorsi e mi sono tenuto a buona distanza da tutti",
+        "id": 1104,
+        "answer": "common:q.questions.recent_contacts.distanza",
         "value": 5
       },
       {
-        "id": 34,
-        "answer": "non esco di casa da due settimane, non ho incontrato nessuno",
+        "id": 1105,
+        "answer": "common:q.questions.recent_contacts.no_one",
         "value": 5
       }
     ]
