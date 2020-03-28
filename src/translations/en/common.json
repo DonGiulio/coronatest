@@ -11,5 +11,30 @@
 		},
 		"test": "The test",
 		"title": "Covid-19 Test"
+	},
+	"questions": {
+		"category": {
+			"conditions": {
+				"high": "",
+				"low": "",
+				"mid": "",
+				"name": "Conditions"
+			},
+			"gravity": {
+				"high": "",
+				"low": "",
+				"mid": "",
+				"name": "Gravity"
+			},
+			"high": "High risk",
+			"low": "Low risk",
+			"mid": "Average risk",
+			"risk": {
+				"high": "",
+				"low": "",
+				"mid": "",
+				"name": "Risk"
+			}
+		}
 	}
 }

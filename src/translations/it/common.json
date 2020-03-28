@@ -11,5 +11,30 @@
 		},
 		"test": "Il test",
 		"title": "Test Covid-19"
+	},
+	"questions": {
+		"category": {
+			"conditions": {
+				"high": "",
+				"low": "",
+				"mid": "",
+				"name": "Condizioni"
+			},
+			"gravity": {
+				"high": "",
+				"low": "",
+				"mid": "",
+				"name": "Gravità"
+			},
+			"high": "Alto rischio",
+			"low": "Basso rischio",
+			"mid": "Medio rischio",
+			"risk": {
+				"high": "",
+				"low": "",
+				"mid": "",
+				"name": "Rischio"
+			}
+		}
 	}
 }

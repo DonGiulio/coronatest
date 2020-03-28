@@ -2,7 +2,7 @@ const  questions = [
   {
     "id": 10,
     "question": "Condizioni generali",
-    "category": "Condizioni",
+    "category": "common:questions.category.conditions.name",
     "type": "radio",
     "points": 30,
     "answers": [
@@ -21,7 +21,7 @@ const  questions = [
   {
     "id": 20,
     "question": "Respirazione",
-    "category": "Condizioni",
+    "category": "common:questions.category.conditions.name",
     "type": "radio",
     "points": 80,
     "answers": [
@@ -40,7 +40,7 @@ const  questions = [
   {
     "id": 30,
     "question": "Percezione",
-    "category": "Condizioni",
+    "category": "common:questions.category.conditions.name",
     "type": "radio",
     "points": 50,
     "answers": [
@@ -59,7 +59,7 @@ const  questions = [
   {
     "id": 40,
     "question": "Temperatura",
-    "category": "Condizioni",
+    "category": "common:questions.category.conditions.name",
     "type": "radio",
     "points": 60,
     "answers": [
@@ -83,7 +83,7 @@ const  questions = [
   {
     "id": 50,
     "question": "Tosse",
-    "category": "Condizioni",
+    "category": "common:questions.category.conditions.name",
     "type": "radio",
     "points": 60,
     "answers": [
@@ -107,7 +107,7 @@ const  questions = [
   {
     "id": 4,
     "question": "Gola",
-    "category": "Condizioni",
+    "category": "common:questions.category.conditions.name",
     "type": "radio",
     "points": 30,
     "answers": [
@@ -131,7 +131,7 @@ const  questions = [
   {
     "id": 5,
     "question": "Patologie",
-    "category": "Gravità",
+    "category": "common:questions.category.gravity.name",
     "type": "checkbox",
     "points": 30,
     "answers": [
@@ -150,7 +150,7 @@ const  questions = [
   {
     "id": 6,
     "question": "Etá",
-    "category": "Gravità",
+    "category": "common:questions.category.gravity.name",
     "type": "radio",
     "points": 30,
     "answers": [
@@ -184,7 +184,7 @@ const  questions = [
   {
     "id": 7,
     "question": "Posizione",
-    "category": "Rischio",
+    "category": "common:questions.category.risk",
     "type": "checkbox",
     "points": 30,
     "answers": [
@@ -213,7 +213,7 @@ const  questions = [
   {
     "id": 8,
     "question": "abitudini proprie",
-    "category": "Rischio",
+    "category": "common:questions.category.risk",
     "type": "checkbox",
     "points": 30,
     "answers": [
@@ -242,7 +242,7 @@ const  questions = [
   {
     "id": 9,
     "question": "Contatti recenti",
-    "category": "Rischio",
+    "category": "common:questions.category.risk",
     "type": "checkbox",
     "points": 30,
     "answers": [
