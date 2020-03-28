@@ -1,0 +1,15 @@
+{
+	"main": {
+		"description": {
+			"alert1": "Results of this test are just indicative and should not alarm you.",
+			"alert2": "In case the test marks you as positive, it’s merely a recommendation to further explore your case and contact your healthcare professionals.",
+			"alert3": "In case the test marks you as negative but you are still doubtful you are encouraged to seek help from your healthcare professionals.",
+			"message1": "The test below has been developed to help you identify if your symptoms match with the typical Corona Virus (COVID-19) and give you a guide to better understand how to take your precautions.",
+			"message2": "This guide is by no means replacement for your healthcare system or doctor, it has merely been developed just to help you understand better your situation.",
+			"message3": "To ensure an accurate response you should answer the following questions to the best of your knowledge and understanding.",
+			"message4": "There are no wrong answers, the only wrong answer is the one you don't feel right with."
+		},
+		"test": "The test",
+		"title": "Covid-19 Test"
+	}
+}

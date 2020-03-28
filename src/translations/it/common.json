@@ -1,0 +1,15 @@
+{
+	"main": {
+		"description": {
+			"alert1": "I risultati di questo test sono solamente indicativi e non devono allarmarti",
+			"alert2": "Nel caso in cui il test ti indichi come positivo, è semplicemente una raccomandazione a investigare il tuo caso contattando il tuo medico di fiducia",
+			"alert3": "Nel caso in cui il test risulti negativo ma tu abbia ancora dubbi, ti incoraggiamo a rivolgerti al tuo medico di fiducia e seguire i suoi consigli",
+			"message1": "Il test qui sotto è stato sviluppato per aiutarti a capire se i tuoi sintomi corrispondono con quelli tipici causati dal Corona Virus (Covid-19) e fornirti una guida per capire meglio come prendere le tue precauzioni. ",
+			"message2": "Questa guida sostituisce in alcun modo il tuo sistema sanitario o il tuo medico di fiducia, è pubblicato al solo scopo di aiutarti a capire meglio la tua situazione.",
+			"message3": "Per garantire un risultato accurato dovresti rispindere alle seguenti domande al meglio delle tue conoscenze e comprensione.",
+			"message4": "Non ci sono risposte sbagliate, l'unica risposta sbagliata è quella che non ti sembra giusta."
+		},
+		"test": "Il test",
+		"title": "Test Covid-19"
+	}
+}

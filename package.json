@@ -5,8 +5,10 @@
   "proxy": "http://localhost:3333",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "i18next": "^19.3.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-i18next": "^11.3.4",
     "react-scripts": "^3.4.0",
     "reactstrap": "^8.4.1",
     "rewire": "^5.0.0"
