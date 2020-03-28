@@ -1,23 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Label} from 'reactstrap';
 
 import Answer from "./Answer";
 
 const Question = (props) => {
   return(
     <div>
-    <p><strong>{props.index}</strong>: {props.question.question}</p>
-    <div>
-      {
-        Object.values(props.question.answers).map((value) => 
-          <Answer key={value["id"]}
-                  question={props.question}
-                  answer={value} 
-                  addAnswer={props.addAnswer} 
-                  removeAnswer={props.removeAnswer} 
-          />)
-      }
-    </div>
+      <Label>
+        <strong>{props.index}</strong>: {props.question.question}
+        {
+          Object.values(props.question.answers).map((value) => 
+            <Answer key={value["id"]}
+                    question={props.question}
+                    answer={value} 
+                    addAnswer={props.addAnswer} 
+                    removeAnswer={props.removeAnswer} 
+            />)
+        }
+      </Label>
     </div>)
 }
 
