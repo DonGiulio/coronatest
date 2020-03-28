@@ -61,6 +61,11 @@
 				"question": "Tosse",
 				"wet": "tosse con secrezioni"
 			},
+			"gender": {
+				"female": "Femmina",
+				"male": "Maschio",
+				"question": "Sesso"
+			},
 			"general_conditions": {
 				"exhausted": "mi sento stanco, spossato",
 				"feel_great": "mi sento bene",

@@ -61,6 +61,11 @@
 				"question": "Cough",
 				"wet": "wet cough"
 			},
+			"gender": {
+				"female": "Female",
+				"male": "Male",
+				"question": "Gender"
+			},
 			"general_conditions": {
 				"exhausted": "I feel tired, exhausted",
 				"feel_great": "I feel great",

@@ -1,5 +1,24 @@
 const  questions = [
   {
+    "id": 120,
+    "question": "common:q.questions.gender.question",
+    "category": "common:q.category.conditions.name",
+    "type": "radio",
+    "points": 100,
+    "answers": [
+      {
+        "id": 1201,
+        "answer": "common:q.questions.gender.male",
+        "value": 72
+      },
+      {
+        "id": 1202,
+        "answer": "common:q.questions.gender.female",
+        "value": 18
+      }
+    ]
+  },
+  {
     "id": 10,
     "question": "common:q.questions.general_conditions.question",
     "category": "common:q.category.conditions.name",
