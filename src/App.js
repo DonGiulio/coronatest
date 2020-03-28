@@ -28,7 +28,6 @@ const App = () => {
       <header className="App-header container">
         <h1>COVID-19 test</h1>
         <hr/>
-        <p>{message}</p>
         <Description />
         <Donate />
         <hr/>
