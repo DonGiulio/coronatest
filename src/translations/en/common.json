@@ -29,6 +29,8 @@
 			"high": "High risk",
 			"low": "Low risk",
 			"mid": "Average risk",
+			"no_data": "Not enough info to give a result for the category \"{{category}}\"",
+			"results": "Your results",
 			"risk": {
 				"high": "Warning, your results shows a high probability that you have already been infected, or will be infected soon. You should not worry though, in the vast majority of patients the infection is no different from a normal flu, and heals itself in a few days, while in just a low percentage of patients it will become something serious. Whether you are already infected or not, you immediately need to change your habits and rise your precautions, in order to protect yourself, or protect people around you from the infection. ",
 				"low": "Compliments, your habits, lifestyle and neighbourhood exposes you to a low risk of infection, thus it's unlikely (but not impossible) that you have been already or will soon be infected. You should not lower your precautions though, the situation could change very quickly and without notice. In particular even though you might keep guard high, your neighbours might become infected, exposing yourself to higher risks. ",

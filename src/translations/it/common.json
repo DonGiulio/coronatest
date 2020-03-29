@@ -29,6 +29,8 @@
 			"high": "Alto rischio",
 			"low": "Basso rischio",
 			"mid": "Medio rischio",
+			"no_data": "Non hai risposto ad abbastanza domande per formulare una risposta per la categoria \"{{category}}\"",
+			"results": "I tuoi risultati",
 			"risk": {
 				"high": "Attenzione, il risultato del test indica un'alta probabilità che tu sia infetto, o se non lo sei ancora rischi fortemente di infettarti presto. Non c'è da temere però, nella maggior parte degli infetti la malattia ha un decorso come una normale influenza, mentre solo in una certa percentuale di contagiati si aggrava e diventa pericolosa. Sia che tu sia già infetto o no, devi cambiare le tue abitudini aumentando la cura che prendi nel proteggerti e nel proteggere chi ti sta attorno.",
 				"low": "Complimenti le tue abitudini, stile di vita e il contesto in cui vivi ti espone a un basso rischio di contagio, per cui è improbabile (ma non impossibile) che tu abbia contratto o contragga il virus nel futuro prossimo. Non c'è da abbassare la guardia però, in quanto la situazione può cambiare rapidamente e senza preavviso, in particolare pure se tu mantenessi le tue abitudini, nel tuo vicinato potrebbero aumentare i casi, esponendoti a maggiori rischi di ammalarti.",

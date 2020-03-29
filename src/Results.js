@@ -4,37 +4,41 @@ import { useTranslation } from 'react-i18next';
 
 import {Button, Alert} from 'reactstrap';
 
+const NoData = (t, category) => 
+  <Alert color="secondary">
+    { t('common:q.category.no_data', {category: t(category.category)}) }
+  </Alert>
+
+const Result = (t, points, category, explanation) => 
+  <Alert color={explanation.color} key={t(category.category)} >
+    <div>
+      <strong>{t(category.category)}</strong>: 
+      {points}%
+    </div>
+    <div>
+      {t(explanation.title)}: { t(explanation.descrizione) }
+    </div>
+  </Alert>
+
+
 const Results = (props) =>  {
   
     const [t] = useTranslation()
 
     return(
       <div>
-        <h2>Results</h2>
-        your marks are: 
+        <h2>{ t('common:q.category.results') }</h2>
         {
           Object.values(props.categories).map((category) => {
             const points = props.points[category.category];
             const explanation = Object.values(category.answers).filter( (answer) => 
               answer.min_points < points && points <= answer.max_points
             )[0]
-            if(typeof explanation === 'undefined'){
-              return(
-                <Alert color="secondary">
-                  Non hai risposto ad abbastanza domande per formulare 
-                  una risposta per la categoria {category.category}
-                </Alert>)
+            if(typeof explanation === 'undefined'){ 
+              return(NoData(t, category)) 
+            } else { 
+              return (Result(t, points, category, explanation)) 
             }
-            return (<Alert color={explanation.color} key={t(category.category)} >
-                      <div>
-                        <strong>{t(category.category)}</strong>: 
-                        {points}%
-                      </div>
-                      <div>
-                        {t(explanation.title)}: { t(explanation.descrizione) }
-                      </div>
-        
-                    </Alert>)
           })
         }
         <p>
