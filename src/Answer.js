@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Label} from 'reactstrap';
 import { withTranslation } from 'react-i18next';
 
 class Answer extends React.Component {
@@ -22,18 +23,19 @@ class Answer extends React.Component {
 
     return (
       <div>
-        <input name={this.props.question.id}
-               type={this.props.question.type}
-               onChange={this.handleChange}/>
-          <label htmlFor={this.props.question.id}>
-            {t(this.props.answer.answer)}
-          </label>
+        <Label>
+          <input name={this.props.question.id}
+                 type={this.props.question.type}
+                 onChange={this.handleChange}/>
+              {t(this.props.answer.answer)}
+        </Label>
       </div>  
     )
   }
 }
 
 Answer.propTypes = {
+  t: PropTypes.func,
   question: PropTypes.object,
   answer: PropTypes.object,
   type: PropTypes.string,

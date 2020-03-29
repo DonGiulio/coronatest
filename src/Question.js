@@ -1,27 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Label} from 'reactstrap';
 import { useTranslation } from 'react-i18next';
 
 import Answer from "./Answer";
 
 const Question = (props) => {
-  const [t, i18n] = useTranslation();
+  const [t] = useTranslation();
 
   return(
-    <div>
-      <Label>
-        <strong>{props.index}</strong>: {t(props.question.question)}
-        {
-          Object.values(props.question.answers).map((answer) => 
+    <div>    
+      <strong>{props.index}</strong>: {t(props.question.question)}
+      {
+        Object.values(props.question.answers).map((answer) => 
             <Answer key={answer.id}
                     question={props.question}
                     answer={answer} 
                     addAnswer={props.addAnswer} 
                     removeAnswer={props.removeAnswer} 
             />)
-        }
-      </Label>
+      }
     </div>)
 }
 

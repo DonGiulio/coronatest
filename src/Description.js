@@ -3,7 +3,7 @@ import { Alert } from 'reactstrap';
 import { useTranslation } from 'react-i18next';
 
 const Description = () => { 
-  const [t, i18n] = useTranslation();
+  const [t] = useTranslation();
 
   return(<div>
            <p>{ t('common:main.description.message1') }</p>

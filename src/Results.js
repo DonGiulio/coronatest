@@ -6,7 +6,7 @@ import {Button, Alert} from 'reactstrap';
 
 const Results = (props) =>  {
   
-    const [t, i18n] = useTranslation()
+    const [t] = useTranslation()
 
     return(
       <div>

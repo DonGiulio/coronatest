@@ -11,7 +11,7 @@ import Donate from "./Donate";
 import Language from "./Language";
 
 const App = () => {
-  const [t, i18n] = useTranslation();
+  const [t] = useTranslation();
 
   return (
     <div className="App">
