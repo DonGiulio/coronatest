@@ -13,10 +13,10 @@ const Question = (props) => {
       <Label>
         <strong>{props.index}</strong>: {t(props.question.question)}
         {
-          Object.values(props.question.answers).map((value) => 
-            <Answer key={value["id"]}
+          Object.values(props.question.answers).map((answer) => 
+            <Answer key={answer.id}
                     question={props.question}
-                    answer={value} 
+                    answer={answer} 
                     addAnswer={props.addAnswer} 
                     removeAnswer={props.removeAnswer} 
             />)

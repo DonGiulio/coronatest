@@ -2,7 +2,7 @@ const  questions = [
   {
     "id": 120,
     "question": "common:q.questions.gender.question",
-    "category": "common:q.category.conditions.name",
+    "category": "common:q.category.risk.name",
     "type": "radio",
     "points": 100,
     "answers": [
@@ -80,7 +80,7 @@ const  questions = [
     "question": "common:q.questions.temperature.question",
     "category": "common:q.category.conditions.name",
     "type": "radio",
-    "points": 60,
+    "points": 100,
     "answers": [
       {
         "id": 401,

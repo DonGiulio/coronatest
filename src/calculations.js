@@ -37,7 +37,7 @@ function answersByCategory(answers, categories){
 function calculatePoints(questions, answers, categories) {
   const totalQuestions = totalsByCategory(questions, categories);
   const totalAnswers = answersByCategory(answers, categories);
- 
+
   var points = [];
   Object.values(categories).forEach((category) => {
     const total = totalQuestions[category.category];
