@@ -31,7 +31,7 @@ const  categories = [
   },
   {
     "id": 2,
-    "category": "common:q.category.risk.name",
+    "category": "common:q.category.exposure.name",
     "answers": [
       {
         "id": 1,
@@ -39,7 +39,7 @@ const  categories = [
         "max_points": 30,
         "title": "common:q.category.low",
         "color": "info",
-        "descrizione": "common:q.category.risk.low"
+        "descrizione": "common:q.category.exposure.low"
       },
       {
         "id": 2,
@@ -47,7 +47,7 @@ const  categories = [
         "max_points": 60,
         "title": "common:q.category.mid",
         "color": "warning",
-        "descrizione": "common:q.category.risk.mid"
+        "descrizione": "common:q.category.exposure.mid"
       },
       {
         "id": 3,
@@ -55,7 +55,7 @@ const  categories = [
         "max_points": 100,
         "title": "common:q.category.high",
         "color": "danger",
-        "descrizione": "common:q.category.risk.high"
+        "descrizione": "common:q.category.exposure.high"
       }
     ]
   },

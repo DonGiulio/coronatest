@@ -121,8 +121,8 @@ test("throat dry cough mid fever conditions",  (t) => {
   t.end()
 });
 
-// testing risk
-const allRisk = [
+// testing Gravity
+const allGravity = [
   "conditions.have",
   "conditions.none",
   "hypertension.have",
@@ -139,7 +139,7 @@ const allRisk = [
   "gender.female",
 ]
 
-test("completely high risk",  (t) => { 
+test("completely high gravity",  (t) => { 
   const answerIds = [
     "conditions.have",
     "hypertension.have",
@@ -153,12 +153,9 @@ test("completely high risk",  (t) => {
   t.end()
 });
 
-test("old guy sick, high risk",  (t) => { 
+test("old guy sick, high gravity",  (t) => { 
   const answerIds = [
     "conditions.have",
-    // "hypertension.have",
-    // "cardiovascular.have",
-    // "cholesterol.have",
     "age.100",
     "gender.male"
   ]
@@ -167,13 +164,8 @@ test("old guy sick, high risk",  (t) => {
   t.end()
 });
 
-
-test("old guy, mid risk",  (t) => { 
+test("old guy, mid gravity",  (t) => { 
   const answerIds = [
-    // "conditions.have",
-    // "hypertension.have",
-    // "cardiovascular.have",
-    // "cholesterol.have",
     "age.100",
     "gender.male"
   ]
@@ -182,16 +174,59 @@ test("old guy, mid risk",  (t) => {
   t.end()
 });
 
-test("mid age lady, low risk",  (t) => { 
+test("mid guy, mid gravity",  (t) => { 
   const answerIds = [
-    // "conditions.none",
-    // "hypertension.none",
-    // "cardiovascular.none",
-    // "cholesterol.none",
+    "hypertension.have",
+    "cholesterol.have",
+    "age.40",
+    "gender.male"
+  ]
+  const points = getPoints(answerIds, 'common:q.category.gravity.name');
+  checkRange(t, points, 40, 60);
+  t.end()
+});
+
+test("mid age lady, low gravity",  (t) => { 
+  const answerIds = [
     "age.60",
     "gender.female"
   ]
   const points = getPoints(answerIds, 'common:q.category.gravity.name');
   checkRange(t, points, 20, 40);
+  t.end()
+});
+
+// testing exposure
+const allExposure= [
+  "location.great",
+  "location.some",
+  "location.no",
+  "location.remote",
+  "own_habits.mask",
+  "own_habits.gloves",
+  "own_habits.14_days",
+  "own_habits.recently",
+  "contacts.crowd",
+  "contacts.infected_no_protection",
+  "contacts.infected_with_protection",
+  "contacts.distanza",
+  "contacts.no_one",
+  "immuno.depressed",
+  "immuno.normal",
+  "family.exposed",
+  "family.safe"
+]
+
+test("completely high exposure",  (t) => { 
+  const answerIds = [
+    "conditions.have",
+    "hypertension.have",
+    "cardiovascular.have",
+    "cholesterol.have",
+    "age.100",
+    "gender.male"
+  ]
+  const points = getPoints(answerIds, 'common:q.category.gravity.name');
+  checkRange(t, points, 89, 90);
   t.end()
 });

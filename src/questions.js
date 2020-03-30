@@ -253,7 +253,7 @@ const  questions = [
   {
     "id": "location",
     "question": "common:q.questions.location.question",
-    "category": "common:q.category.risk.name",
+    "category": "common:q.category.exposure.name",
     "type": "checkbox",
     "points": 100,
     "answers": [
@@ -282,7 +282,7 @@ const  questions = [
   {
     "id": "own_habits",
     "question": "common:q.questions.own_habits.question",
-    "category": "common:q.category.risk.name",
+    "category": "common:q.category.exposure.name",
     "type": "checkbox",
     "points": 100,
     "answers": [
@@ -311,7 +311,7 @@ const  questions = [
   {
     "id": "contacts",
     "question": "common:q.questions.contacts.question",
-    "category": "common:q.category.risk.name",
+    "category": "common:q.category.exposure.name",
     "type": "checkbox",
     "points": 100,
     "answers": [
@@ -345,7 +345,7 @@ const  questions = [
   {
     "id": "immuno",
     "question": "common:q.questions.immuno.question",
-    "category": "common:q.category.risk.name",
+    "category": "common:q.category.exposure.name",
     "type": "radio",
     "points": 100,
     "answers": [
@@ -364,7 +364,7 @@ const  questions = [
   {
     "id": "family",
     "question": "common:q.questions.family.question",
-    "category": "common:q.category.risk.name",
+    "category": "common:q.category.exposure.name",
     "type": "radio",
     "points": 100,
     "answers": [
