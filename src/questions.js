@@ -123,8 +123,6 @@ const  questions = [
       },
       {
         "id": "throat.ok",
-        "answer": "common:q.questions.throat.ok",
-        "value": 0
       }
     ]
   },
@@ -138,12 +136,12 @@ const  questions = [
       {
         "id": "conditions.have",
         "answer": "common:q.questions.conditions.have",
-        "value": 5
+        "value": 130
       },
       {
         "id": "conditions.none",
         "answer": "common:q.questions.conditions.none",
-        "value": 5
+        "value": 0
       }
     ]
   },
@@ -157,12 +155,12 @@ const  questions = [
       {
         "id": "hypertension.have",
         "answer": "common:q.questions.hypertension.have",
-        "value": 5
+        "value": 100
       },
       {
         "id": "hypertension.none",
         "answer": "common:q.questions.hypertension.none",
-        "value": 5
+        "value": 0
       }
     ]
   },
@@ -176,12 +174,12 @@ const  questions = [
       {
         "id": "cardiovascular.have",
         "answer": "common:q.questions.cardiovascular.have",
-        "value": 5
+        "value": 100
       },
       {
         "id": "cardiovascular.none",
         "answer": "common:q.questions.cardiovascular.none",
-        "value": 5
+        "value": 0
       }
     ]
   },
@@ -195,12 +193,12 @@ const  questions = [
       {
         "id": "cholesterol.have",
         "answer": "common:q.questions.cholesterol.have",
-        "value": 5
+        "value": 100
       },
       {
         "id": "cholesterol.none",
         "answer": "common:q.questions.cholesterol.none",
-        "value": 5
+        "value": 0
       }
     ]
   },
@@ -214,22 +212,22 @@ const  questions = [
       {
         "id": "age.40",
         "answer": "common:q.questions.age.40",
-        "value": 5
+        "value": 40
       },
       {
         "id": "age.60",
         "answer": "common:q.questions.age.60",
-        "value": 5
+        "value": 80
       },
       {
         "id": "age.80",
         "answer": "common:q.questions.age.80",
-        "value": 5
+        "value": 120
       },
       {
         "id": "age.100",
         "answer": "common:q.questions.age.100",
-        "value": 5
+        "value": 170
       }
     ]
   },
@@ -243,12 +241,12 @@ const  questions = [
       {
         "id": "gender.male",
         "answer": "common:q.questions.gender.male",
-        "value": 72
+        "value": 120
       },
       {
         "id": "gender.female",
         "answer": "common:q.questions.gender.female",
-        "value": 18
+        "value": 60
       }
     ]
   },

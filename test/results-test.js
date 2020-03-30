@@ -56,6 +56,24 @@ const checkRange = (t, points, min, max) => {
 }
 
 // testing conditions
+const allConditions = [
+  "general_conditions.feel_great",
+  "general_conditions.exhausted",
+  "breathing.well",
+  "breathing.hard",
+  "perception.ok",
+  "perception.no_smell",
+  "temperature.high",
+  "temperature.mid",
+  "temperature.none",
+  "cough.dry",
+  "cough.wet",
+  "cough.none",
+  "throat.aches",
+  "throat.itches",
+  "throat.ok"
+]
+
 test("completely sick conditions",  (t) => { 
   const answerIds = [
     "general_conditions.exhausted", 
@@ -104,16 +122,76 @@ test("throat dry cough mid fever conditions",  (t) => {
 });
 
 // testing risk
-const all = []
+const allRisk = [
+  "conditions.have",
+  "conditions.none",
+  "hypertension.have",
+  "hypertension.none",
+  "cardiovascular.have",
+  "cardiovascular.none",
+  "cholesterol.have",
+  "cholesterol.none",
+  "age.40",
+  "age.60",
+  "age.80",
+  "age.100",
+  "gender.male",
+  "gender.female",
+]
 
 test("completely high risk",  (t) => { 
   const answerIds = [
-    "gender.male",
-    "location.great",
-    ]
-  const points = getPoints(answerIds, 'common:q.category.conditions.name');
-  checkRange(t, points, 20, 40);
+    "conditions.have",
+    "hypertension.have",
+    "cardiovascular.have",
+    "cholesterol.have",
+    "age.100",
+    "gender.male"
+  ]
+  const points = getPoints(answerIds, 'common:q.category.gravity.name');
+  checkRange(t, points, 89, 90);
+  t.end()
+});
+
+test("old guy sick, high risk",  (t) => { 
+  const answerIds = [
+    "conditions.have",
+    // "hypertension.have",
+    // "cardiovascular.have",
+    // "cholesterol.have",
+    "age.100",
+    "gender.male"
+  ]
+  const points = getPoints(answerIds, 'common:q.category.gravity.name');
+  checkRange(t, points, 60, 90);
   t.end()
 });
 
 
+test("old guy, mid risk",  (t) => { 
+  const answerIds = [
+    // "conditions.have",
+    // "hypertension.have",
+    // "cardiovascular.have",
+    // "cholesterol.have",
+    "age.100",
+    "gender.male"
+  ]
+  const points = getPoints(answerIds, 'common:q.category.gravity.name');
+  checkRange(t, points, 40, 60);
+  t.end()
+});
+
+test("mid age lady, low risk",  (t) => { 
+  const answerIds = [
+    // "conditions.none",
+    // "hypertension.none",
+    // "cardiovascular.none",
+    // "cholesterol.none",
+    "age.60",
+    "gender.female"
+  ]
+  const points = getPoints(answerIds, 'common:q.category.gravity.name');
+  checkRange(t, points, 20, 40);
+  t.end()
+});
