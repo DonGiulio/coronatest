@@ -1,25 +1,6 @@
 const  questions = [
   {
-    "id": "gender.question",
-    "question": "common:q.questions.gender.question",
-    "category": "common:q.category.risk.name",
-    "type": "radio",
-    "points": 100,
-    "answers": [
-      {
-        "id": "gender.male",
-        "answer": "common:q.questions.gender.male",
-        "value": 72
-      },
-      {
-        "id": "gender.female",
-        "answer": "common:q.questions.gender.female",
-        "value": 18
-      }
-    ]
-  },
-  {
-    "id": "general_conditions.question",
+    "id": "general_conditions",
     "question": "common:q.questions.general_conditions.question",
     "category": "common:q.category.conditions.name",
     "type": "radio",
@@ -38,7 +19,7 @@ const  questions = [
     ]
   },
   {
-    "id": "breathing.question",
+    "id": "breathing",
     "question": "common:q.questions.breathing.question",
     "category": "common:q.category.conditions.name",
     "type": "radio",
@@ -57,7 +38,7 @@ const  questions = [
     ]
   },
   {
-    "id": "perception.question",
+    "id": "perception",
     "question": "common:q.questions.perception.question",
     "category": "common:q.category.conditions.name",
     "type": "radio",
@@ -76,7 +57,7 @@ const  questions = [
     ]
   },
   {
-    "id": "temperature.question",
+    "id": "temperature",
     "question": "common:q.questions.temperature.question",
     "category": "common:q.category.conditions.name",
     "type": "radio",
@@ -100,7 +81,7 @@ const  questions = [
     ]
   },
   {
-    "id": "cough.question",
+    "id": "cough",
     "question": "common:q.questions.cough.question",
     "category": "common:q.category.conditions.name",
     "type": "radio",
@@ -124,7 +105,7 @@ const  questions = [
     ]
   },
   {
-    "id": "throat.question",
+    "id": "throat",
     "question": "common:q.questions.throat.question",
     "category": "common:q.category.conditions.name",
     "type": "radio",
@@ -148,10 +129,10 @@ const  questions = [
     ]
   },
   {
-    "id": "conditions.question",
+    "id": "conditions",
     "question": "common:q.questions.conditions.question",
     "category": "common:q.category.gravity.name",
-    "type": "checkbox",
+    "type": "radio",
     "points": 100,
     "answers": [
       {
@@ -167,30 +148,82 @@ const  questions = [
     ]
   },
   {
-    "id": "age.question",
+    "id": "hypertension",
+    "question": "common:q.questions.hypertension.question",
+    "category": "common:q.category.gravity.name",
+    "type": "radio",
+    "points": 100,
+    "answers": [
+      {
+        "id": "hypertension.have",
+        "answer": "common:q.questions.hypertension.have",
+        "value": 5
+      },
+      {
+        "id": "hypertension.none",
+        "answer": "common:q.questions.hypertension.none",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "cardiovascular",
+    "question": "common:q.questions.cardiovascular.question",
+    "category": "common:q.category.gravity.name",
+    "type": "radio",
+    "points": 100,
+    "answers": [
+      {
+        "id": "cardiovascular.have",
+        "answer": "common:q.questions.cardiovascular.have",
+        "value": 5
+      },
+      {
+        "id": "cardiovascular.none",
+        "answer": "common:q.questions.cardiovascular.none",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "cholesterol",
+    "question": "common:q.questions.cholesterol.question",
+    "category": "common:q.category.gravity.name",
+    "type": "radio",
+    "points": 100,
+    "answers": [
+      {
+        "id": "cholesterol.have",
+        "answer": "common:q.questions.cholesterol.have",
+        "value": 5
+      },
+      {
+        "id": "cholesterol.none",
+        "answer": "common:q.questions.cholesterol.none",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "age",
     "question": "common:q.questions.age.question",
     "category": "common:q.category.gravity.name",
     "type": "radio",
     "points": 100,
     "answers": [
       {
-        "id": "age.15",
-        "answer": "common:q.questions.age.15",
+        "id": "age.40",
+        "answer": "common:q.questions.age.40",
         "value": 5
       },
       {
-        "id": "age.35",
-        "answer": "common:q.questions.age.35",
+        "id": "age.60",
+        "answer": "common:q.questions.age.60",
         "value": 5
       },
       {
-        "id": "age.50",
-        "answer": "common:q.questions.age.50",
-        "value": 5
-      },
-      {
-        "id": "age.75",
-        "answer": "common:q.questions.age.75",
+        "id": "age.80",
+        "answer": "common:q.questions.age.80",
         "value": 5
       },
       {
@@ -201,7 +234,26 @@ const  questions = [
     ]
   },
   {
-    "id": "location.question",
+    "id": "gender",
+    "question": "common:q.questions.gender.question",
+    "category": "common:q.category.gravity.name",
+    "type": "radio",
+    "points": 100,
+    "answers": [
+      {
+        "id": "gender.male",
+        "answer": "common:q.questions.gender.male",
+        "value": 72
+      },
+      {
+        "id": "gender.female",
+        "answer": "common:q.questions.gender.female",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "id": "location",
     "question": "common:q.questions.location.question",
     "category": "common:q.category.risk.name",
     "type": "checkbox",
@@ -230,7 +282,7 @@ const  questions = [
     ]
   },
   {
-    "id": "own_habits.question",
+    "id": "own_habits",
     "question": "common:q.questions.own_habits.question",
     "category": "common:q.category.risk.name",
     "type": "checkbox",
@@ -259,35 +311,73 @@ const  questions = [
     ]
   },
   {
-    "id": "recent_contacts.question",
-    "question": "common:q.questions.recent_contacts.question",
+    "id": "contacts",
+    "question": "common:q.questions.contacts.question",
     "category": "common:q.category.risk.name",
     "type": "checkbox",
     "points": 100,
     "answers": [
       {
-        "id": "recent_contacts.crowd",
-        "answer": "common:q.questions.recent_contacts.crowd",
+        "id": "contacts.crowd",
+        "answer": "common:q.questions.contacts.crowd",
         "value": 5
       },
       {
-        "id": "recent_contacts.infected_no_protection",
-        "answer": "common:q.questions.recent_contacts.infected_no_protection",
+        "id": "contacts.infected_no_protection",
+        "answer": "common:q.questions.contacts.infected_no_protection",
         "value": 5
       },
       {
-        "id": "recent_contacts.infected_with_protection",
-        "answer": "common:q.questions.recent_contacts.infected_with_protection",
+        "id": "contacts.infected_with_protection",
+        "answer": "common:q.questions.contacts.infected_with_protection",
         "value": 5
       },
       {
-        "id": "recent_contacts.distanza",
-        "answer": "common:q.questions.recent_contacts.distanza",
+        "id": "contacts.distanza",
+        "answer": "common:q.questions.contacts.distanza",
         "value": 5
       },
       {
-        "id": "recent_contacts.no_one",
-        "answer": "common:q.questions.recent_contacts.no_one",
+        "id": "contacts.no_one",
+        "answer": "common:q.questions.contacts.no_one",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "immuno",
+    "question": "common:q.questions.immuno.question",
+    "category": "common:q.category.risk.name",
+    "type": "radio",
+    "points": 100,
+    "answers": [
+      {
+        "id": "immuno.depressed",
+        "answer": "common:q.questions.immuno.depressed",
+        "value": 5
+      },
+      {
+        "id": "immuno.normal",
+        "answer": "common:q.questions.immuno.normal",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "family",
+    "question": "common:q.questions.family.question",
+    "category": "common:q.category.risk.name",
+    "type": "radio",
+    "points": 100,
+    "answers": [
+      {
+        "id": "family.exposed",
+        "answer": "common:q.questions.family.exposed",
+        "value": 5
+      },
+      {
+        "id": "family.safe",
+        "answer": "common:q.questions.family.safe",
         "value": 5
       }
     ]

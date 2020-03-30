@@ -43,11 +43,10 @@
 		},
 		"questions": {
 			"age": {
-				"15": "meno di 15 anni",
-				"35": "tra 15 e 35 anni",
-				"50": "tra 35 e 50 anni",
-				"75": "tra 50 e 75 anni",
-				"100": "oltre 75 anni",
+				"40": "meno di 40 anni",
+				"60": "tra 40 e 60 anni",
+				"80": "tra 60 e 80 anni",
+				"100": "oltre 80 anni",
 				"question": "Etá"
 			},
 			"breathing": {
@@ -55,16 +54,39 @@
 				"question": "Respirazione",
 				"well": "respiro bene"
 			},
+			"cardiovascular": {
+				"have": "soffro di malattie cardiovascolari",
+				"none": "non soffro di malattie cardiovascolari",
+				"question": "malattie cardiovascolari"
+			},
+			"cholesterol": {
+				"have": "soffro di colesterolo alto",
+				"none": "non soffro di colesterolo alto",
+				"question": "Colesterolo"
+			},
 			"conditions": {
 				"have": "soffro di altre patologie",
 				"none": "non ho altre patologie",
-				"question": "Patologie"
+				"question": "altre patologie"
+			},
+			"contacts": {
+				"crowd": "sono stato in mezzo alla folla con estranei che mi stavano vicino",
+				"distanza": "sono stato fuori nei giorni scorsi e mi sono tenuto a buona distanza da tutti",
+				"infected_no_protection": "sono stato in presenza di persone infette dal covid-19 (corona virus), senza protezioni",
+				"infected_with_protection": "sono stato in presenza di persone infette dal covid-19 (corona virus), ma eravamo protetti",
+				"no_one": "non esco di casa da due settimane, non ho incontrato nessuno",
+				"question": "Contatti recenti"
 			},
 			"cough": {
 				"dry": "tosse secca",
 				"none": "niente tosse",
 				"question": "Tosse",
 				"wet": "tosse con secrezioni"
+			},
+			"family": {
+				"exposed": "Alcuni dei miei conviventi sono ad alto rischio di infezione",
+				"question": "Persone che vivono con me",
+				"safe": "il mio sistema immunitario va bene"
 			},
 			"gender": {
 				"female": "Femmina",
@@ -75,6 +97,16 @@
 				"exhausted": "mi sento stanco, spossato",
 				"feel_great": "mi sento bene",
 				"question": "Condizioni generali"
+			},
+			"hypertension": {
+				"have": "soffro di ipertensione",
+				"none": "La mia pressione sanguigna va bene",
+				"question": "Ipertensione"
+			},
+			"immuno": {
+				"depressed": "ho problemi con il sistema immunitario",
+				"normal": "il mio sistema immunitario va bene",
+				"question": "Il tuo sistema immunitario"
 			},
 			"location": {
 				"great": "nelle mie vicinanze c'è un gran numero di contagiati",
@@ -94,14 +126,6 @@
 				"no_smell": "non sento gli odori/sapori",
 				"ok": "Sento gli odori e i sapori",
 				"question": "Percezione"
-			},
-			"recent_contacts": {
-				"crowd": "sono stato in mezzo alla folla con estranei che mi stavano vicino",
-				"distanza": "sono stato fuori nei giorni scorsi e mi sono tenuto a buona distanza da tutti",
-				"infected_no_protection": "sono stato in presenza di persone infette dal covid-19 (corona virus), senza protezioni",
-				"infected_with_protection": "sono stato in presenza di persone infette dal covid-19 (corona virus), ma eravamo protetti",
-				"no_one": "non esco di casa da due settimane, non ho incontrato nessuno",
-				"question": "Contatti recenti"
 			},
 			"temperature": {
 				"high": "febbre (sopra i 37,5 ˚c)",

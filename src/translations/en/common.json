@@ -43,11 +43,10 @@
 		},
 		"questions": {
 			"age": {
-				"15": "under 15",
-				"35": "between 15 and 35",
-				"50": "between 35 and 50",
-				"75": "between 50 and 75",
-				"100": "more than 75",
+				"40": "under 40",
+				"60": "between 40 and 60",
+				"80": "between 60 and 80",
+				"100": "more than 80",
 				"question": "Age"
 			},
 			"breathing": {
@@ -55,16 +54,39 @@
 				"question": "Breathing",
 				"well": "I breathe well"
 			},
+			"cardiovascular": {
+				"have": "I suffer from cardiovascular diseases",
+				"none": "I do not suffer from cardiovascular diseases",
+				"question": "cardiovascular diseases"
+			},
+			"cholesterol": {
+				"have": "I suffer from high cholesterol",
+				"none": "I do not suffer from high cholesterol",
+				"question": "Cholesterol"
+			},
 			"conditions": {
 				"have": "I have other conditions",
 				"none": "I don't have pre existing conditions",
-				"question": "Conditions"
+				"question": "other conditions"
+			},
+			"contacts": {
+				"crowd": "I have been out within a crowd and people were near me",
+				"distanza": "I've been out in the past few days, but I kept good distance from everyone",
+				"infected_no_protection": "I have been in the vicinity of people known to be infected with covid-19 without protections",
+				"infected_with_protection": "I've been in the vicinity of people known to be infected with covid-19, with protections",
+				"no_one": "I met no one, I haven't been out for two weeks",
+				"question": "recent contacts"
 			},
 			"cough": {
 				"dry": "dry cough",
 				"none": "no cough",
 				"question": "Cough",
 				"wet": "wet cough"
+			},
+			"family": {
+				"exposed": "Some of the people I live with has a high risk of infection",
+				"question": "People who live with me",
+				"safe": "my immune system is ok"
 			},
 			"gender": {
 				"female": "Female",
@@ -75,6 +97,16 @@
 				"exhausted": "I feel tired, exhausted",
 				"feel_great": "I feel great",
 				"question": "General conditions"
+			},
+			"hypertension": {
+				"have": "I suffer from hypertension",
+				"none": "my blood pressure is good",
+				"question": "hypertension"
+			},
+			"immuno": {
+				"depressed": "I have problems with my immune system ",
+				"normal": "my immune system is ok",
+				"question": "Your immune system"
 			},
 			"location": {
 				"great": "in my vicinity there is a great number of infected people",
@@ -94,14 +126,6 @@
 				"no_smell": "I can not smell or taste",
 				"ok": "I can smell and taste",
 				"question": "Perception"
-			},
-			"recent_contacts": {
-				"crowd": "I have been out within a crowd and people were near me",
-				"distanza": "I've been out in the past few days, but I kept good distance from everyone",
-				"infected_no_protection": "I have been in the vicinity of people known to be infected with covid-19 without protections",
-				"infected_with_protection": "I've been in the vicinity of people known to be infected with covid-19, with protections",
-				"no_one": "I met no one, I haven't been out for two weeks",
-				"question": "recent contacts"
 			},
 			"temperature": {
 				"high": "fever (above 37,5 ˚c)",

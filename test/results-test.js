@@ -22,7 +22,7 @@ const answersFor = (answerIds) =>
 
 // self test
 test("allAnswers",  (t) => { 
-  t.equal(allAnswers.length, 37, 
+  t.equal(allAnswers.length, 46, 
     "allAnswers should be 37, found " + allAnswers.length);
   t.end()
 });
@@ -55,7 +55,8 @@ const checkRange = (t, points, min, max) => {
   t.ok(points <= max, "points should be <= "+max+" was " + points);
 }
 
-test("completely sick person",  (t) => { 
+// testing conditions
+test("completely sick conditions",  (t) => { 
   const answerIds = [
     "general_conditions.exhausted", 
     "breathing.hard",
@@ -69,7 +70,7 @@ test("completely sick person",  (t) => {
   t.end()
 });
 
-test("fever breathing exhausted sick person",  (t) => { 
+test("fever breathing exhausted conditions",  (t) => { 
   const answerIds = [
     "temperature.high",
     "breathing.hard",
@@ -80,7 +81,7 @@ test("fever breathing exhausted sick person",  (t) => {
   t.end()
 });
 
-test("throat dry cough mid fever sick person",  (t) => { 
+test("throat dry cough mid fever conditions",  (t) => { 
   const answerIds = [
     "throat.aches", 
     "cough.dry", 
@@ -89,3 +90,30 @@ test("throat dry cough mid fever sick person",  (t) => {
   checkRange(t, points, 30, 40);
   t.end()
 });
+
+test("throat dry cough mid fever conditions",  (t) => { 
+  const answerIds = [
+    "throat.itches", 
+    "breathing.well",
+    "perception.ok",
+    "temperature.mid",
+    "cough.none"]
+  const points = getPoints(answerIds, 'common:q.category.conditions.name');
+  checkRange(t, points, 20, 40);
+  t.end()
+});
+
+// testing risk
+const all = []
+
+test("completely high risk",  (t) => { 
+  const answerIds = [
+    "gender.male",
+    "location.great",
+    ]
+  const points = getPoints(answerIds, 'common:q.category.conditions.name');
+  checkRange(t, points, 20, 40);
+  t.end()
+});
+
+
