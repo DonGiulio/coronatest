@@ -45,7 +45,7 @@ function calculatePoints(questions, answers, categories) {
     const total = totalQuestions[category.category];
     const answers = totalAnswers[category.category];
     const rawPoints = answers / total;
-    const curPoints = Math.round(rawPoints.toFixed(2)*100);
+    const curPoints =  Math.min(Math.round(rawPoints.toFixed(2)*100), 90);
     points[category.category] = curPoints;
   });
   return points;
