@@ -7,6 +7,7 @@ import questions from "./questions";
 import categories from "./categories";
 import Test from "./Test";
 import Description from "./Description";
+import Privacy from "./Privacy";
 import Donate from "./Donate";
 import Language from "./Language";
 
@@ -20,6 +21,7 @@ const App = () => {
         <hr/>
         <Language />
         <Description />
+        <Privacy />
         <Donate />
         <hr/>
         <h1>{ t('common:main.test') }</h1>

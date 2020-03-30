@@ -9,6 +9,9 @@
 			"message3": "To ensure an accurate response you should answer the following questions to the best of your knowledge and understanding.",
 			"message4": "There are no wrong answers, the only wrong answer is the one you don't feel right with."
 		},
+		"privacy": {
+			"notice1": "To guarantee the privacy of your health conditions, this website is completely anonymous, we don't use any kind of tracking devices to identify you and we don't save any of the test results. "
+		},
 		"test": "The test",
 		"title": "Covid-19 Test"
 	},

@@ -9,6 +9,9 @@
 			"message3": "Per garantire un risultato accurato dovresti rispindere alle seguenti domande al meglio delle tue conoscenze e comprensione.",
 			"message4": "Non ci sono risposte sbagliate, l'unica risposta sbagliata è quella che non ti sembra giusta."
 		},
+		"privacy": {
+			"notice1": "Per garantire la privacy del tuo stato di salute, questo sito è completamente anonimo, non usiamo alcun tipo di meccanismo per identificarti e non salviamo alcuno dei tuoi dati personali."
+		},
 		"test": "Il test",
 		"title": "Test Covid-19"
 	},
