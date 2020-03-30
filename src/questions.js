@@ -42,7 +42,7 @@ const  questions = [
     "question": "common:q.questions.breathing.question",
     "category": "common:q.category.conditions.name",
     "type": "radio",
-    "points": 80,
+    "points": 100,
     "answers": [
       {
         "id": 201,
@@ -52,7 +52,7 @@ const  questions = [
       {
         "id": 202,
         "answer": "common:q.questions.breathing.hard",
-        "value": 80
+        "value": 100
       }
     ]
   },
@@ -61,7 +61,7 @@ const  questions = [
     "question": "common:q.questions.perception.question",
     "category": "common:q.category.conditions.name",
     "type": "radio",
-    "points": 50,
+    "points": 30,
     "answers": [
       {
         "id": 301,
@@ -71,7 +71,7 @@ const  questions = [
       {
         "id": 302,
         "answer": "common:q.questions.perception.no_smell",
-        "value": 50
+        "value": 30
       }
     ]
   },
@@ -85,7 +85,7 @@ const  questions = [
       {
         "id": 401,
         "answer": "common:q.questions.temperature.high",
-        "value": 60
+        "value": 100
       },
       {
         "id": 402,
@@ -95,7 +95,7 @@ const  questions = [
       {
         "id": 403,
         "answer": "common:q.questions.temperature.none",
-        "value": 20
+        "value": 0
       }
     ]
   },
@@ -104,22 +104,22 @@ const  questions = [
     "question": "common:q.questions.cough.question",
     "category": "common:q.category.conditions.name",
     "type": "radio",
-    "points": 60,
+    "points": 40,
     "answers": [
       {
         "id": 501,
         "answer": "common:q.questions.cough.dry",
-        "value": 60
+        "value": 40
       },
       {
         "id": 502,
         "answer": "common:q.questions.cough.wet",
-        "value": 40
+        "value": 20
       },
       {
         "id": 503,
         "answer": "common:q.questions.cough.none",
-        "value": 20
+        "value": 0
       }
     ]
   },
@@ -128,22 +128,22 @@ const  questions = [
     "question": "common:q.questions.throat.question",
     "category": "common:q.category.conditions.name",
     "type": "radio",
-    "points": 30,
+    "points": 40,
     "answers": [
       {
         "id": 601,
         "answer": "common:q.questions.throat.aches",
-        "value": 5
+        "value": 40
       },
       {
         "id": 602,
         "answer": "common:q.questions.throat.itches",
-        "value": 5
+        "value": 20
       },
       {
         "id": 603,
         "answer": "common:q.questions.throat.ok",
-        "value": 5
+        "value": 0
       }
     ]
   },
@@ -203,7 +203,7 @@ const  questions = [
   {
     "id": 90,
     "question": "common:q.questions.location.question",
-    "category": "common:q.category.risk",
+    "category": "common:q.category.risk.name",
     "type": "checkbox",
     "points": 30,
     "answers": [
@@ -232,7 +232,7 @@ const  questions = [
   {
     "id": 100,
     "question": "common:q.questions.own_habits.question",
-    "category": "common:q.category.risk",
+    "category": "common:q.category.risk.name",
     "type": "checkbox",
     "points": 30,
     "answers": [
@@ -261,7 +261,7 @@ const  questions = [
   {
     "id": 110,
     "question": "common:q.questions.recent_contacts.question",
-    "category": "common:q.category.risk",
+    "category": "common:q.category.risk.name",
     "type": "checkbox",
     "points": 30,
     "answers": [
