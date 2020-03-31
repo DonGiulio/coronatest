@@ -1,6 +1,7 @@
 import React from 'react';
 import { Alert } from 'reactstrap';
 import { useTranslation } from 'react-i18next';
+import ReactMarkdown from 'react-markdown';
 
 import Facebook from 'react-sharingbuttons/dist/buttons/Facebook';
 import Twitter from 'react-sharingbuttons/dist/buttons/Twitter';
@@ -13,7 +14,7 @@ const Share = () => {
   const url = "https://covid19.rorobea.com/"
   return(
     <Alert color="success">
-      <p>{ t('common:main.share.text1') }</p>
+      <ReactMarkdown source={t('common:main.share.text')} />
       <Email url={url} 
              subject={ t('common:main.share.email.subject') } 
              />

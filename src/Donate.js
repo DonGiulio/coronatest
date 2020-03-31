@@ -1,13 +1,14 @@
 import React from 'react';
 import { Alert } from 'reactstrap';
 import { useTranslation } from 'react-i18next';
+import ReactMarkdown from 'react-markdown';
 
 const Donate = () => { 
   const [t] = useTranslation();
 
   return(
     <Alert color="warning">
-      { t('common:main.donate.text1') }
+      <ReactMarkdown source={ t('common:main.donate.text') } />
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_donations" />
         <input type="hidden" name="business" value="JSH62QG97XDUN" />

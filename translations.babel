@@ -64,7 +64,7 @@
                                 <name>donate</name>
                                 <children>
                                     <concept_node>
-                                        <name>text1</name>
+                                        <name>text</name>
                                         <definition_loaded>false</definition_loaded>
                                         <description></description>
                                         <comment></comment>
@@ -130,7 +130,7 @@
                                         </children>
                                     </folder_node>
                                     <concept_node>
-                                        <name>text1</name>
+                                        <name>text</name>
                                         <definition_loaded>false</definition_loaded>
                                         <description></description>
                                         <comment></comment>

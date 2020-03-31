@@ -5,7 +5,7 @@
 			"message": "Il test qui sotto è stato sviluppato per aiutarti a capire se i tuoi sintomi corrispondono con quelli tipici causati dal Corona Virus (Covid-19) e fornirti una guida per capire meglio come prendere le tue precauzioni. \n\nQuesta guida sostituisce in alcun modo il tuo sistema sanitario o il tuo medico di fiducia, è pubblicato al solo scopo di aiutarti a capire meglio la tua situazione."
 		},
 		"donate": {
-			"text1": "Questo servizio è stato pubblicato per aumentare la consapevolezza sul virus Covid-19, è completamente gratuito e l'autore non trae alcun profitto dal tuo utilizzo del test. Tuttavia tenere un sito come questo ha dei costi. Se anche tu pensi che la pandemia di queste settimane vada contenuta in ogni modo possibile aiutaci con una donazione, in modo che possiamo continuare a diffondere il questionario e aumentare la consapevolezza della pericolosità del Covid-19. Fai una donazione attraverso il link qui sotto."
+			"text": "Questo servizio è stato pubblicato per aumentare la consapevolezza sul virus Covid-19, è completamente gratuito e l'autore non trae alcun profitto dal tuo utilizzo del test.\n\nTuttavia tenere **un sito come questo ha dei costi.**\n\nSe anche tu pensi che la pandemia di queste settimane vada contenuta in ogni modo possibile aiutaci con una donazione, in modo che possiamo continuare a diffondere il questionario e aumentare la consapevolezza della pericolosità del Covid-19. \n\nFai una donazione attraverso il link qui sotto."
 		},
 		"privacy": {
 			"notice1": "Per garantire la privacy del tuo stato di salute, questo sito è completamente anonimo, non usiamo alcun tipo di meccanismo per identificarti e non salviamo alcuno dei tuoi dati personali."
@@ -14,13 +14,13 @@
 			"email": {
 				"subject": "test online per il Covid-19, importante"
 			},
-			"text1": "Se anche tu pensi che la pandemia di queste settimane vada contenuta in ogni modo possibile aiutaci a diffondere il questionario, condividi questa pagina a tutti i tuoi contatti.",
+			"text": "Se anche tu pensi che la pandemia di queste settimane vada contenuta in ogni modo possibile aiutaci a diffondere il questionario, **condividi questa pagina a tutti i tuoi contatti.**",
 			"twitter": {
 				"shareText": "Covid-19 test, fai il test per conoscere il tuo rischio"
 			}
 		},
 		"test": {
-			"text": "Per garantire un risultato accurato dovresti rispindere alle seguenti domande al meglio delle tue conoscenze e comprensione.\n\nNon ci sono risposte sbagliate, l'unica risposta sbagliata è quella che non ti sembra giusta.",
+			"text": "Per garantire un risultato accurato dovresti rispindere alle seguenti domande al meglio delle tue conoscenze e comprensione.\n\n**Non ci sono risposte sbagliate**, l'unica risposta sbagliata è quella che non ti sembra giusta.",
 			"title": "Il test"
 		},
 		"title": "Test Covid-19"

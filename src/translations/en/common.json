@@ -5,7 +5,7 @@
 			"message": "The test below has been developed to help you identify if your symptoms match with the typical Corona Virus (Covid-19) and give you a guide to better understand how to take your precautions.\n\nThis guide is by no means replacement for your healthcare system or doctor, it has merely been developed to help you understand better your situation."
 		},
 		"donate": {
-			"text1": "This website was published to increase people awareness about Covid-19 virus, you can use it at no cost and the author earns nothing from it. Though maintaining a website like this has costs. If you think too that the pandemic crisis of these weeks needs to be contained in every possible way, please help us with a donation, so that we can keep on spreading the test and the awareness about Covid-19 dangerousness. Please, make a donation with the button below."
+			"text": "This website was published to increase people awareness about Covid-19 virus, you can use it at no cost and the author earns nothing from it.\n\nThough **maintaining a website like this has costs.** \n\nIf you think too that the pandemic crisis of these weeks needs to be contained in every possible way, please help us with a donation, so that we can keep on spreading the test and the awareness about Covid-19 dangerousness. \n\nPlease, consider making a donation with the button below."
 		},
 		"privacy": {
 			"notice1": "To guarantee the privacy of your health conditions, this website is completely anonymous, we don't use any kind of tracking devices to identify you and we don't save any of the test results. "
@@ -14,13 +14,13 @@
 			"email": {
 				"subject": "Covid-19 online test, important"
 			},
-			"text1": "If you too think that the pandemic of these weeks needs to be contained in any possible way, help us spread this test. Share this page to all your contacts. ",
+			"text": "If you too think that the pandemic of these weeks needs to be contained in any possible way, help us spread this test, **share this page to all your contacts.**",
 			"twitter": {
 				"shareText": "Covid-19 test,do the test to know your risk"
 			}
 		},
 		"test": {
-			"text": "To ensure an accurate response you should answer the following questions to the best of your knowledge and understanding.\n\nThere are no wrong answers, the only wrong answer is the one you don't feel right with.",
+			"text": "To ensure an accurate response you should answer the following questions to the best of your knowledge and understanding.\n\nThere are **no wrong answers**, the only wrong answer is the one you don't feel right with.",
 			"title": "The test"
 		},
 		"title": "Covid-19 Test"
