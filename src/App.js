@@ -9,6 +9,7 @@ import Test from "./Test";
 import Description from "./Description";
 import Privacy from "./Privacy";
 import Donate from "./Donate";
+import Share from "./Share";
 import Language from "./Language";
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Description />
         <Privacy />
         <Donate />
+        <Share />
         <hr/>
         <h1>{ t('common:main.test') }</h1>
 

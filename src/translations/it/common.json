@@ -15,6 +15,12 @@
 		"privacy": {
 			"notice1": "Per garantire la privacy del tuo stato di salute, questo sito è completamente anonimo, non usiamo alcun tipo di meccanismo per identificarti e non salviamo alcuno dei tuoi dati personali."
 		},
+		"share": {
+			"text1": "Se anche tu pensi che la pandemia di queste settimane vada contenuta in ogni modo possibile aiutaci a diffondere il questionario, condividi questa pagina a tutti i tuoi contatti.",
+			"twitter": {
+				"text": "Covid-19 test, fai il test per conoscere il tuo rischio"
+			}
+		},
 		"test": "Il test",
 		"title": "Test Covid-19"
 	},

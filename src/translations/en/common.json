@@ -15,6 +15,12 @@
 		"privacy": {
 			"notice1": "To guarantee the privacy of your health conditions, this website is completely anonymous, we don't use any kind of tracking devices to identify you and we don't save any of the test results. "
 		},
+		"share": {
+			"text1": "",
+			"twitter": {
+				"text": "Covid-19 test,do the test to know your risk"
+			}
+		},
 		"test": "The test",
 		"title": "Covid-19 Test"
 	},
