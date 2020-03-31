@@ -74,7 +74,7 @@
 				"distanza": "I've been out in the past few days, but I kept good distance from everyone",
 				"infected_no_protection": "I have been in the vicinity of people known to be infected with covid-19 without protections",
 				"infected_with_protection": "I've been in the vicinity of people known to be infected with covid-19, with protections",
-				"no_one": "I met no one, I haven't been out for two weeks",
+				"no_one": "I met no one / I haven't been out for two weeks",
 				"question": "recent contacts"
 			},
 			"cough": {
@@ -115,17 +115,18 @@
 				"remote": "I live in a remote area, in my vicinity there is no one",
 				"some": "in my vicinity there are some cases of infection"
 			},
-			"own_habits": {
-				"14_days": "I am confined at home since 14 days or more",
-				"gloves": "I always wear rubber gloves when I a out",
-				"mask": "I always wear a surgical mask when I am out",
-				"question": "own habits",
-				"recently": "I got out of home recently"
-			},
 			"perception": {
 				"no_smell": "I can not smell or taste",
 				"ok": "I can smell and taste",
 				"question": "Perception"
+			},
+			"precautions": {
+				"distance": "I keep one meter distance from other people",
+				"gloves": "I always wear rubber gloves when I a out",
+				"mask": "I always wear a surgical mask when I am out",
+				"question": "Precautions",
+				"wash_hands_quick": "I wash my hands often but in a quick way",
+				"wash_hands_thoroughly": "I wash my hands often in a thorough way"
 			},
 			"temperature": {
 				"high": "fever (above 37,5 ˚c)",
@@ -135,7 +136,7 @@
 			},
 			"throat": {
 				"aches": "my throat aches",
-				"itches": "I feel something at my throat",
+				"itches": "my throat itches",
 				"ok": "my throat is fine",
 				"question": "Throat"
 			}

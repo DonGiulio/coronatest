@@ -22,8 +22,8 @@ const answersFor = (answerIds) =>
 
 // self test
 test("allAnswers",  (t) => { 
-  t.equal(allAnswers.length, 46, 
-    "allAnswers should be 37, found " + allAnswers.length);
+  t.equal(allAnswers.length, 47, 
+    "allAnswers should be 47, found " + allAnswers.length);
   t.end()
 });
 
@@ -202,10 +202,11 @@ const allExposure= [
   "location.some",
   "location.no",
   "location.remote",
-  "own_habits.mask",
-  "own_habits.gloves",
-  "own_habits.14_days",
-  "own_habits.recently",
+  "precautions.mask",
+  "precautions.gloves",
+  "precautions.distance",
+  "precautions.wash_hands_quick",
+  "precautions.wash_hands_thoroughly",
   "contacts.crowd",
   "contacts.infected_no_protection",
   "contacts.infected_with_protection",
@@ -219,14 +220,58 @@ const allExposure= [
 
 test("completely high exposure",  (t) => { 
   const answerIds = [
-    "conditions.have",
-    "hypertension.have",
-    "cardiovascular.have",
-    "cholesterol.have",
-    "age.100",
-    "gender.male"
+    "location.great",
+    "contacts.crowd",
+    "immuno.depressed",
+    "family.exposed",
   ]
-  const points = getPoints(answerIds, 'common:q.category.gravity.name');
+  const points = getPoints(answerIds, 'common:q.category.exposure.name');
   checkRange(t, points, 89, 90);
+  t.end()
+});
+
+test("average exposure",  (t) => { 
+  const answerIds = [
+    "location.some",
+    "precautions.distance",
+    "precautions.wash_hands_quick",
+    "contacts.distanza",
+    "immuno.normal",
+    "family.safe"
+  ]
+  const points = getPoints(answerIds, 'common:q.category.exposure.name');
+  checkRange(t, points, 40, 60);
+  t.end()
+});
+
+test("completely protected",  (t) => { 
+  const answerIds = [
+    "location.no",
+    "precautions.mask",
+    "precautions.gloves",
+    "precautions.distance",
+    "precautions.wash_hands_thoroughly",
+    "contacts.no_one",
+    "immuno.normal",
+    "family.safe"
+  ]
+  const points = getPoints(answerIds, 'common:q.category.exposure.name');
+  checkRange(t, points, 0, 30);
+  t.end()
+});
+
+test("maniacal but living with infected",  (t) => { 
+  const answerIds = [
+    "location.no",
+    "precautions.mask",
+    "precautions.gloves",
+    "precautions.distance",
+    "precautions.wash_hands_thoroughly",
+    "contacts.no_one",
+    "immuno.normal",
+    "family.exposed",
+  ]
+  const points = getPoints(answerIds, 'common:q.category.exposure.name');
+  checkRange(t, points, 60, 90);
   t.end()
 });

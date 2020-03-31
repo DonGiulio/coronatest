@@ -74,7 +74,7 @@
 				"distanza": "sono stato fuori nei giorni scorsi e mi sono tenuto a buona distanza da tutti",
 				"infected_no_protection": "sono stato in presenza di persone infette dal covid-19 (corona virus), senza protezioni",
 				"infected_with_protection": "sono stato in presenza di persone infette dal covid-19 (corona virus), ma eravamo protetti",
-				"no_one": "non esco di casa da due settimane, non ho incontrato nessuno",
+				"no_one": "non ho incontrato nessuno / non esco di casa da due settimane",
 				"question": "Contatti recenti"
 			},
 			"cough": {
@@ -115,17 +115,18 @@
 				"remote": "nelle mie vicinanze non c'è nessuno, vivo in una zona molto remota",
 				"some": "nelle mie vicinanze c'è qualche caso di contagio"
 			},
-			"own_habits": {
-				"14_days": "non esco di casa da più di 2 settimane",
-				"gloves": "indosso i guanti di lattice quando esco di casa",
-				"mask": "indosso la mascherina quando esco di casa",
-				"question": "abitudini proprie",
-				"recently": "sono uscito di casa di recente"
-			},
 			"perception": {
 				"no_smell": "non sento gli odori/sapori",
 				"ok": "Sento gli odori e i sapori",
 				"question": "Percezione"
+			},
+			"precautions": {
+				"distance": "mi tengo a più di un metro di distanza dalle persone",
+				"gloves": "indosso i guanti di lattice quando esco di casa",
+				"mask": "indosso la mascherina quando esco di casa",
+				"question": "Precauzioni",
+				"wash_hands_quick": "mi lavo spesso le mani ma in maniera svelta",
+				"wash_hands_thoroughly": "mi lavo spesso le mani e in modo accurato"
 			},
 			"temperature": {
 				"high": "febbre (sopra i 37,5 ˚c)",

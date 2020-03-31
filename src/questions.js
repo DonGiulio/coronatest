@@ -123,6 +123,8 @@ const  questions = [
       },
       {
         "id": "throat.ok",
+        "answer": "common:q.questions.throat.ok",
+        "value": 0
       }
     ]
   },
@@ -260,52 +262,57 @@ const  questions = [
       {
         "id": "location.great",
         "answer": "common:q.questions.location.great",
-        "value": 5
+        "value": 150
       },
       {
         "id": "location.some",
         "answer": "common:q.questions.location.some",
-        "value": 5
+        "value": 100
       },
       {
         "id": "location.no",
         "answer": "common:q.questions.location.no",
-        "value": 5
+        "value": 40
       },
       {
         "id": "location.remote",
         "answer": "common:q.questions.location.remote",
-        "value": 5
+        "value": 20
       }
     ]
   },
   {
-    "id": "own_habits",
-    "question": "common:q.questions.own_habits.question",
+    "id": "precautions",
+    "question": "common:q.questions.precautions.question",
     "category": "common:q.category.exposure.name",
     "type": "checkbox",
-    "points": 100,
+    "points": -80,
     "answers": [
       {
-        "id": "own_habits.mask",
-        "answer": "common:q.questions.own_habits.mask",
-        "value": 5
+        "id": "precautions.mask",
+        "answer": "common:q.questions.precautions.mask",
+        "value": -10
       },
       {
-        "id": "own_habits.gloves",
-        "answer": "common:q.questions.own_habits.gloves",
-        "value": 5
+        "id": "precautions.gloves",
+        "answer": "common:q.questions.precautions.gloves",
+        "value": -10
       },
       {
-        "id": "own_habits.14_days",
-        "answer": "common:q.questions.own_habits.14_days",
-        "value": 5
+        "id": "precautions.distance",
+        "answer": "common:q.questions.precautions.distance",
+        "value": -50
       },
       {
-        "id": "own_habits.recently",
-        "answer": "common:q.questions.own_habits.recently",
-        "value": 5
-      }
+        "id": "precautions.wash_hands_quick",
+        "answer": "common:q.questions.precautions.wash_hands_quick",
+        "value": -30
+      },
+      {
+        "id": "precautions.wash_hands_thoroughly",
+        "answer": "common:q.questions.precautions.wash_hands_thoroughly",
+        "value": -80
+      },
     ]
   },
   {
@@ -318,27 +325,27 @@ const  questions = [
       {
         "id": "contacts.crowd",
         "answer": "common:q.questions.contacts.crowd",
-        "value": 5
+        "value": 180
       },
       {
         "id": "contacts.infected_no_protection",
         "answer": "common:q.questions.contacts.infected_no_protection",
-        "value": 5
+        "value": 180
       },
       {
         "id": "contacts.infected_with_protection",
         "answer": "common:q.questions.contacts.infected_with_protection",
-        "value": 5
+        "value": 120
       },
       {
         "id": "contacts.distanza",
         "answer": "common:q.questions.contacts.distanza",
-        "value": 5
+        "value": 60
       },
       {
         "id": "contacts.no_one",
         "answer": "common:q.questions.contacts.no_one",
-        "value": 5
+        "value": 20
       }
     ]
   },
@@ -352,12 +359,12 @@ const  questions = [
       {
         "id": "immuno.depressed",
         "answer": "common:q.questions.immuno.depressed",
-        "value": 5
+        "value": 150
       },
       {
         "id": "immuno.normal",
         "answer": "common:q.questions.immuno.normal",
-        "value": 5
+        "value": 30
       }
     ]
   },
@@ -371,12 +378,12 @@ const  questions = [
       {
         "id": "family.exposed",
         "answer": "common:q.questions.family.exposed",
-        "value": 5
+        "value": 300
       },
       {
         "id": "family.safe",
         "answer": "common:q.questions.family.safe",
-        "value": 5
+        "value": 20
       }
     ]
   }
