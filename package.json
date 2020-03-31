@@ -1,7 +1,7 @@
 {
   "name": "begin-app",
   "description": "Begin Create React App + API",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "proxy": "http://localhost:3333",
   "dependencies": {
     "bootstrap": "^4.4.1",
