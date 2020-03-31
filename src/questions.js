@@ -332,7 +332,7 @@ const  questions = [
     "id": "location",
     "question": "common:q.questions.location.question",
     "category": "common:q.category.exposure.name",
-    "type": "checkbox",
+    "type": "radio",
     "points": 100,
     "answers": [
       {
@@ -388,19 +388,14 @@ const  questions = [
         "id": "precautions.wash_hands_thoroughly",
         "answer": "common:q.questions.precautions.wash_hands_thoroughly",
         "value": -80
-      },
-      {
-        "id": "precautions.none",
-        "answer": "common:q.questions.precautions.none",
-        "value": 180
-      },
+      }
     ]
   },
   {
     "id": "contacts",
     "question": "common:q.questions.contacts.question",
     "category": "common:q.category.exposure.name",
-    "type": "checkbox",
+    "type": "radio",
     "points": 100,
     "answers": [
       {
@@ -422,11 +417,6 @@ const  questions = [
         "id": "contacts.distanza",
         "answer": "common:q.questions.contacts.distanza",
         "value": 60
-      },
-      {
-        "id": "contacts.no_one",
-        "answer": "common:q.questions.contacts.no_one",
-        "value": 20
       }
     ]
   },

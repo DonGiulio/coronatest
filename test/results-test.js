@@ -22,7 +22,7 @@ const answersFor = (answerIds) =>
 
 // self test
 test("allAnswers",  (t) => { 
-  const expected = 56; 
+  const expected = 54; 
   t.equal(allAnswers.length, expected, 
     "allAnswers should be " + expected 
     + ", found " + allAnswers.length);

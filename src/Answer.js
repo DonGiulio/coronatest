@@ -27,7 +27,7 @@ class Answer extends React.Component {
           <input name={this.props.question.id}
                  type={this.props.question.type}
                  onChange={this.handleChange}/>
-              {t(this.props.answer.answer)}
+              &nbsp;{t(this.props.answer.answer)}
         </Label>
       </div>  
     )

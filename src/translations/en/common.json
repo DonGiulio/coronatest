@@ -139,6 +139,7 @@
 				"remote": "I live in a remote area, in my vicinity there is no one",
 				"some": "in my vicinity there are some cases of infection"
 			},
+			"missed_questions": "You missed some required questions",
 			"mucus": {
 				"have": "I have catarrh",
 				"none": "I do not have catarrh",
@@ -158,12 +159,12 @@
 				"distance": "I keep one meter distance from other people",
 				"gloves": "I always wear rubber gloves when I a out",
 				"mask": "I always wear a surgical mask when I am out",
-				"none": "I do not take any precaution",
 				"precautions": "I do not take any precaution",
 				"question": "Precautions",
 				"wash_hands_quick": "I wash my hands often but in a quick way",
 				"wash_hands_thoroughly": "I wash my hands often in a thorough way"
 			},
+			"required": "Answer required",
 			"temperature": {
 				"high": "fever (above 37,5 ˚c)",
 				"mid": "light fever (between 37,0˚c and 37,5˚c)",

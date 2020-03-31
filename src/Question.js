@@ -6,12 +6,12 @@ import Answer from "./Answer";
 
 const Question = (props) => {
   const [t] = useTranslation();
-
+  
   return(
-    <div>    
+    <div>  
       <strong>{props.index}</strong>: {t(props.question.question)}
       {
-        Object.values(props.question.answers).map((answer) => 
+        props.question.answers.map((answer) => 
             <Answer key={answer.id}
                     question={props.question}
                     answer={answer} 

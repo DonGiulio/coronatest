@@ -1587,6 +1587,23 @@
                                             </concept_node>
                                         </children>
                                     </folder_node>
+                                    <concept_node>
+                                        <name>missed_questions</name>
+                                        <definition_loaded>false</definition_loaded>
+                                        <description></description>
+                                        <comment></comment>
+                                        <default_text></default_text>
+                                        <translations>
+                                            <translation>
+                                                <language>en-GB</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                            <translation>
+                                                <language>it-IT</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                        </translations>
+                                    </concept_node>
                                     <folder_node>
                                         <name>mucus</name>
                                         <children>
@@ -1810,23 +1827,6 @@
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
-                                                <name>none</name>
-                                                <definition_loaded>false</definition_loaded>
-                                                <description></description>
-                                                <comment></comment>
-                                                <default_text></default_text>
-                                                <translations>
-                                                    <translation>
-                                                        <language>en-GB</language>
-                                                        <approved>false</approved>
-                                                    </translation>
-                                                    <translation>
-                                                        <language>it-IT</language>
-                                                        <approved>false</approved>
-                                                    </translation>
-                                                </translations>
-                                            </concept_node>
-                                            <concept_node>
                                                 <name>precautions</name>
                                                 <definition_loaded>false</definition_loaded>
                                                 <description></description>
@@ -1896,6 +1896,23 @@
                                             </concept_node>
                                         </children>
                                     </folder_node>
+                                    <concept_node>
+                                        <name>required</name>
+                                        <definition_loaded>false</definition_loaded>
+                                        <description></description>
+                                        <comment></comment>
+                                        <default_text></default_text>
+                                        <translations>
+                                            <translation>
+                                                <language>en-GB</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                            <translation>
+                                                <language>it-IT</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                        </translations>
+                                    </concept_node>
                                     <folder_node>
                                         <name>temperature</name>
                                         <children>

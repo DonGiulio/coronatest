@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withTranslation } from 'react-i18next';
+import {Alert} from 'reactstrap';
 
 import ShowTest from "./ShowTest";
 import Results from "./Results";
@@ -9,8 +10,20 @@ import {calculatePoints, clone} from "./calculations";
 const INITIAL_STATE = {
       points: [],
       answers: [],
+      missingQuestions: [],
       showResults: false,
     };
+
+const MissingQuestions = (({t, questions}) => {
+  if(questions.length > 0){
+      return(  
+        <Alert color="danger">{ t('common:q.questions.missed_questions') }</Alert>
+      )
+    }else{
+      return(null)
+    }
+
+})
 
 class Test extends React.Component {
   constructor(props) {
@@ -25,6 +38,20 @@ class Test extends React.Component {
   }
 
   handleSubmit(event) {
+    event.preventDefault();
+    // find missing answers
+    const radioAnswers = new Set(this.state.answers.filter((answer) => 
+          answer.type === "radio").map((answer) => answer.question ));
+    const radioQuestions = this.props.questions.filter((question) => 
+      question.type === "radio").map((question) => question.id );
+
+    const missingQuestions = radioQuestions.filter((q) => !radioAnswers.has(q));
+
+    if(missingQuestions.length > 0){
+      this.setState({missingQuestions: missingQuestions});
+      return;
+    }
+
     const po = calculatePoints(this.props.questions, 
                                this.state.answers, 
                                this.props.categories);
@@ -34,7 +61,6 @@ class Test extends React.Component {
         showResults: true
       }
     )
-    event.preventDefault();
   }
 
   addAnswer(answer, question){
@@ -78,10 +104,13 @@ class Test extends React.Component {
               <p>{ this.props.t('common:main.test.text1') }</p>
               <p>{ this.props.t('common:main.test.text2') }</p>
               <ShowTest questions={this.props.questions}
-                       handleSubmit={this.handleSubmit}
-                       addAnswer={this.addAnswer}
-                       removeAnswer={this.removeAnswer}
+                        missingQuestions={this.state.missingQuestions}
+                        handleSubmit={this.handleSubmit}
+                        addAnswer={this.addAnswer}
+                        removeAnswer={this.removeAnswer}
               />
+              <MissingQuestions t={this.props.t} 
+                                questions={this.state.missingQuestions} />
             </div> )
     }
   }

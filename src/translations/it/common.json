@@ -139,6 +139,7 @@
 				"remote": "nelle mie vicinanze non c'è nessuno, vivo in una zona molto remota",
 				"some": "nelle mie vicinanze c'è qualche caso di contagio"
 			},
+			"missed_questions": "Hai mancato qualche risposta",
 			"mucus": {
 				"have": "ho catarro",
 				"none": "non ho catarro",
@@ -158,12 +159,12 @@
 				"distance": "mi tengo a più di un metro di distanza dalle persone",
 				"gloves": "indosso i guanti di lattice quando esco di casa",
 				"mask": "indosso la mascherina quando esco di casa",
-				"none": "non prendo alcuna precauzione",
 				"precautions": "non prendo alcuna precauzione",
 				"question": "Precauzioni",
 				"wash_hands_quick": "mi lavo spesso le mani ma in maniera svelta",
 				"wash_hands_thoroughly": "mi lavo spesso le mani e in modo accurato"
 			},
+			"required": "Risposta richiesta",
 			"temperature": {
 				"high": "febbre (sopra i 37,5 ˚c)",
 				"mid": "febbre leggera (tra 37,0˚c e 37,5˚c)",
