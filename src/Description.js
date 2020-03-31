@@ -13,8 +13,6 @@ const Description = () => {
              <p>{ t('common:main.description.alert2') }</p>
              <p>{ t('common:main.description.alert3') }</p>
            </Alert>
-           <p>{ t('common:main.description.message3') }</p>
-           <p>{ t('common:main.description.message4') }</p>
   </div>)}
 
 export default Description;

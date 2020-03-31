@@ -5,23 +5,28 @@
 			"alert2": "Nel caso in cui il test ti indichi come positivo, è semplicemente una raccomandazione a investigare il tuo caso contattando il tuo medico di fiducia",
 			"alert3": "Nel caso in cui il test risulti negativo ma tu abbia ancora dubbi, ti incoraggiamo a rivolgerti al tuo medico di fiducia e seguire i suoi consigli",
 			"message1": "Il test qui sotto è stato sviluppato per aiutarti a capire se i tuoi sintomi corrispondono con quelli tipici causati dal Corona Virus (Covid-19) e fornirti una guida per capire meglio come prendere le tue precauzioni. ",
-			"message2": "Questa guida sostituisce in alcun modo il tuo sistema sanitario o il tuo medico di fiducia, è pubblicato al solo scopo di aiutarti a capire meglio la tua situazione.",
-			"message3": "Per garantire un risultato accurato dovresti rispindere alle seguenti domande al meglio delle tue conoscenze e comprensione.",
-			"message4": "Non ci sono risposte sbagliate, l'unica risposta sbagliata è quella che non ti sembra giusta."
+			"message2": "Questa guida sostituisce in alcun modo il tuo sistema sanitario o il tuo medico di fiducia, è pubblicato al solo scopo di aiutarti a capire meglio la tua situazione."
 		},
 		"donate": {
-			"text1": "Questo servizio è stato pubblicato per cercare di aumentare la consapevolezza sul virus covid-19, è completamente gratuito e l'autore non trae alcun profitto dal tuo utilizzo del test. Tuttavia tenere un sito come questo online ha dei costi. Se anche tu pensi che la pandemia di queste settimane vada contenuta in ogni modo possibile aiutaci a diffondere il questionario, in modo che quante più persone possibile in tutto il mondo possano aumentare la propria consapevolezza circa la pericolosità del Covid-19. Fai una donazione attraverso il link qui sotto."
+			"text1": "Questo servizio è stato pubblicato per aumentare la consapevolezza sul virus covid-19, è completamente gratuito e l'autore non trae alcun profitto dal tuo utilizzo del test. Tuttavia tenere un sito come questo ha dei costi. Se anche tu pensi che la pandemia di queste settimane vada contenuta in ogni modo possibile aiutaci con una donazione, in modo che possiamo continuare a diffondere il questionario e aumentare la consapevolezza della pericolosità del Covid-19. Fai una donazione attraverso il link qui sotto."
 		},
 		"privacy": {
 			"notice1": "Per garantire la privacy del tuo stato di salute, questo sito è completamente anonimo, non usiamo alcun tipo di meccanismo per identificarti e non salviamo alcuno dei tuoi dati personali."
 		},
 		"share": {
+			"email": {
+				"subject": "test online per il Covid-19, importante"
+			},
 			"text1": "Se anche tu pensi che la pandemia di queste settimane vada contenuta in ogni modo possibile aiutaci a diffondere il questionario, condividi questa pagina a tutti i tuoi contatti.",
 			"twitter": {
-				"text": "Covid-19 test, fai il test per conoscere il tuo rischio"
+				"shareText": "Covid-19 test, fai il test per conoscere il tuo rischio"
 			}
 		},
-		"test": "Il test",
+		"test": {
+			"text1": "Per garantire un risultato accurato dovresti rispindere alle seguenti domande al meglio delle tue conoscenze e comprensione.",
+			"text2": "Non ci sono risposte sbagliate, l'unica risposta sbagliata è quella che non ti sembra giusta.",
+			"title": "Il test"
+		},
 		"title": "Test Covid-19"
 	},
 	"q": {
@@ -153,6 +158,7 @@
 				"distance": "mi tengo a più di un metro di distanza dalle persone",
 				"gloves": "indosso i guanti di lattice quando esco di casa",
 				"mask": "indosso la mascherina quando esco di casa",
+				"none": "non prendo alcuna precauzione",
 				"precautions": "non prendo alcuna precauzione",
 				"question": "Precauzioni",
 				"wash_hands_quick": "mi lavo spesso le mani ma in maniera svelta",

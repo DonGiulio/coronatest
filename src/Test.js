@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { withTranslation } from 'react-i18next';
 
 import ShowTest from "./ShowTest";
 import Results from "./Results";
@@ -72,18 +73,24 @@ class Test extends React.Component {
                       retest={this.retest}
               />)
     } else {
-      return(<ShowTest questions={this.props.questions}
+      return(
+            <div>
+              <p>{ this.props.t('common:main.test.text1') }</p>
+              <p>{ this.props.t('common:main.test.text2') }</p>
+              <ShowTest questions={this.props.questions}
                        handleSubmit={this.handleSubmit}
                        addAnswer={this.addAnswer}
                        removeAnswer={this.removeAnswer}
-              /> )
+              />
+            </div> )
     }
   }
 }
 
 Test.propTypes = {
+  t: PropTypes.func,
   questions: PropTypes.array,
   categories: PropTypes.array
 };
 
-export default Test;
+export default withTranslation()(Test);
