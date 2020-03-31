@@ -1,11 +1,8 @@
 {
 	"main": {
 		"description": {
-			"alert1": "I risultati di questo test sono solamente indicativi e non devono allarmarti",
-			"alert2": "Nel caso in cui il test ti indichi come positivo, è semplicemente una raccomandazione a investigare il tuo caso contattando il tuo medico di fiducia",
-			"alert3": "Nel caso in cui il test risulti negativo ma tu abbia ancora dubbi, ti incoraggiamo a rivolgerti al tuo medico di fiducia e seguire i suoi consigli",
-			"message1": "Il test qui sotto è stato sviluppato per aiutarti a capire se i tuoi sintomi corrispondono con quelli tipici causati dal Corona Virus (Covid-19) e fornirti una guida per capire meglio come prendere le tue precauzioni. ",
-			"message2": "Questa guida sostituisce in alcun modo il tuo sistema sanitario o il tuo medico di fiducia, è pubblicato al solo scopo di aiutarti a capire meglio la tua situazione."
+			"alert": "I risultati di questo test sono solamente indicativi e non devono allarmarti.\n\nNel caso in cui il test ti indichi come positivo, è semplicemente una raccomandazione a investigare il tuo caso contattando il tuo medico di fiducia.\n\nNel caso in cui il test risulti negativo ma tu abbia ancora dubbi, ti incoraggiamo a rivolgerti al tuo medico di fiducia e seguire i suoi consigli\n\n",
+			"message": "Il test qui sotto è stato sviluppato per aiutarti a capire se i tuoi sintomi corrispondono con quelli tipici causati dal Corona Virus (Covid-19) e fornirti una guida per capire meglio come prendere le tue precauzioni. \n\nQuesta guida sostituisce in alcun modo il tuo sistema sanitario o il tuo medico di fiducia, è pubblicato al solo scopo di aiutarti a capire meglio la tua situazione."
 		},
 		"donate": {
 			"text1": "Questo servizio è stato pubblicato per aumentare la consapevolezza sul virus Covid-19, è completamente gratuito e l'autore non trae alcun profitto dal tuo utilizzo del test. Tuttavia tenere un sito come questo ha dei costi. Se anche tu pensi che la pandemia di queste settimane vada contenuta in ogni modo possibile aiutaci con una donazione, in modo che possiamo continuare a diffondere il questionario e aumentare la consapevolezza della pericolosità del Covid-19. Fai una donazione attraverso il link qui sotto."
@@ -23,8 +20,7 @@
 			}
 		},
 		"test": {
-			"text1": "Per garantire un risultato accurato dovresti rispindere alle seguenti domande al meglio delle tue conoscenze e comprensione.",
-			"text2": "Non ci sono risposte sbagliate, l'unica risposta sbagliata è quella che non ti sembra giusta.",
+			"text": "Per garantire un risultato accurato dovresti rispindere alle seguenti domande al meglio delle tue conoscenze e comprensione.\n\nNon ci sono risposte sbagliate, l'unica risposta sbagliata è quella che non ti sembra giusta.",
 			"title": "Il test"
 		},
 		"title": "Test Covid-19"

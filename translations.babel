@@ -25,7 +25,7 @@
                                 <name>description</name>
                                 <children>
                                     <concept_node>
-                                        <name>alert1</name>
+                                        <name>alert</name>
                                         <definition_loaded>false</definition_loaded>
                                         <description></description>
                                         <comment></comment>
@@ -42,58 +42,7 @@
                                         </translations>
                                     </concept_node>
                                     <concept_node>
-                                        <name>alert2</name>
-                                        <definition_loaded>false</definition_loaded>
-                                        <description></description>
-                                        <comment></comment>
-                                        <default_text></default_text>
-                                        <translations>
-                                            <translation>
-                                                <language>en-GB</language>
-                                                <approved>false</approved>
-                                            </translation>
-                                            <translation>
-                                                <language>it-IT</language>
-                                                <approved>false</approved>
-                                            </translation>
-                                        </translations>
-                                    </concept_node>
-                                    <concept_node>
-                                        <name>alert3</name>
-                                        <definition_loaded>false</definition_loaded>
-                                        <description></description>
-                                        <comment></comment>
-                                        <default_text></default_text>
-                                        <translations>
-                                            <translation>
-                                                <language>en-GB</language>
-                                                <approved>false</approved>
-                                            </translation>
-                                            <translation>
-                                                <language>it-IT</language>
-                                                <approved>false</approved>
-                                            </translation>
-                                        </translations>
-                                    </concept_node>
-                                    <concept_node>
-                                        <name>message1</name>
-                                        <definition_loaded>false</definition_loaded>
-                                        <description></description>
-                                        <comment></comment>
-                                        <default_text></default_text>
-                                        <translations>
-                                            <translation>
-                                                <language>en-GB</language>
-                                                <approved>false</approved>
-                                            </translation>
-                                            <translation>
-                                                <language>it-IT</language>
-                                                <approved>false</approved>
-                                            </translation>
-                                        </translations>
-                                    </concept_node>
-                                    <concept_node>
-                                        <name>message2</name>
+                                        <name>message</name>
                                         <definition_loaded>false</definition_loaded>
                                         <description></description>
                                         <comment></comment>
@@ -225,24 +174,7 @@
                                 <name>test</name>
                                 <children>
                                     <concept_node>
-                                        <name>text1</name>
-                                        <definition_loaded>false</definition_loaded>
-                                        <description></description>
-                                        <comment></comment>
-                                        <default_text></default_text>
-                                        <translations>
-                                            <translation>
-                                                <language>en-GB</language>
-                                                <approved>false</approved>
-                                            </translation>
-                                            <translation>
-                                                <language>it-IT</language>
-                                                <approved>false</approved>
-                                            </translation>
-                                        </translations>
-                                    </concept_node>
-                                    <concept_node>
-                                        <name>text2</name>
+                                        <name>text</name>
                                         <definition_loaded>false</definition_loaded>
                                         <description></description>
                                         <comment></comment>

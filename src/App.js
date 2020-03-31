@@ -3,14 +3,19 @@ import { useTranslation } from 'react-i18next';
 import './App.css';
 import {Navbar} from 'reactstrap';
 
-import questions from "./questions";
-import categories from "./categories";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 import Test from "./Test";
-import Description from "./Description";
 import Privacy from "./Privacy";
 import Donate from "./Donate";
 import Share from "./Share";
 import Language from "./Language";
+import Article from './pages/Article';
 
 const App = () => {
   const [t] = useTranslation();
@@ -26,16 +31,36 @@ const App = () => {
           </a>
         </Navbar>
           <Language className="float-right"/>
-        <hr/>
-        
+        <hr/>        
         <Description />
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Test</Link>
+            </li>
+            <li>
+              <Link to="/article">Article</Link>
+            </li>
+          </ul>
+        </nav>
         <Privacy />
         <Donate />
         <Share />
-        <hr/>
-        <h1>{ t('common:main.test.title') }</h1>
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/article">
+            <Article />
+          </Route>
+          <Route path="/">
+            <Test />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
 
-        <Test questions={questions} categories={categories}/>
         <Donate />
         <Share />
 

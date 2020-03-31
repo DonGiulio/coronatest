@@ -1,11 +1,8 @@
 {
 	"main": {
 		"description": {
-			"alert1": "Results of this test are just indicative and should not alarm you.",
-			"alert2": "In case the test marks you as positive, it’s merely a recommendation to further explore your case and contact your healthcare professionals.",
-			"alert3": "In case the test marks you as negative but you are still doubtful you are encouraged to seek help from your healthcare professionals.",
-			"message1": "The test below has been developed to help you identify if your symptoms match with the typical Corona Virus (Covid-19) and give you a guide to better understand how to take your precautions.",
-			"message2": "This guide is by no means replacement for your healthcare system or doctor, it has merely been developed to help you understand better your situation."
+			"alert": "Results of this test are just indicative and should not alarm you.\n\nIn case the test marks you as positive, it’s merely a recommendation to further explore your case and contact your healthcare professionals.\n\nIn case the test marks you as negative but you are still doubtful you are encouraged to seek help from your healthcare professionals.",
+			"message": "The test below has been developed to help you identify if your symptoms match with the typical Corona Virus (Covid-19) and give you a guide to better understand how to take your precautions.\n\nThis guide is by no means replacement for your healthcare system or doctor, it has merely been developed to help you understand better your situation."
 		},
 		"donate": {
 			"text1": "This website was published to increase people awareness about Covid-19 virus, you can use it at no cost and the author earns nothing from it. Though maintaining a website like this has costs. If you think too that the pandemic crisis of these weeks needs to be contained in every possible way, please help us with a donation, so that we can keep on spreading the test and the awareness about Covid-19 dangerousness. Please, make a donation with the button below."
@@ -23,8 +20,7 @@
 			}
 		},
 		"test": {
-			"text1": "To ensure an accurate response you should answer the following questions to the best of your knowledge and understanding.",
-			"text2": "There are no wrong answers, the only wrong answer is the one you don't feel right with.",
+			"text": "To ensure an accurate response you should answer the following questions to the best of your knowledge and understanding.\n\nThere are no wrong answers, the only wrong answer is the one you don't feel right with.",
 			"title": "The test"
 		},
 		"title": "Covid-19 Test"

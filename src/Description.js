@@ -1,17 +1,15 @@
 import React from 'react';
 import { Alert } from 'reactstrap';
 import { useTranslation } from 'react-i18next';
+import ReactMarkdown from 'react-markdown';
 
 const Description = () => { 
   const [t] = useTranslation();
 
   return(<div>
-           <p>{ t('common:main.description.message1') }</p>
-           <p>{ t('common:main.description.message2') }</p>
+           <ReactMarkdown source={t('common:main.description.message')} />
            <Alert color="danger">
-             <p>{ t('common:main.description.alert1') }</p>
-             <p>{ t('common:main.description.alert2') }</p>
-             <p>{ t('common:main.description.alert3') }</p>
+             <ReactMarkdown source={ t('common:main.description.alert') } />
            </Alert>
   </div>)}
 
