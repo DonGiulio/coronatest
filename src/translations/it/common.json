@@ -94,6 +94,7 @@
 				"infected_no_protection": "sono stato in presenza di persone infette dal Covid-19 (corona virus), senza protezioni",
 				"infected_with_protection": "sono stato in presenza di persone infette dal Covid-19 (corona virus), ma eravamo protetti",
 				"no_one": "non ho incontrato nessuno / non esco di casa da due settimane",
+				"normal": "sono stato fuori e mi sono tenuto a buona distanza da tutti",
 				"question": "Contatti recenti"
 			},
 			"cough": {

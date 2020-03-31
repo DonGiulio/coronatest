@@ -94,6 +94,7 @@
 				"infected_no_protection": "I have been in the vicinity of people known to be infected with Covid-19 without protections",
 				"infected_with_protection": "I've been in the vicinity of people known to be infected with Covid-19, with protections",
 				"no_one": "I met no one / I haven't been out for two weeks",
+				"normal": "I have been out and I kept a good distance from everyone",
 				"question": "recent contacts"
 			},
 			"cough": {

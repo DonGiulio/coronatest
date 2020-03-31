@@ -399,6 +399,10 @@ const  questions = [
     "points": 100,
     "answers": [
       {
+        "id": "contacts.normal",
+        "answer": "common:q.questions.contacts.normal",
+        "value": 60
+      },      {
         "id": "contacts.crowd",
         "answer": "common:q.questions.contacts.crowd",
         "value": 180
