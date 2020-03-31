@@ -1,7 +1,7 @@
 function totalForCategory(questions, category) {
   var total = 0;
   Object.values(questions).forEach((question) => {
-    if(question.category === null) throw "question is missing category";
+    if(question.category === null) throw new Error("question is missing category");
     if(question.category === category.category) {
        total += question.points
     } 
@@ -20,7 +20,7 @@ function totalsByCategory(questions, categories) {
 function countAnswersInCategory(answers, category) {
   var total = 0;
   Object.values(answers).forEach((answer) => {
-    if(answer.category === null) throw "answer is missing category";
+    if(answer.category === null) throw new Error("answer is missing category");
     if(answer.category === category.category) {
       total += answer.value
     }
