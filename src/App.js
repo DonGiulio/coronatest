@@ -18,7 +18,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header container">
-        <h1>{ t('common:main.test.title') }</h1>
+        <h1>{ t('common:main.title') }</h1>
         <hr/>
         <Language />
         <Description />
