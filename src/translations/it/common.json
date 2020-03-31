@@ -9,6 +9,9 @@
 			"message3": "Per garantire un risultato accurato dovresti rispindere alle seguenti domande al meglio delle tue conoscenze e comprensione.",
 			"message4": "Non ci sono risposte sbagliate, l'unica risposta sbagliata è quella che non ti sembra giusta."
 		},
+		"donate": {
+			"text1": "Questo servizio è stato pubblicato per cercare di aumentare la consapevolezza sul virus covid-19, è completamente gratuito e l'autore non trae alcun profitto dal tuo utilizzo del test. Tuttavia tenere un sito come questo online ha dei costi. Se anche tu pensi che la pandemia di queste settimane vada contenuta in ogni modo possibile aiutaci a diffondere il questionario, in modo che quante più persone possibile in tutto il mondo possano aumentare la propria consapevolezza circa la pericolosità del Covid-19. Fai una donazione attraverso il link qui sotto."
+		},
 		"privacy": {
 			"notice1": "Per garantire la privacy del tuo stato di salute, questo sito è completamente anonimo, non usiamo alcun tipo di meccanismo per identificarti e non salviamo alcuno dei tuoi dati personali."
 		},
