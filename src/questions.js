@@ -419,7 +419,7 @@ const  questions = [
       },
       {
         "id": "contacts.distanza",
-        "answer": "common:q.questions.contacts.distanza",
+        "answer": "common:q.questions.contacts.no_one",
         "value": 60
       }
     ]
