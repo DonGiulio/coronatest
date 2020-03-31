@@ -48,19 +48,20 @@ class Test extends React.Component {
     const missingQuestions = radioQuestions.filter((q) => !radioAnswers.has(q));
 
     if(missingQuestions.length > 0){
-      this.setState({missingQuestions: missingQuestions});
+      this.setState({
+        missingQuestions: missingQuestions,
+        showResults: false
+      });
       return;
     }
 
     const po = calculatePoints(this.props.questions, 
                                this.state.answers, 
                                this.props.categories);
-    this.setState(
-      {
+    this.setState({
         points: po, 
         showResults: true
-      }
-    )
+    });
   }
 
   addAnswer(answer, question){
