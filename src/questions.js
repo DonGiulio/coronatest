@@ -195,7 +195,7 @@ const  questions = [
       {
         "id": "throat.itches",
         "answer": "common:q.questions.throat.itches",
-        "value": 40
+        "value": 20
       },
       {
         "id": "throat.ok",

@@ -8,7 +8,7 @@
 			"message2": "Questa guida sostituisce in alcun modo il tuo sistema sanitario o il tuo medico di fiducia, è pubblicato al solo scopo di aiutarti a capire meglio la tua situazione."
 		},
 		"donate": {
-			"text1": "Questo servizio è stato pubblicato per aumentare la consapevolezza sul virus covid-19, è completamente gratuito e l'autore non trae alcun profitto dal tuo utilizzo del test. Tuttavia tenere un sito come questo ha dei costi. Se anche tu pensi che la pandemia di queste settimane vada contenuta in ogni modo possibile aiutaci con una donazione, in modo che possiamo continuare a diffondere il questionario e aumentare la consapevolezza della pericolosità del Covid-19. Fai una donazione attraverso il link qui sotto."
+			"text1": "Questo servizio è stato pubblicato per aumentare la consapevolezza sul virus Covid-19, è completamente gratuito e l'autore non trae alcun profitto dal tuo utilizzo del test. Tuttavia tenere un sito come questo ha dei costi. Se anche tu pensi che la pandemia di queste settimane vada contenuta in ogni modo possibile aiutaci con una donazione, in modo che possiamo continuare a diffondere il questionario e aumentare la consapevolezza della pericolosità del Covid-19. Fai una donazione attraverso il link qui sotto."
 		},
 		"privacy": {
 			"notice1": "Per garantire la privacy del tuo stato di salute, questo sito è completamente anonimo, non usiamo alcun tipo di meccanismo per identificarti e non salviamo alcuno dei tuoi dati personali."
@@ -33,25 +33,25 @@
 		"category": {
 			"conditions": {
 				"high": "Attenzione, il risultato del test indica un'alta probabilità che tu sia infetto. Non c'è da avere paura, la stragrande maggioranza degli infetti non corre alcun pericolo grave e se la cava con qualche giorno di riposo, come in una qualsiasi influenza. In questa fase è fondamentale però che tu rimanga a casa, e che limiti i contatti con altre persone, per non rischiare di contagiarle. Ti consigliamo di avvertire il servizio sanitario per comunicargli i sintomi. Fai attenzione ai tuoi sintomi, se dovessero aggravarsi contatta il pronto soccorso (per telefono, senza uscire di casa) e attieniti alle loro disposizioni",
-				"low": "Complimenti i tuoi sintomi sono poco compatibili con il covid-19. Questa è una buona notizia, ma non garantisce al 100% che tu non l'abbia o che possa stare tranquillo. Il virus si presenta anche in maniera asintomatica. Se dubiti di qeusto risultato ti incoraggiamo a contattare il tuo servizio sanitario per ulteriori verifiche",
+				"low": "Complimenti i tuoi sintomi sono poco compatibili con il Covid-19. Questa è una buona notizia, ma non garantisce al 100% che tu non l'abbia o che possa stare tranquillo. Il virus si presenta anche in maniera asintomatica. Se dubiti di qeusto risultato ti incoraggiamo a contattare il tuo servizio sanitario per ulteriori verifiche",
 				"mid": "Attenzione, i tuoi sintomi corrispondono a una situazione incerta, per cui forse dovresti fare ulteriori verifiche sul tuo stato di salute. Non c'è da avere paura. La raccomandazione è di non uscire (nel caso tu fossi infetto rischieresti di contagiare altre persone) e di contattare il tuo servizio sanitario per ulteriori verifiche",
-				"name": "Condizioni"
+				"name": "Probabilità di ammalarti"
 			},
 			"exposure": {
 				"high": "Attenzione, il risultato del test indica un'alta probabilità che tu sia infetto, o se non lo sei ancora rischi fortemente di infettarti presto. Non c'è da temere però, nella maggior parte degli infetti la malattia ha un decorso come una normale influenza, mentre solo in una certa percentuale di contagiati si aggrava e diventa pericolosa. Sia che tu sia già infetto o no, devi cambiare le tue abitudini aumentando la cura che prendi nel proteggerti e nel proteggere chi ti sta attorno.",
-				"low": "Complimenti le tue abitudini, stile di vita e il contesto in cui vivi ti espone a un basso rischio di contagio, per cui è improbabile (ma non impossibile) che tu abbia contratto o contragga il virus nel futuro prossimo. Non c'è da abbassare la guardia però, in quanto la situazione può cambiare rapidamente e senza preavviso, in particolare pure se tu mantenessi le tue abitudini, nel tuo vicinato potrebbero aumentare i casi, esponendoti a maggiori rischi di ammalarti.",
+				"low": "Complimenti le tue abitudini, stile di vita e il contesto in cui vivi ti espone a un basso rischio di contagio, per cui è improbabile (ma non impossibile) che tu abbia contratto o contragga il virus nel futuro prossimo. \n\nNon c'è da abbassare la guardia però, in quanto la situazione può cambiare rapidamente e senza preavviso, in particolare pure se tu mantenessi le tue abitudini, nel tuo vicinato potrebbero aumentare i casi, esponendoti a maggiori rischi di ammalarti.",
 				"mid": "Attenzione, Le tue abitudini, stile di vita e il contesto in cui vivi ti espongono a un rischio medio, per cui è difficile prevedere se tu abbia o meno già contratto il virus, ma nel caso in cui non inizi a prendere maggiori precauzioni è probabile che tu lo contragga presto. Non c'è da temere però, nella maggior parte degli infetti la malattia ha un decorso come una normale influenza, mentre solo in una certa percentuale di contagiati si aggrava e diventa pericolosa. Perciò è importante che tu protegga te stesso in modo da non contrarlo, e nel caso tu l'abbia già protegga gli altri per non essere responsabile degli eventuali rischi a cui li esporresti",
-				"name": "Rischio"
+				"name": "Probabilità di essere infettati"
 			},
 			"gravity": {
 				"high": "Attenzione, il risultato del test indica un'alta probabilità che se hai o se contraessi il virus avresti gravi conseguenze, se non l'hai già contratto ti invitiamo a prendere estrema cura nelle tue precauzioni, in modo da limitare il rischio di contagio. Nel caso tu sia infetto ti invitiamo ad avvertire il tuo servizio sanitario specificando le tue condizioni e seguendo le loro indicazioni.",
-				"low": "Le tue condizioni fisiche e stato di salute generale indica che è improbabile che tu sviluppi conseguenze gravi dal covid-19. Questa è una buona notizia, ma non c'è da abbassare la guardia ci sono stati anche casi gravi in persone in perfetta salute. Per cui è bene usare tutte le precauzioni, anche in considerazione che potresti diventare responsabile del contagio di persone non così fortunate.",
+				"low": "Le tue condizioni fisiche e stato di salute generale indica che è improbabile che tu sviluppi conseguenze gravi dal Covid-19. Questa è una buona notizia, ma non c'è da abbassare la guardia ci sono stati anche casi gravi in persone in perfetta salute. Per cui è bene usare tutte le precauzioni, anche in considerazione che potresti diventare responsabile del contagio di persone non così fortunate.",
 				"mid": "Attenzione, il risultato del test indica che sei a medio rischio di sviluppare condizioni gravi dal virus, non sei completamente a rischio di avere un decorso grave, ma devi comunque stare attento e prendere le tue precauzioni, ci sono stati casi gravi anche in persone in perfetta salute, inoltre tutti in contagiati sono a loro volta contagiosi e rischiano di far ammalare altre persone, in modo grave",
-				"name": "Gravità"
+				"name": "Probabilità di ammalarti in modo grave"
 			},
-			"high": "Alto rischio",
-			"low": "Basso rischio",
-			"mid": "Medio rischio",
+			"high": "Alta probabilità",
+			"low": "Bassa probabilità",
+			"mid": "Media probabilità",
 			"no_data": "Non hai risposto ad abbastanza domande per formulare una risposta per la categoria \"{{category}}\"",
 			"results": "I tuoi risultati"
 		},
@@ -91,8 +91,8 @@
 			"contacts": {
 				"crowd": "sono stato in mezzo alla folla con estranei che mi stavano vicino",
 				"distanza": "sono stato fuori nei giorni scorsi e mi sono tenuto a buona distanza da tutti",
-				"infected_no_protection": "sono stato in presenza di persone infette dal covid-19 (corona virus), senza protezioni",
-				"infected_with_protection": "sono stato in presenza di persone infette dal covid-19 (corona virus), ma eravamo protetti",
+				"infected_no_protection": "sono stato in presenza di persone infette dal Covid-19 (corona virus), senza protezioni",
+				"infected_with_protection": "sono stato in presenza di persone infette dal Covid-19 (corona virus), ma eravamo protetti",
 				"no_one": "non ho incontrato nessuno / non esco di casa da due settimane",
 				"question": "Contatti recenti"
 			},

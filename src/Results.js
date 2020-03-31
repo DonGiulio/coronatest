@@ -12,11 +12,10 @@ const NoData = (t, category) =>
 const Result = (t, points, category, explanation) => 
   <Alert color={explanation.color} key={t(category.category)} >
     <div>
-      <strong>{t(category.category)}</strong>: 
-      {points}%
+      <h2>{t(category.category)}</h2>
     </div>
     <div>
-      {t(explanation.title)}: { t(explanation.descrizione) }
+      <h3>{t(explanation.title)}</h3> { t(explanation.description) }
     </div>
   </Alert>
 

@@ -9,7 +9,7 @@ const  categories = [
         "max_points": 30,
         "title": "common:q.category.low",
         "color": "info",
-        "descrizione": "common:q.category.conditions.low"
+        "description": "common:q.category.conditions.low"
       },
       {
         "id": 2,
@@ -17,7 +17,7 @@ const  categories = [
         "max_points": 60,
         "title": "common:q.category.mid",
         "color": "warning",
-        "descrizione": "common:q.category.conditions.mid"
+        "description": "common:q.category.conditions.mid"
       },
       {
         "id": 3,
@@ -25,7 +25,7 @@ const  categories = [
         "max_points": 100,
         "title": "common:q.category.high",
         "color": "danger",
-        "descrizione": "common:q.category.conditions.high"
+        "description": "common:q.category.conditions.high"
       }
     ]
   },
@@ -39,7 +39,7 @@ const  categories = [
         "max_points": 30,
         "title": "common:q.category.low",
         "color": "info",
-        "descrizione": "common:q.category.exposure.low"
+        "description": "common:q.category.exposure.low"
       },
       {
         "id": 2,
@@ -47,7 +47,7 @@ const  categories = [
         "max_points": 60,
         "title": "common:q.category.mid",
         "color": "warning",
-        "descrizione": "common:q.category.exposure.mid"
+        "description": "common:q.category.exposure.mid"
       },
       {
         "id": 3,
@@ -55,7 +55,7 @@ const  categories = [
         "max_points": 100,
         "title": "common:q.category.high",
         "color": "danger",
-        "descrizione": "common:q.category.exposure.high"
+        "description": "common:q.category.exposure.high"
       }
     ]
   },
@@ -69,7 +69,7 @@ const  categories = [
         "max_points": 30,
         "title": "common:q.category.low",
         "color": "info",
-        "descrizione": "common:q.category.gravity.low"
+        "description": "common:q.category.gravity.low"
       },
       {
         "id": 2,
@@ -77,7 +77,7 @@ const  categories = [
         "max_points": 60,
         "title": "common:q.category.mid",
         "color": "warning",
-        "descrizione": "common:q.category.gravity.mid"
+        "description": "common:q.category.gravity.mid"
       },
       {
         "id": 3,
@@ -85,7 +85,7 @@ const  categories = [
         "max_points": 100,
         "title": "common:q.category.high",
         "color": "danger",
-        "descrizione": "common:q.category.gravity.high"
+        "description": "common:q.category.gravity.high"
       }
     ]
   }

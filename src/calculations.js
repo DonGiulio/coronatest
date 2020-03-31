@@ -37,6 +37,8 @@ function answersByCategory(answers, categories){
 }
 
 function calculatePoints(questions, answers, categories) {
+  const min = 10;
+  const max = 90;
   const totalQuestions = totalsByCategory(questions, categories);
   const totalAnswers = answersByCategory(answers, categories);
 
@@ -50,7 +52,7 @@ function calculatePoints(questions, answers, categories) {
     const answers = totalAnswers[category.category];
     const rawPoints = answers / total;
     const curPoints =  Math.round(rawPoints.toFixed(2)*100);
-    const cappedPoints = Math.max(Math.min(curPoints, 90), 20);
+    const cappedPoints = Math.max(Math.min(curPoints, max), min);
     points[category.category] = cappedPoints;
   });
   return points;
