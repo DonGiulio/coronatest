@@ -47,7 +47,7 @@
 				"high": "Warning, your result shows a high probability that, should you be infected, you would suffer severe complications. If you think you are infected you should contact your doctors explaining your conditions and following their instructions. If you are not infected you should take your precautions to the extreme, to avoid being infected.",
 				"low": "Your physical and health conditions show that it is unlikely that when infected you develop serious symptoms from Covid-19. This is good news, but you should not lower your guard, there have been also some serious cases on otherwise healthy patients. It is therefore important to use all your precautions, also considering that you might become responsible of infecting others, who might be less fortunate than you are. ",
 				"mid": "Warning, your test shows that you have a medium risk of developing serious conditions from the infection. You are not completely risk free from serious conditions and complications from the disease. You need to keep up your precautions though, there have been a few serious cases on otherwise healthy people. Furthermore each and every infected is contagious, so don't risk infecting others. ",
-				"name": "Probability of getting very sick"
+				"name": "If infected, probability of developing complications"
 			},
 			"high": "High probability",
 			"low": "Low probability",
