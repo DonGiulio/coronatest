@@ -257,7 +257,7 @@ test("average exposure",  (t) => {
     "location.some",
     "precautions.distance",
     "precautions.wash_hands_quick",
-    "contacts.distanza",
+    "contacts.normal",
     "immuno.normal",
     "family.safe"
   ]

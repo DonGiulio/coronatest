@@ -420,7 +420,7 @@ const  questions = [
       {
         "id": "contacts.distanza",
         "answer": "common:q.questions.contacts.no_one",
-        "value": 60
+        "value": 0
       }
     ]
   },
