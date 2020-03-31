@@ -1,17 +1,17 @@
 import React from 'react';
-import { Alert } from 'reactstrap';
 import { useTranslation } from 'react-i18next';
 
 import ReactMarkdown from 'react-markdown';
 
-const Article = () => { 
+const Precauzioni = () => { 
   const [t] = useTranslation();
 
   return(
     <div>
-      <ReactMarkdown source={t('common:main.description.message')} />
+      <h1><ReactMarkdown source={ t('common:pages.precautions.title') } /></h1>
+      <ReactMarkdown source={ t('common:pages.precautions.text') } />
     </div>
   )
 }
 
-export default Article;
+export default Precauzioni;

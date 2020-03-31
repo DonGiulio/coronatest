@@ -25,6 +25,12 @@
 		},
 		"title": "Test Covid-19"
 	},
+	"pages": {
+		"precautions": {
+			"text": "Ogni nazione colpita dalla pandemia di Covid-19 sta rispondendo in autonomia, più o meno tutti con la strategia del '**social distancing**' ovvero tenere i cittadini lontani gli uni dagli altri in modo da circoscrivere e limitare il contagio. \n\nQuesta strategia si è rivelata di successo in Cina, e sta dimostrando la sua validità anche nelle altre nazioni in cui è usata. \n\nIn quest'articolo vi racconterò alcuni trucchi per passare al meglio questo periodo.\n\nCon il 'social distancing' una nazione generalmente impone ai suoi cittadini forti limitazioni sugli spostamenti, permettendo di uscire di casa solo per effettive necessità: \n\n- visite mediche\n- lavoro (in alcuni casi solo per i lavori indispensabili)\n- altre necessità (fare la spesa, accudire gli infermi o altro)",
+			"title": "Come proteggerti al meglio, precauzioni"
+		}
+	},
 	"q": {
 		"category": {
 			"conditions": {

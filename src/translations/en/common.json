@@ -25,6 +25,12 @@
 		},
 		"title": "Covid-19 Test"
 	},
+	"pages": {
+		"precautions": {
+			"text": "Every nation affected by the Covid-19 pandemic is responding autonomously to more or less everyone with the strategy of '**social distancing**', i.e. keeping citizens away from each other in order to contain and limit the contagion. \n\nThis strategy has proved successful in China, and is proving its worth in other countries where it is used. \n\nIn this article I will tell you some tricks to get through this period.\n\nWith 'social distancing' a nation generally imposes strong travel restrictions on its citizens, allowing them to leave home only for real needs: \n\n- medical examinations\n- work (in some cases only for essential work)\n- other needs (shopping, caring for the sick or other)\n",
+			"title": "How to protect yourself, precautions"
+		}
+	},
 	"q": {
 		"category": {
 			"conditions": {
