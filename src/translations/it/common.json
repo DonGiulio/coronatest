@@ -59,6 +59,11 @@
 				"none": "non soffro di malattie cardiovascolari",
 				"question": "malattie cardiovascolari"
 			},
+			"chills": {
+				"have": "ho brividi",
+				"none": "non ho brividi",
+				"question": "Brividi"
+			},
 			"cholesterol": {
 				"have": "soffro di colesterolo alto",
 				"none": "non soffro di colesterolo alto",
@@ -84,19 +89,24 @@
 				"wet": "tosse con secrezioni"
 			},
 			"family": {
-				"exposed": "Alcuni dei miei conviventi sono ad alto rischio di infezione",
+				"exposed": "alcuni dei miei conviventi sono ad alto rischio di infezione",
 				"question": "Persone che vivono con me",
-				"safe": "il mio sistema immunitario va bene"
+				"safe": "i miei conviventi sono sicuri"
 			},
 			"gender": {
-				"female": "Femmina",
-				"male": "Maschio",
+				"female": "femmina",
+				"male": "maschio",
 				"question": "Sesso"
 			},
 			"general_conditions": {
-				"exhausted": "mi sento stanco, spossato",
+				"exhausted": "mi sento stanco / spossato",
 				"feel_great": "mi sento bene",
 				"question": "Condizioni generali"
+			},
+			"headache": {
+				"have": "ho mal di testa",
+				"none": "non ho mal di testa",
+				"question": "Mal di testa"
 			},
 			"hypertension": {
 				"have": "soffro di ipertensione",
@@ -115,6 +125,16 @@
 				"remote": "nelle mie vicinanze non c'è nessuno, vivo in una zona molto remota",
 				"some": "nelle mie vicinanze c'è qualche caso di contagio"
 			},
+			"mucus": {
+				"have": "ho catarro",
+				"none": "non ho catarro",
+				"question": "Catarro"
+			},
+			"pains": {
+				"have": "ho dolori influenzali",
+				"none": "non ho dolori influenzali",
+				"question": "Dolori influenzali"
+			},
 			"perception": {
 				"no_smell": "non sento gli odori/sapori",
 				"ok": "Sento gli odori e i sapori",
@@ -124,6 +144,7 @@
 				"distance": "mi tengo a più di un metro di distanza dalle persone",
 				"gloves": "indosso i guanti di lattice quando esco di casa",
 				"mask": "indosso la mascherina quando esco di casa",
+				"precautions": "non prendo alcuna precauzione",
 				"question": "Precauzioni",
 				"wash_hands_quick": "mi lavo spesso le mani ma in maniera svelta",
 				"wash_hands_thoroughly": "mi lavo spesso le mani e in modo accurato"

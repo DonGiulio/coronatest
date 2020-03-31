@@ -14,7 +14,7 @@ const  questions = [
       {
         "id": "general_conditions.exhausted",
         "answer": "common:q.questions.general_conditions.exhausted",
-        "value": 130
+        "value": 200
       }
     ]
   },
@@ -33,6 +33,63 @@ const  questions = [
       {
         "id": "breathing.hard",
         "answer": "common:q.questions.breathing.hard",
+        "value": 150
+      }
+    ]
+  },
+  {
+    "id": "pains",
+    "question": "common:q.questions.pains.question",
+    "category": "common:q.category.conditions.name",
+    "type": "radio",
+    "points": 100,
+    "answers": [
+      {
+        "id": "pains.well",
+        "answer": "common:q.questions.pains.have",
+        "value": 0
+      },
+      {
+        "id": "pains.hard",
+        "answer": "common:q.questions.pains.none",
+        "value": 150
+      }
+    ]
+  },
+  {
+    "id": "headache",
+    "question": "common:q.questions.headache.question",
+    "category": "common:q.category.conditions.name",
+    "type": "radio",
+    "points": 100,
+    "answers": [
+      {
+        "id": "headache.none",
+        "answer": "common:q.questions.headache.none",
+        "value": 0
+      },
+      {
+        "id": "headache.have",
+        "answer": "common:q.questions.headache.have",
+        "value": 150
+      }
+    ]
+  },
+  {
+    "id": "chills",
+    "question": "common:q.questions.chills.question",
+    "category": "common:q.category.conditions.name",
+    "type": "radio",
+    "points": 100,
+    "answers": [
+      {
+        "id": "chills.well",
+        "answer": "common:q.questions.chills.have",
+        "value": 0
+      },
+      {
+        "id": "chills.hard",
+        "answer": "common:q.questions.chills.none",
         "value": 150
       }
     ]
@@ -66,12 +123,12 @@ const  questions = [
       {
         "id": "temperature.high",
         "answer": "common:q.questions.temperature.high",
-        "value": 120
+        "value": 300
       },
       {
         "id": "temperature.mid",
         "answer": "common:q.questions.temperature.mid",
-        "value": 90
+        "value": 150
       },
       {
         "id": "temperature.none",
@@ -90,18 +147,37 @@ const  questions = [
       {
         "id": "cough.dry",
         "answer": "common:q.questions.cough.dry",
-        "value": 70
+        "value": 160
       },
       {
         "id": "cough.wet",
         "answer": "common:q.questions.cough.wet",
-        "value": 40
+        "value": 60
       },
       {
         "id": "cough.none",
         "answer": "common:q.questions.cough.none",
         "value": 0
       }
+    ]
+  },
+  {
+    "id": "mucus",
+    "question": "common:q.questions.mucus.question",
+    "category": "common:q.category.conditions.name",
+    "type": "radio",
+    "points": 100,
+    "answers": [
+      {
+        "id": "mucus.have",
+        "answer": "common:q.questions.mucus.have",
+        "value": 90
+      },
+      {
+        "id": "mucus.none",
+        "answer": "common:q.questions.mucus.none",
+        "value": 0
+      },
     ]
   },
   {
@@ -312,6 +388,11 @@ const  questions = [
         "id": "precautions.wash_hands_thoroughly",
         "answer": "common:q.questions.precautions.wash_hands_thoroughly",
         "value": -80
+      },
+      {
+        "id": "precautions.none",
+        "answer": "common:q.questions.precautions.none",
+        "value": 180
       },
     ]
   },

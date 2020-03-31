@@ -59,6 +59,11 @@
 				"none": "I do not suffer from cardiovascular diseases",
 				"question": "cardiovascular diseases"
 			},
+			"chills": {
+				"have": "I have chills",
+				"none": "I do not have chills",
+				"question": "Chills"
+			},
 			"cholesterol": {
 				"have": "I suffer from high cholesterol",
 				"none": "I do not suffer from high cholesterol",
@@ -84,19 +89,24 @@
 				"wet": "wet cough"
 			},
 			"family": {
-				"exposed": "Some of the people I live with has a high risk of infection",
+				"exposed": "some of the people I live with has a high risk of infection",
 				"question": "People who live with me",
-				"safe": "my immune system is ok"
+				"safe": "the people I live with are safe"
 			},
 			"gender": {
-				"female": "Female",
-				"male": "Male",
+				"female": "female",
+				"male": "male",
 				"question": "Gender"
 			},
 			"general_conditions": {
-				"exhausted": "I feel tired, exhausted",
+				"exhausted": "I feel tired / exhausted",
 				"feel_great": "I feel great",
 				"question": "General conditions"
+			},
+			"headache": {
+				"have": "I have headache",
+				"none": "I do not have headache",
+				"question": "Headache"
 			},
 			"hypertension": {
 				"have": "I suffer from hypertension",
@@ -115,6 +125,16 @@
 				"remote": "I live in a remote area, in my vicinity there is no one",
 				"some": "in my vicinity there are some cases of infection"
 			},
+			"mucus": {
+				"have": "I have catarrh",
+				"none": "I do not have catarrh",
+				"question": "Catarrh"
+			},
+			"pains": {
+				"have": "I have flu aches",
+				"none": "I do not have flu aches",
+				"question": "Flu aches"
+			},
 			"perception": {
 				"no_smell": "I can not smell or taste",
 				"ok": "I can smell and taste",
@@ -124,6 +144,7 @@
 				"distance": "I keep one meter distance from other people",
 				"gloves": "I always wear rubber gloves when I a out",
 				"mask": "I always wear a surgical mask when I am out",
+				"precautions": "I do not take any precaution",
 				"question": "Precautions",
 				"wash_hands_quick": "I wash my hands often but in a quick way",
 				"wash_hands_thoroughly": "I wash my hands often in a thorough way"
@@ -135,7 +156,7 @@
 				"question": "Temperature"
 			},
 			"throat": {
-				"aches": "my throat aches",
+				"aches": "my throat is sore",
 				"itches": "my throat itches",
 				"ok": "my throat is fine",
 				"question": "Throat"

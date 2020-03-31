@@ -22,8 +22,10 @@ const answersFor = (answerIds) =>
 
 // self test
 test("allAnswers",  (t) => { 
-  t.equal(allAnswers.length, 47, 
-    "allAnswers should be 47, found " + allAnswers.length);
+  const expected = 56; 
+  t.equal(allAnswers.length, expected, 
+    "allAnswers should be " + expected 
+    + ", found " + allAnswers.length);
   t.end()
 });
 
@@ -51,8 +53,10 @@ const getPoints =(answerIds, category)  => {
 }
 
 const checkRange = (t, points, min, max) => {
-  t.ok(points > min, "points should be > "+min+ " was " + points);
-  t.ok(points <= max, "points should be <= "+max+" was " + points);
+  t.ok(points > min, "points should be > " + min 
+                     + " was " + points);
+  t.ok(points <= max, "points should be <= " + max
+                      + " was " + points);
 }
 
 // testing conditions
@@ -61,6 +65,12 @@ const allConditions = [
   "general_conditions.exhausted",
   "breathing.well",
   "breathing.hard",
+  "pains.well",
+  "pains.hard",
+  "headache.well",
+  "headache.hard",
+  "chills.well",
+  "chills.hard",
   "perception.ok",
   "perception.no_smell",
   "temperature.high",
@@ -69,19 +79,26 @@ const allConditions = [
   "cough.dry",
   "cough.wet",
   "cough.none",
+  "mucus.have",
+  "mucus.none",
   "throat.aches",
   "throat.itches",
-  "throat.ok"
+  "throat.ok",
 ]
 
 test("completely sick conditions",  (t) => { 
   const answerIds = [
-    "general_conditions.exhausted", 
+    "general_conditions.exhausted",
     "breathing.hard",
+    "pains.hard",
+    "headache.hard",
+    "chills.hard",
     "perception.no_smell",
     "temperature.high",
-    "cough.dry", 
-    "throat.aches"];
+    "cough.dry",
+    "mucus.have",
+    "throat.aches",
+    ];
 
   const points = getPoints(answerIds, 'common:q.category.conditions.name');
   checkRange(t, points, 80, 90);
@@ -90,26 +107,31 @@ test("completely sick conditions",  (t) => {
 
 test("fever breathing exhausted conditions",  (t) => { 
   const answerIds = [
+    "general_conditions.exhausted",
     "temperature.high",
-    "breathing.hard",
-    "general_conditions.exhausted"]
+    "cough.dry",
+  ]
 
   const points = getPoints(answerIds, 'common:q.category.conditions.name');
-  checkRange(t, points, 65, 90);
+  checkRange(t, points, 60, 90);
   t.end()
 });
 
-test("throat dry cough mid fever conditions",  (t) => { 
+test("mid conditions",  (t) => { 
   const answerIds = [
-    "throat.aches", 
-    "cough.dry", 
-    "temperature.mid"]
+    "headache.hard",
+    "chills.hard",
+    "perception.no_smell",
+    "temperature.mid",
+    "cough.wet",
+    "throat.itches"
+    ]
   const points = getPoints(answerIds, 'common:q.category.conditions.name');
-  checkRange(t, points, 30, 40);
+  checkRange(t, points, 40, 60);
   t.end()
 });
 
-test("throat dry cough mid fever conditions",  (t) => { 
+test("throat mid fever conditions",  (t) => { 
   const answerIds = [
     "throat.itches", 
     "breathing.well",
@@ -117,7 +139,7 @@ test("throat dry cough mid fever conditions",  (t) => {
     "temperature.mid",
     "cough.none"]
   const points = getPoints(answerIds, 'common:q.category.conditions.name');
-  checkRange(t, points, 20, 40);
+  checkRange(t, points, 0, 40);
   t.end()
 });
 
