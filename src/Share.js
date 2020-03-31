@@ -12,7 +12,7 @@ const Share = () => {
 
   const url = "https://covid19.rorobea.com/"
   return(
-    <Alert color="warning">
+    <Alert color="success">
       <p>{ t('common:main.share.text1') }</p>
       <Email url={url} 
              subject={ t('common:main.share.email.subject') } 

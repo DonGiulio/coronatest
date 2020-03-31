@@ -6,14 +6,14 @@ const  categories = [
       {
         "id": 1,
         "min_points": 0,
-        "max_points": 30,
+        "max_points": 40,
         "title": "common:q.category.low",
         "color": "info",
         "description": "common:q.category.conditions.low"
       },
       {
         "id": 2,
-        "min_points": 31,
+        "min_points": 40,
         "max_points": 60,
         "title": "common:q.category.mid",
         "color": "warning",
@@ -36,14 +36,14 @@ const  categories = [
       {
         "id": 1,
         "min_points": 0,
-        "max_points": 30,
+        "max_points": 40,
         "title": "common:q.category.low",
         "color": "info",
         "description": "common:q.category.exposure.low"
       },
       {
         "id": 2,
-        "min_points": 31,
+        "min_points": 40,
         "max_points": 60,
         "title": "common:q.category.mid",
         "color": "warning",
@@ -66,14 +66,14 @@ const  categories = [
       {
         "id": 1,
         "min_points": 0,
-        "max_points": 30,
+        "max_points": 40,
         "title": "common:q.category.low",
         "color": "info",
         "description": "common:q.category.gravity.low"
       },
       {
         "id": 2,
-        "min_points": 31,
+        "min_points": 40,
         "max_points": 60,
         "title": "common:q.category.mid",
         "color": "warning",

@@ -86,6 +86,25 @@ const allConditions = [
   "throat.ok",
 ]
 
+test("me conditions",  (t) => { 
+  const answerIds = [
+    "general_conditions.feel_great",
+    "breathing.well",
+    "pains.well",
+    "headache.well",
+    "chills.well",
+    "perception.ok",
+    "temperature.none",
+    "cough.none",
+    "mucus.none",
+    "throat.ok",
+  ]
+
+  const points = getPoints(answerIds, 'common:q.category.conditions.name');
+  checkRange(t, points, 0, 40);
+  t.end()
+});
+
 test("completely sick conditions",  (t) => { 
   const answerIds = [
     "general_conditions.exhausted",
@@ -160,6 +179,20 @@ const allGravity = [
   "gender.male",
   "gender.female",
 ]
+
+test("me gravity",  (t) => { 
+  const answerIds = [
+    "conditions.none",
+    "hypertension.none",
+    "cardiovascular.none",
+    "cholesterol.none",
+    "age.60",
+    "gender.male",
+  ]
+  const points = getPoints(answerIds, 'common:q.category.gravity.name');
+  checkRange(t, points, 0, 40);
+  t.end()
+});
 
 test("completely high gravity",  (t) => { 
   const answerIds = [
@@ -239,6 +272,21 @@ const allExposure= [
   "family.exposed",
   "family.safe"
 ]
+
+test("me exposure",  (t) => { 
+  const answerIds = [
+    "location.some",
+    "precautions.distance",
+    "precautions.wash_hands_quick",
+    "contacts.distanza",
+    "immuno.normal",
+    "family.safe"
+  ]
+  const points = getPoints(answerIds, 'common:q.category.exposure.name');
+  checkRange(t, points, 0, 40);
+  t.end()
+});
+
 
 test("completely high exposure",  (t) => { 
   const answerIds = [

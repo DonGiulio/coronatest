@@ -1002,23 +1002,6 @@
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
-                                                <name>distanza</name>
-                                                <definition_loaded>false</definition_loaded>
-                                                <description></description>
-                                                <comment></comment>
-                                                <default_text></default_text>
-                                                <translations>
-                                                    <translation>
-                                                        <language>en-GB</language>
-                                                        <approved>false</approved>
-                                                    </translation>
-                                                    <translation>
-                                                        <language>it-IT</language>
-                                                        <approved>false</approved>
-                                                    </translation>
-                                                </translations>
-                                            </concept_node>
-                                            <concept_node>
                                                 <name>infected_no_protection</name>
                                                 <definition_loaded>false</definition_loaded>
                                                 <description></description>
