@@ -19,7 +19,8 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header container">
-        <h1><Img src="/logo.webp" className="img-thumbnail float-right"/>{ t('common:main.title') }</h1>
+        <Img src="/logo.webp" className="float-left" width="1em"/>
+        <h1>{ t('common:main.title') }</h1>
         <hr/>
         <Language />
         <Description />
