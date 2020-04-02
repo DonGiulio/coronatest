@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './App.css';
-import Img from 'react-image';
 import {Navbar} from 'reactstrap';
 
 import questions from "./questions";
