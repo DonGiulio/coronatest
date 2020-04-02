@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './App.css';
+import Img from 'react-image'
 
 
 import questions from "./questions";
@@ -18,7 +19,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header container">
-        <h1>{ t('common:main.title') }</h1>
+        <h1><Img src="/logo.webp" className="img-thumbnail float-right"/>{ t('common:main.title') }</h1>
         <hr/>
         <Language />
         <Description />

@@ -9,6 +9,7 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-i18next": "^11.3.4",
+    "react-image": "^2.4.0",
     "react-scripts": "^3.4.0",
     "react-sharingbuttons": "^1.0.0",
     "reactstrap": "^8.4.1",
