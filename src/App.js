@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './App.css';
-import Img from 'react-image'
-
+import Img from 'react-image';
+import {Navbar} from 'reactstrap';
 
 import questions from "./questions";
 import categories from "./categories";
@@ -17,12 +17,18 @@ const App = () => {
   const [t] = useTranslation();
 
   return (
-    <div className="App">
-      <header className="App-header container">
-        <Img src="/logo.webp" className="float-left" width="1em"/>
-        <h1>{ t('common:main.title') }</h1>
+    <div className="App container">
+        <Navbar color="light" light expand="md">
+          <a className="navbar-brand" href="https://covid19.rorobea.com/">
+          <h1>
+            <img src="/logo.png" width="50px" height="50px" className="d-inline-block align-top" alt="Logo" />
+            { t('common:main.title') }
+          </h1>
+          </a>
+        </Navbar>
+          <Language className="float-right"/>
         <hr/>
-        <Language />
+        
         <Description />
         <Privacy />
         <Donate />
@@ -34,7 +40,7 @@ const App = () => {
         <Donate />
         <Share />
 
-      </header>
+
     </div>
 
   );
