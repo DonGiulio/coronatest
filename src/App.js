@@ -1,7 +1,9 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import PropTypes from 'prop-types';
+
 import './App.css';
 import {Navbar} from 'reactstrap';
+import { withTranslation } from 'react-i18next';
 
 import {
   BrowserRouter as Router,
@@ -17,10 +19,24 @@ import Share from "./Share";
 import Language from "./Language";
 import Article from './pages/Article';
 
-const App = () => {
-  const [t] = useTranslation();
+class App extends React.Component {
+  componentDidMount(){
+    console.log("component did mount");
+    async function fetchData () {
+      try {
+        const response = await fetch('/access', {method: 'PUT' });
+        console.log("response received");
+        console.log(response);
+      } catch (err) {
+        console.log(err.message);
+      }
+    }
+    fetchData()
+    console.log("componend finished didmounting")
+  }
 
-  return (
+  render(){
+    return (
 
     <div className="App container">
       <Router>
@@ -29,7 +45,7 @@ const App = () => {
             <Link to="/" className="navbar-brand" >
               <h1>
                 <img src="/logo.png" width="50px" height="50px" className="d-inline-block align-top" alt="Logo" />
-                { t('common:main.title') }
+                { this.props.t('common:main.title') }
               </h1>
             </Link>
             <Link to="/" className="nav-item" >Test</Link>
@@ -55,7 +71,12 @@ const App = () => {
       <Share />
     </div>
 
-  );
+    )
+  }
 }
 
-export default App;
+Test.propTypes = {
+  t: PropTypes.func
+};
+
+export default withTranslation()(App);

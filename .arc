@@ -1,14 +1,18 @@
 @app
-begin-app
+Covid-19_Test
 
 @static
 folder build
 
 @http
-get /api
+put /access
+put /form
 
 @tables
-data
+accesses
   scopeID *String
-  dataID **String
-  ttl TTL
+  values **String
+
+form
+  scopeID *String
+  values **String

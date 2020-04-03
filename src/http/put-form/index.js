@@ -1,3 +1,6 @@
+import data from '@begin/data';
+
+
 exports.handler = async function http (req) {
   console.log('Begin API called')
   return {
