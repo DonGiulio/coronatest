@@ -9,6 +9,7 @@ exports.handler = async function http (req) {
     const table = 'data';
     const scopeID = date + "_" + suffix;
     const dataID = JSON.stringify({
+          type: "access", 
           time: date,
           headers: req.headers,
         });
