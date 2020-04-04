@@ -9,10 +9,7 @@ put /access
 put /form
 
 @tables
-accesses
+data
   scopeID *String
-  values **String
-
-form
-  scopeID *String
-  values **String
+  dataID **String
+  ttl TTL

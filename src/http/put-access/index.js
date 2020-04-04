@@ -6,16 +6,17 @@ exports.handler = async function http (req) {
     const when = date.format(new Date(), 'YYYY/MM/DD HH:mm:ss,SSS'); 
     const suffix = Math.floor(Math.random()*1000000)
 
-    const table = 'accesses';
+    const table = 'data';
     const scopeID = date + "_" + suffix;
-    const values = JSON.stringify({
+    const dataID = JSON.stringify({
           time: date,
           headers: req.headers,
         });
 
     console.log("setting values");
+    var result;
     try{
-      const result = await data.set({table, scopeID, values})
+      result = await data.set({table, scopeID, dataID})
     } catch(err) {
       console.log(err);
     }
