@@ -1,0 +1,184 @@
+{
+	"main": {
+		"description": {
+			"alert": "Los resultados de esta prueba son sólo indicativos y no deben alarmarle.\n\nEn caso de que la prueba indique que usted es positivo, es simplemente una recomendación para investigar su caso poniéndose en contacto con su médico.\n\nEn el caso de que la prueba resulte negativa pero usted todavía tenga dudas, le animamos a que se ponga en contacto con su médico y siga sus consejos.\n\n",
+			"message": "El siguiente test ha sido desarrollado para ayudarle a entender si sus síntomas coinciden con los síntomas típicos causados por el Virus de la Corona (Covid-19) y para proporcionarle una guía para entender mejor cómo tomar sus precauciones. \n\nEsta guía no sustituye en modo alguno a su sistema de salud o a su médico y se publica con el único propósito de ayudarle a comprender mejor su situación."
+		},
+		"donate": {
+			"text": "Este servicio se ha publicado para dar a conocer el virus Covid-19, es completamente gratuito y el autor no se beneficia de su uso.\n\nSin embargo, mantener **un sitio como este tiene costos.**\n\nSi usted también piensa que la pandemia de estas semanas debe ser contenida de todas las maneras posibles ayúdenos con una donación, para que podamos seguir difundiendo el cuestionario y concientizando sobre los peligros del Covid-19. \n\nHaga una donación a través del siguiente enlace.\n\nTraducción realizada con la versión gratuita del traductor www.DeepL.com/Translator"
+		},
+		"privacy": {
+			"notice1": "Para asegurar la privacidad de su salud, este sitio es completamente anónimo, no utilizamos ningún tipo de mecanismo para identificarlo y no almacenamos ninguno de sus datos personales."
+		},
+		"share": {
+			"email": {
+				"subject": "prueba en línea por el Covid-19, importante"
+			},
+			"text": "Si usted también piensa que la pandemia de estas semanas debe ser contenida de todas las maneras posibles ayúdenos a difundir el cuestionario, **comparta esta página con todos sus contactos.**",
+			"twitter": {
+				"shareText": "Prueba de Covid-19, haz la prueba para saber tu riesgo"
+			}
+		},
+		"test": {
+			"text": "Para asegurar un resultado preciso, debe volver a las siguientes preguntas según su leal saber y entender.\n\n**No hay respuestas incorrectas**, la única respuesta incorrecta es la que no te parece correcta.",
+			"title": "La prueba"
+		},
+		"title": "Prueba Covid-19"
+	},
+	"pages": {
+		"precautions": {
+			"text": "Todas las naciones afectadas por la pandemia de Covid-19 están respondiendo de manera autónoma, más o menos todas ellas con la estrategia de '**distinción social**' de mantener a los ciudadanos alejados unos de otros para contener y limitar el contagio. \n\nEsta estrategia ha tenido éxito en China y está demostrando su valor en otros países donde se utiliza. \n\nEn este artículo te contaré algunos trucos para superar este período.\n\nCon el \"distanciamiento social\" una nación generalmente impone fuertes restricciones de viaje a sus ciudadanos, permitiéndoles salir de casa sólo para necesidades reales: \n\n- exámenes médicos\n- trabajo (en algunos casos sólo para el trabajo esencial)\n- otras necesidades (compras, cuidado de los enfermos u otras)\n\nTraducción realizada con la versión gratuita del traductor www.DeepL.com/Translator",
+			"title": "La mejor manera de protegerse, las precauciones"
+		}
+	},
+	"q": {
+		"category": {
+			"conditions": {
+				"high": "Advertencia, el resultado de la prueba indica una alta probabilidad de que esté infectado. No hay que tener miedo, la mayoría de los infectados no corren ningún peligro serio y se escapan con unos días de descanso, como en cualquier gripe. En esta etapa, sin embargo, es esencial que se quede en casa y limite el contacto con otras personas para no arriesgarse a infectarlas. Le aconsejamos que informe a su médico. Preste atención a sus síntomas, si empeoran póngase en contacto con la sala de emergencias (por teléfono, sin salir de casa) y siga sus instrucciones.\n\nTraducción realizada con la versión gratuita del traductor www.DeepL.com/Translator",
+				"low": "Felicitaciones, sus síntomas son inconsistentes con el Covid-19. Es una buena noticia, pero no garantiza al 100% que no lo tengas o que estés bien. También hay muchas personas infectadas, pero sin ningún síntoma. Si duda de este resultado, le animamos a que contacte con su médico para que le haga más pruebas.",
+				"mid": "Advertencia, sus síntomas corresponden a una situación incierta, por lo que tal vez deba ponerse en contacto con su médico para una mayor verificación. No hay nada que temer. Le recomendamos que no salga al exterior (si está infectado se arriesga a infectar a otras personas) y que tome todas las precauciones para evitar contraer la infección o (si está infectado) infectar a otros.",
+				"name": "Las posibilidades de enfermar"
+			},
+			"exposure": {
+				"high": "Advertencia, el resultado de la prueba indica una alta probabilidad de que esté infectado o corra el riesgo de infectarse pronto. Sin embargo, no hay que temer que en la mayoría de las personas infectadas la enfermedad tenga un curso como una gripe normal, mientras que sólo en un pequeño número de personas infectadas empeora y se vuelve peligrosa. Tanto si ya está infectado como si no, debe cambiar sus hábitos aumentando el cuidado que tiene para protegerse a sí mismo y a los que le rodean.",
+				"low": "Sus hábitos, su estilo de vida y su entorno le exponen a un bajo riesgo de infección, por lo que es poco probable (pero no imposible) que contraiga o contraiga el virus en un futuro próximo. \n\nSin embargo, no debe bajar la guardia, ya que la situación puede cambiar rápidamente y sin previo aviso, especialmente si mantiene sus hábitos, el número de casos en su vecindario puede aumentar, exponiéndole a un mayor riesgo de enfermarse.",
+				"mid": "Tenga cuidado, sus hábitos, su estilo de vida y el contexto en el que vive le exponen a un riesgo medio, por lo que es difícil predecir si ya ha contraído el virus o no, pero si no empieza a tomar más precauciones puede contraerlo pronto. Sin embargo, no hay que temer que en la mayoría de las personas infectadas la enfermedad tenga un curso como una gripe normal, mientras que sólo en un cierto porcentaje de personas infectadas empeora y se vuelve peligrosa. Por lo tanto, es importante que se proteja a sí mismo para no contraerlo y, si ya lo ha hecho, que proteja a los demás para no ser responsable de los riesgos a los que los expondría.",
+				"name": "Probabilidad de ser infectado"
+			},
+			"gravity": {
+				"high": "Atención, el resultado de la prueba indica una alta probabilidad de que si tiene o si ha contraído el virus tendrá complicaciones, si no lo ha contraído ya le invitamos a que tenga un cuidado extremo en sus precauciones, para limitar el riesgo de infección. Si está infectado, por favor notifique a su médico, especificando su condición y siguiendo sus instrucciones.",
+				"low": "Su condición física y su salud general indican que es improbable que desarrolle consecuencias graves por el Covid-19. Son buenas noticias, pero también ha habido casos graves en personas perfectamente sanas. Así que es bueno tomar todas las precauciones, teniendo en cuenta también que podrías ser responsable de la infección de personas no tan afortunadas.",
+				"mid": "Advertencia, el resultado de la prueba indica que se corre un riesgo medio de desarrollar enfermedades graves por el virus, no se corre un riesgo completo de tener un curso grave, pero aún así hay que tener cuidado y tomar precauciones, ha habido casos graves incluso en personas perfectamente sanas. Además, todas las personas infectadas son también contagiosas y corren el riesgo de enfermar gravemente a otras personas.",
+				"name": "Si está infectado, probabilidad de complicaciones"
+			},
+			"high": "Alta probabilidad",
+			"low": "Baja probabilidad",
+			"mid": "Probabilidad media",
+			"no_data": "No respondiste suficientes preguntas para formular una respuesta para la categoría \"{{category}}\".",
+			"results": "Sus resultados"
+		},
+		"questions": {
+			"age": {
+				"40": "menos de 40 años",
+				"60": "entre 40 y 60 años",
+				"80": "entre 60 y 80 años",
+				"100": "más de 80 años",
+				"question": "Edad"
+			},
+			"breathing": {
+				"hard": "respiro con dificultad",
+				"question": "Respiración",
+				"well": "Respiro bien."
+			},
+			"cardiovascular": {
+				"have": "Sufro de enfermedades cardiovasculares",
+				"none": "No sufro enfermedades cardiovasculares",
+				"question": "enfermedades cardiovasculares"
+			},
+			"chills": {
+				"have": "Tengo escalofríos",
+				"none": "No tengo escalofríos",
+				"question": "Escalofríos"
+			},
+			"cholesterol": {
+				"have": "Sufro de colesterol alto",
+				"none": "No sufro de colesterol alto",
+				"question": "Colesterol"
+			},
+			"conditions": {
+				"have": "Sufro de otras enfermedades",
+				"none": "No tengo otras enfermedades",
+				"question": "otras enfermedades"
+			},
+			"contacts": {
+				"crowd": "He estado entre una multitud y la gente estaba cerca de mí",
+				"infected_no_protection": "He estado cerca de personas que se sabe que están infectadas con Covid-19 sin protección...",
+				"infected_with_protection": "He estado cerca de personas que se sabe que están infectadas con Covid-19, con protecciones",
+				"no_one": "No he conocido a nadie / no he salido de la casa en dos semanas.",
+				"normal": "He estado fuera y he mantenido una buena distancia de todos",
+				"question": "contactos recientes"
+			},
+			"cough": {
+				"dry": "tos seca",
+				"none": "no hay tos",
+				"question": "Tos",
+				"wet": "tos húmeda"
+			},
+			"family": {
+				"exposed": "algunas de las personas con las que vivo tienen un alto riesgo de infección",
+				"question": "La gente que vive conmigo",
+				"safe": "la gente con la que vivo está a salvo"
+			},
+			"gender": {
+				"female": "mujer",
+				"male": "hombre",
+				"question": "Género"
+			},
+			"general_conditions": {
+				"exhausted": "Me siento cansado / agotado",
+				"feel_great": "Me siento bien.",
+				"question": "Condiciones generales"
+			},
+			"headache": {
+				"have": "Tengo dolor de cabeza",
+				"none": "No tengo dolor de cabeza.",
+				"question": "Dolor de cabeza"
+			},
+			"hypertension": {
+				"have": "Sufro de hipertensión",
+				"none": "mi presión sanguínea es buena",
+				"question": "hipertensión"
+			},
+			"immuno": {
+				"depressed": "Tengo problemas con mi sistema inmunológico ",
+				"normal": "mi sistema inmunológico está bien",
+				"question": "Su sistema inmunológico"
+			},
+			"location": {
+				"great": "en mi vecindad hay un gran número de personas infectadas",
+				"no": "en mi vecindad no hay casos conocidos de infección",
+				"question": "Ubicación",
+				"remote": "Vivo en un área remota, en mi vecindad no hay nadie",
+				"some": "en mi vecindad hay algunos casos de infección"
+			},
+			"missed_questions": "Te has perdido algunas preguntas obligatorias",
+			"mucus": {
+				"have": "Tengo un catarro",
+				"none": "No tengo catarro",
+				"question": "Catarro"
+			},
+			"pains": {
+				"have": "Tengo dolores de la gripe",
+				"none": "No tengo dolores de la gripe",
+				"question": "Dolores de la gripe"
+			},
+			"perception": {
+				"no_smell": "No puedo oler/saborear",
+				"ok": "Huelo y saboreo",
+				"question": "Percepción"
+			},
+			"precautions": {
+				"distance": "Me mantengo a más de un metro de distancia de la gente",
+				"gloves": "Llevo guantes de látex cuando salgo de casa",
+				"mask": "Llevo la máscara cuando salgo de casa",
+				"precautions": "No tomo ninguna precaución",
+				"question": "Precauciones",
+				"wash_hands_quick": "Me lavo las manos a menudo, pero de forma rápida",
+				"wash_hands_thoroughly": "Me lavo las manos a menudo y a fondo"
+			},
+			"required": "Respuesta solicitada",
+			"temperature": {
+				"high": "fiebre alta",
+				"mid": "fiebre ligera",
+				"none": "no hay fiebre",
+				"question": "Fiebre"
+			},
+			"throat": {
+				"aches": "me duele la garganta",
+				"itches": "Siento una molestia en la garganta.",
+				"ok": "mi garganta está bien",
+				"question": "Garganta"
+			}
+		}
+	}
+}

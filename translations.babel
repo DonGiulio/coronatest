@@ -39,6 +39,10 @@
                                                 <language>it-IT</language>
                                                 <approved>false</approved>
                                             </translation>
+                                            <translation>
+                                                <language>es-ES</language>
+                                                <approved>false</approved>
+                                            </translation>
                                         </translations>
                                     </concept_node>
                                     <concept_node>
@@ -54,6 +58,10 @@
                                             </translation>
                                             <translation>
                                                 <language>it-IT</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                            <translation>
+                                                <language>es-ES</language>
                                                 <approved>false</approved>
                                             </translation>
                                         </translations>
@@ -78,6 +86,10 @@
                                                 <language>it-IT</language>
                                                 <approved>false</approved>
                                             </translation>
+                                            <translation>
+                                                <language>es-ES</language>
+                                                <approved>false</approved>
+                                            </translation>
                                         </translations>
                                     </concept_node>
                                 </children>
@@ -98,6 +110,10 @@
                                             </translation>
                                             <translation>
                                                 <language>it-IT</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                            <translation>
+                                                <language>es-ES</language>
                                                 <approved>false</approved>
                                             </translation>
                                         </translations>
@@ -125,6 +141,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                         </children>
@@ -142,6 +162,10 @@
                                             </translation>
                                             <translation>
                                                 <language>it-IT</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                            <translation>
+                                                <language>es-ES</language>
                                                 <approved>false</approved>
                                             </translation>
                                         </translations>
@@ -162,6 +186,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -188,6 +216,10 @@
                                                 <language>it-IT</language>
                                                 <approved>false</approved>
                                             </translation>
+                                            <translation>
+                                                <language>es-ES</language>
+                                                <approved>false</approved>
+                                            </translation>
                                         </translations>
                                     </concept_node>
                                     <concept_node>
@@ -203,6 +235,10 @@
                                             </translation>
                                             <translation>
                                                 <language>it-IT</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                            <translation>
+                                                <language>es-ES</language>
                                                 <approved>false</approved>
                                             </translation>
                                         </translations>
@@ -222,6 +258,10 @@
                                     </translation>
                                     <translation>
                                         <language>it-IT</language>
+                                        <approved>false</approved>
+                                    </translation>
+                                    <translation>
+                                        <language>es-ES</language>
                                         <approved>false</approved>
                                     </translation>
                                 </translations>
@@ -249,6 +289,10 @@
                                                 <language>it-IT</language>
                                                 <approved>false</approved>
                                             </translation>
+                                            <translation>
+                                                <language>es-ES</language>
+                                                <approved>false</approved>
+                                            </translation>
                                         </translations>
                                     </concept_node>
                                     <concept_node>
@@ -264,6 +308,10 @@
                                             </translation>
                                             <translation>
                                                 <language>it-IT</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                            <translation>
+                                                <language>es-ES</language>
                                                 <approved>false</approved>
                                             </translation>
                                         </translations>
@@ -296,6 +344,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -311,6 +363,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -330,6 +386,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -345,6 +405,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -369,6 +433,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -384,6 +452,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -403,6 +475,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -418,6 +494,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -442,6 +522,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -457,6 +541,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -476,6 +564,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -491,6 +583,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -512,6 +608,10 @@
                                                 <language>it-IT</language>
                                                 <approved>false</approved>
                                             </translation>
+                                            <translation>
+                                                <language>es-ES</language>
+                                                <approved>false</approved>
+                                            </translation>
                                         </translations>
                                     </concept_node>
                                     <concept_node>
@@ -527,6 +627,10 @@
                                             </translation>
                                             <translation>
                                                 <language>it-IT</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                            <translation>
+                                                <language>es-ES</language>
                                                 <approved>false</approved>
                                             </translation>
                                         </translations>
@@ -546,6 +650,10 @@
                                                 <language>it-IT</language>
                                                 <approved>false</approved>
                                             </translation>
+                                            <translation>
+                                                <language>es-ES</language>
+                                                <approved>false</approved>
+                                            </translation>
                                         </translations>
                                     </concept_node>
                                     <concept_node>
@@ -563,6 +671,10 @@
                                                 <language>it-IT</language>
                                                 <approved>false</approved>
                                             </translation>
+                                            <translation>
+                                                <language>es-ES</language>
+                                                <approved>false</approved>
+                                            </translation>
                                         </translations>
                                     </concept_node>
                                     <concept_node>
@@ -578,6 +690,10 @@
                                             </translation>
                                             <translation>
                                                 <language>it-IT</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                            <translation>
+                                                <language>es-ES</language>
                                                 <approved>false</approved>
                                             </translation>
                                         </translations>
@@ -605,6 +721,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -620,6 +740,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -639,6 +763,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -656,6 +784,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -671,6 +803,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -695,6 +831,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -712,6 +852,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -727,6 +871,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -751,6 +899,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -768,6 +920,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -783,6 +939,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -807,6 +967,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -824,6 +988,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -839,6 +1007,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -863,6 +1035,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -880,6 +1056,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -895,6 +1075,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -919,6 +1103,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -936,6 +1124,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -951,6 +1143,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -975,6 +1171,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -990,6 +1190,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1009,6 +1213,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1024,6 +1232,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1043,6 +1255,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1058,6 +1274,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1082,6 +1302,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1097,6 +1321,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1116,6 +1344,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1131,6 +1363,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1155,6 +1391,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1172,6 +1412,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1187,6 +1431,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1211,6 +1459,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1228,6 +1480,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1243,6 +1499,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1267,6 +1527,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1284,6 +1548,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1299,6 +1567,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1323,6 +1595,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1340,6 +1616,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1355,6 +1635,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1379,6 +1663,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1396,6 +1684,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1411,6 +1703,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1435,6 +1731,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1452,6 +1752,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1467,6 +1771,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1491,6 +1799,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1506,6 +1818,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1525,6 +1841,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1540,6 +1860,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1559,6 +1883,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                         </children>
@@ -1576,6 +1904,10 @@
                                             </translation>
                                             <translation>
                                                 <language>it-IT</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                            <translation>
+                                                <language>es-ES</language>
                                                 <approved>false</approved>
                                             </translation>
                                         </translations>
@@ -1598,6 +1930,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1615,6 +1951,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1630,6 +1970,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1654,6 +1998,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1671,6 +2019,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1686,6 +2038,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1710,6 +2066,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1727,6 +2087,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1742,6 +2106,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1766,6 +2134,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1781,6 +2153,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1800,6 +2176,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1815,6 +2195,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1834,6 +2218,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1849,6 +2237,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1868,6 +2260,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                         </children>
@@ -1885,6 +2281,10 @@
                                             </translation>
                                             <translation>
                                                 <language>it-IT</language>
+                                                <approved>false</approved>
+                                            </translation>
+                                            <translation>
+                                                <language>es-ES</language>
                                                 <approved>false</approved>
                                             </translation>
                                         </translations>
@@ -1907,6 +2307,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1922,6 +2326,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1941,6 +2349,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1956,6 +2368,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -1980,6 +2396,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -1995,6 +2415,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -2014,6 +2438,10 @@
                                                         <language>it-IT</language>
                                                         <approved>false</approved>
                                                     </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
+                                                        <approved>false</approved>
+                                                    </translation>
                                                 </translations>
                                             </concept_node>
                                             <concept_node>
@@ -2029,6 +2457,10 @@
                                                     </translation>
                                                     <translation>
                                                         <language>it-IT</language>
+                                                        <approved>false</approved>
+                                                    </translation>
+                                                    <translation>
+                                                        <language>es-ES</language>
                                                         <approved>false</approved>
                                                     </translation>
                                                 </translations>
@@ -2052,6 +2484,11 @@
             <source_file>src/translations/en</source_file>
         </language>
         <language>
+            <code>es-ES</code>
+            <source_id></source_id>
+            <source_file>src/translations/es</source_file>
+        </language>
+        <language>
             <code>it-IT</code>
             <source_id></source_id>
             <source_file>src/translations/it</source_file>
@@ -2063,6 +2500,9 @@
         </translation_file>
         <translation_file>
             <file>src/translations/it</file>
+        </translation_file>
+        <translation_file>
+            <file>src/translations/es</file>
         </translation_file>
     </translation_files>
     <editor_configuration>

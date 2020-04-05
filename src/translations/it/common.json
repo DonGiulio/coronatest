@@ -168,9 +168,9 @@
 			},
 			"required": "Risposta richiesta",
 			"temperature": {
-				"high": "febbre (sopra i 37,5 ˚c)",
-				"mid": "febbre leggera (tra 37,0˚c e 37,5˚c)",
-				"none": "niente febbre (sotto i 37,0˚c)",
+				"high": "febbre alta",
+				"mid": "febbre leggera",
+				"none": "niente febbre",
 				"question": "Temperatura"
 			},
 			"throat": {

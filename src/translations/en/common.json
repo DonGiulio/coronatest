@@ -168,9 +168,9 @@
 			},
 			"required": "Answer required",
 			"temperature": {
-				"high": "fever (above 37,5 ˚c)",
-				"mid": "light fever (between 37,0˚c and 37,5˚c)",
-				"none": "no fever (below 37,0˚c)",
+				"high": "high fever",
+				"mid": "light fever",
+				"none": "no fever",
 				"question": "Temperature"
 			},
 			"throat": {

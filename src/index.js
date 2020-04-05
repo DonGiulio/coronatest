@@ -6,8 +6,9 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import {I18nextProvider} from 'react-i18next';
 import i18next from 'i18next';
-import common_it from "./translations/it/common.json";
 import common_en from "./translations/en/common.json";
+import common_it from "./translations/it/common.json";
+import common_es from "./translations/es/common.json";
 
 i18next.init({
     interpolation: { escapeValue: false },  // React already does escaping
@@ -18,6 +19,9 @@ i18next.init({
         },
         it: {
             common: common_it
+        },
+        es: {
+            common: common_es
         },
     },
 });

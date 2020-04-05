@@ -9,6 +9,7 @@ const Language = () => {
       <div className="float-right">
         <button onClick={() => i18n.changeLanguage('en')}>English</button>
         <button onClick={() => i18n.changeLanguage('it')}>Italiano</button>
+        <button onClick={() => i18n.changeLanguage('es')}>Español</button>
       </div>
     )
 }
