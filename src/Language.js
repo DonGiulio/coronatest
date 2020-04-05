@@ -7,8 +7,8 @@ const Language = () => {
     const { i18n } = useTranslation();
     return (
       <div className="float-right">
-        <button onClick={() => i18n.changeLanguage('it')}>Italiano</button>
         <button onClick={() => i18n.changeLanguage('en')}>English</button>
+        <button onClick={() => i18n.changeLanguage('it')}>Italiano</button>
       </div>
     )
 }

@@ -10,7 +10,6 @@ import {
   Link
 } from "react-router-dom";
 
-import Description from "./Description";
 import Test from "./Test";
 import Privacy from "./Privacy";
 import Donate from "./Donate";
