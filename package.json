@@ -1,6 +1,6 @@
 {
-  "name": "begin-app",
-  "description": "Begin Create React App + API",
+  "name": "covid-19 test",
+  "description": "test and website for covid-19",
   "version": "0.1.0",
   "proxy": "http://localhost:3333",
   "dependencies": {
