@@ -11,8 +11,8 @@ const Test = () => {
   const [t] = useTranslation();
 
   return (
-    <div className="App">
-      <header className="App-header container">
+    <div className="Test">
+      <header className="Test-header container">
         <h1>{ t('common:main.title') }</h1>
       </header>
         <hr/>

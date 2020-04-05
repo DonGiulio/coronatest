@@ -22,30 +22,22 @@ const App = () => {
   const [t] = useTranslation();
 
   return (
+
     <div className="App container">
+      <Router>
         <Navbar color="light" light expand="md">
-          <a className="navbar-brand" href="https://covid19.rorobea.com/">
-          <h1>
-            <img src="/logo.png" width="50px" height="50px" className="d-inline-block align-top" alt="Logo" />
-            { t('common:main.title') }
-          </h1>
-          </a>
+          <nav>
+            <Link to="/" className="navbar-brand" >
+              <h1>
+                <img src="/logo.png" width="50px" height="50px" className="d-inline-block align-top" alt="Logo" />
+                { t('common:main.title') }
+              </h1>
+            </Link>
+            <Link to="/" className="nav-item" >Test</Link>
+          </nav>
         </Navbar>
-          <Language className="float-right"/>
+        <Language className="float-right"/>
         <hr/>        
-        <Description />
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Test</Link>
-            </li>
-            <li>
-              <Link to="/article">Article</Link>
-            </li>
-          </ul>
-        </nav>
         <Privacy />
         <Donate />
         <Share />
@@ -59,13 +51,9 @@ const App = () => {
             <Test />
           </Route>
         </Switch>
-      </div>
-    </Router>
-
-        <Donate />
-        <Share />
-
-
+      </Router>
+      <Donate />
+      <Share />
     </div>
 
   );
