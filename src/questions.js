@@ -45,14 +45,14 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "pains.well",
-        "answer": "common:q.questions.pains.have",
-        "value": 0
-      },
-      {
         "id": "pains.hard",
         "answer": "common:q.questions.pains.none",
         "value": 150
+      },
+      {
+        "id": "pains.well",
+        "answer": "common:q.questions.pains.have",
+        "value": 0
       }
     ]
   },
@@ -83,14 +83,14 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "chills.well",
-        "answer": "common:q.questions.chills.have",
-        "value": 0
-      },
-      {
         "id": "chills.hard",
         "answer": "common:q.questions.chills.none",
         "value": 150
+      },
+      {
+        "id": "chills.well",
+        "answer": "common:q.questions.chills.have",
+        "value": 0
       }
     ]
   },
@@ -121,9 +121,9 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "temperature.high",
-        "answer": "common:q.questions.temperature.high",
-        "value": 300
+        "id": "temperature.none",
+        "answer": "common:q.questions.temperature.none",
+        "value": 0
       },
       {
         "id": "temperature.mid",
@@ -131,10 +131,10 @@ const  questions = [
         "value": 150
       },
       {
-        "id": "temperature.none",
-        "answer": "common:q.questions.temperature.none",
-        "value": 0
-      }
+        "id": "temperature.high",
+        "answer": "common:q.questions.temperature.high",
+        "value": 300
+      },
     ]
   },
   {
@@ -145,9 +145,9 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "cough.dry",
-        "answer": "common:q.questions.cough.dry",
-        "value": 160
+        "id": "cough.none",
+        "answer": "common:q.questions.cough.none",
+        "value": 0
       },
       {
         "id": "cough.wet",
@@ -155,9 +155,9 @@ const  questions = [
         "value": 60
       },
       {
-        "id": "cough.none",
-        "answer": "common:q.questions.cough.none",
-        "value": 0
+        "id": "cough.dry",
+        "answer": "common:q.questions.cough.dry",
+        "value": 160
       }
     ]
   },
@@ -169,15 +169,15 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "mucus.have",
-        "answer": "common:q.questions.mucus.have",
-        "value": 90
-      },
-      {
         "id": "mucus.none",
         "answer": "common:q.questions.mucus.none",
         "value": 0
       },
+      {
+        "id": "mucus.have",
+        "answer": "common:q.questions.mucus.have",
+        "value": 90
+      }
     ]
   },
   {
@@ -188,9 +188,9 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "throat.aches",
-        "answer": "common:q.questions.throat.aches",
-        "value": 60
+        "id": "throat.ok",
+        "answer": "common:q.questions.throat.ok",
+        "value": 0
       },
       {
         "id": "throat.itches",
@@ -198,9 +198,9 @@ const  questions = [
         "value": 20
       },
       {
-        "id": "throat.ok",
-        "answer": "common:q.questions.throat.ok",
-        "value": 0
+        "id": "throat.aches",
+        "answer": "common:q.questions.throat.aches",
+        "value": 60
       }
     ]
   },
@@ -212,14 +212,14 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "conditions.have",
-        "answer": "common:q.questions.conditions.have",
-        "value": 130
-      },
-      {
         "id": "conditions.none",
         "answer": "common:q.questions.conditions.none",
         "value": 0
+      },
+      {
+        "id": "conditions.have",
+        "answer": "common:q.questions.conditions.have",
+        "value": 130
       }
     ]
   },
@@ -231,14 +231,14 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "hypertension.have",
-        "answer": "common:q.questions.hypertension.have",
-        "value": 100
-      },
-      {
         "id": "hypertension.none",
         "answer": "common:q.questions.hypertension.none",
         "value": 0
+      },
+      {
+        "id": "hypertension.have",
+        "answer": "common:q.questions.hypertension.have",
+        "value": 100
       }
     ]
   },
@@ -250,14 +250,14 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "cardiovascular.have",
-        "answer": "common:q.questions.cardiovascular.have",
-        "value": 100
-      },
-      {
         "id": "cardiovascular.none",
         "answer": "common:q.questions.cardiovascular.none",
         "value": 0
+      },
+      {
+        "id": "cardiovascular.have",
+        "answer": "common:q.questions.cardiovascular.have",
+        "value": 100
       }
     ]
   },
@@ -269,14 +269,14 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "cholesterol.have",
-        "answer": "common:q.questions.cholesterol.have",
-        "value": 100
-      },
-      {
         "id": "cholesterol.none",
         "answer": "common:q.questions.cholesterol.none",
         "value": 0
+      },
+      {
+        "id": "cholesterol.have",
+        "answer": "common:q.questions.cholesterol.have",
+        "value": 100
       }
     ]
   },
@@ -317,14 +317,14 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "gender.male",
-        "answer": "common:q.questions.gender.male",
-        "value": 120
-      },
-      {
         "id": "gender.female",
         "answer": "common:q.questions.gender.female",
         "value": 60
+      },
+      {
+        "id": "gender.male",
+        "answer": "common:q.questions.gender.male",
+        "value": 120
       }
     ]
   },
@@ -336,14 +336,9 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "location.great",
-        "answer": "common:q.questions.location.great",
-        "value": 150
-      },
-      {
-        "id": "location.some",
-        "answer": "common:q.questions.location.some",
-        "value": 100
+        "id": "location.remote",
+        "answer": "common:q.questions.location.remote",
+        "value": 20
       },
       {
         "id": "location.no",
@@ -351,9 +346,14 @@ const  questions = [
         "value": 40
       },
       {
-        "id": "location.remote",
-        "answer": "common:q.questions.location.remote",
-        "value": 20
+        "id": "location.some",
+        "answer": "common:q.questions.location.some",
+        "value": 100
+      },
+      {
+        "id": "location.great",
+        "answer": "common:q.questions.location.great",
+        "value": 150
       }
     ]
   },
@@ -402,7 +402,8 @@ const  questions = [
         "id": "contacts.normal",
         "answer": "common:q.questions.contacts.normal",
         "value": 60
-      },      {
+      },
+      {
         "id": "contacts.crowd",
         "answer": "common:q.questions.contacts.crowd",
         "value": 180
@@ -432,14 +433,14 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "immuno.depressed",
-        "answer": "common:q.questions.immuno.depressed",
-        "value": 150
-      },
-      {
         "id": "immuno.normal",
         "answer": "common:q.questions.immuno.normal",
         "value": 30
+      },
+      {
+        "id": "immuno.depressed",
+        "answer": "common:q.questions.immuno.depressed",
+        "value": 150
       }
     ]
   },
@@ -451,14 +452,14 @@ const  questions = [
     "points": 100,
     "answers": [
       {
-        "id": "family.exposed",
-        "answer": "common:q.questions.family.exposed",
-        "value": 300
-      },
-      {
         "id": "family.safe",
         "answer": "common:q.questions.family.safe",
         "value": 20
+      },
+      {
+        "id": "family.exposed",
+        "answer": "common:q.questions.family.exposed",
+        "value": 300
       }
     ]
   }
