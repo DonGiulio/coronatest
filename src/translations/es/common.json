@@ -1,11 +1,11 @@
 {
 	"main": {
 		"description": {
-			"alert": "Los resultados de esta prueba son sólo indicativos y no deben alarmarle.\n\nEn caso de que la prueba indique que usted es positivo, es simplemente una recomendación para investigar su caso poniéndose en contacto con su médico.\n\nEn el caso de que la prueba resulte negativa pero usted todavía tenga dudas, le animamos a que se ponga en contacto con su médico y siga sus consejos.\n\n",
-			"message": "El siguiente test ha sido desarrollado para ayudarle a entender si sus síntomas coinciden con los síntomas típicos causados por el Virus de la Corona (Covid-19) y para proporcionarle una guía para entender mejor cómo tomar sus precauciones. \n\nEsta guía no sustituye en modo alguno a su sistema de salud o a su médico y se publica con el único propósito de ayudarle a comprender mejor su situación."
+			"alert": "Los resultados de esta prueba son solo indicativos y no deben alarmarle.\n\nEn caso de que la prueba indique que usted es positivo, el resultado quiere ser una simple recomendación para que investigue su caso poniéndose en contacto con su médico.\n\nEn el caso de que la prueba resulte negativa y usted siga teniendo dudas, le animamos a que se ponga en contacto con su médico y siga sus consejos.\n\n",
+			"message": "El siguiente test ha sido desarrollado para ayudarle a entender si sus síntomas coinciden con los síntomas típicos causados por el coronavirus (Covid-19) y para proporcionarle una guía para entender mejor cómo tomar sus precauciones. \n\nEsta guía no sustituye en modo alguno a su sistema de salud o a su médico y se publica con el único propósito de ayudarle a comprender mejor su situación."
 		},
 		"donate": {
-			"text": "Este servicio se ha publicado para dar a conocer el virus Covid-19, es completamente gratuito y el autor no se beneficia de su uso.\n\nSin embargo, mantener **un sitio como este tiene costos.**\n\nSi usted también piensa que la pandemia de estas semanas debe ser contenida de todas las maneras posibles ayúdenos con una donación, para que podamos seguir difundiendo el cuestionario y concientizando sobre los peligros del Covid-19. \n\nHaga una donación a través del siguiente enlace.\n\nTraducción realizada con la versión gratuita del traductor www.DeepL.com/Translator"
+			"text": "Este servicio se ha publicado para dar a conocer el virus Covid-19, es completamente gratuito y el autor no se beneficia de su uso.\n\nSin embargo, mantener **un sitio como este tiene costes.**\n\nSi usted también piensa que la pandemia de estas semanas debe ser contenida de todas las maneras posibles ayúdenos con una donación, para que podamos seguir difundiendo el cuestionario y concienciando sobre los peligros del Covid-19. \n\nHaga una donación a través del siguiente enlace."
 		},
 		"privacy": {
 			"notice1": "Para asegurar la privacidad de su salud, este sitio es completamente anónimo, no utilizamos ningún tipo de mecanismo para identificarlo y no almacenamos ninguno de sus datos personales."
@@ -20,7 +20,7 @@
 			}
 		},
 		"test": {
-			"text": "Para asegurar un resultado preciso, debe volver a las siguientes preguntas según su leal saber y entender.\n\n**No hay respuestas incorrectas**, la única respuesta incorrecta es la que no te parece correcta.",
+			"text": "La prueba que se presenta a continuación basa sus resultados en datos estadísticos sobre el actual contagio pandémico y en las recomendaciones de la Organización Mundial de la Salud. Por lo tanto, los resultados no sustituyen el consejo de su médico, pero aún así pueden servir como recomendaciones para mantenerle a usted y a los que le rodean a salvo.\n\nPara asegurar un resultado preciso, debe contestar sinceramente a las siguientes preguntas.\n\n**No hay respuestas incorrectas**",
 			"title": "La prueba"
 		},
 		"title": "Prueba Covid-19"
@@ -34,22 +34,22 @@
 	"q": {
 		"category": {
 			"conditions": {
-				"high": "Advertencia, el resultado de la prueba indica una alta probabilidad de que esté infectado. No hay que tener miedo, la mayoría de los infectados no corren ningún peligro serio y se escapan con unos días de descanso, como en cualquier gripe. En esta etapa, sin embargo, es esencial que se quede en casa y limite el contacto con otras personas para no arriesgarse a infectarlas. Le aconsejamos que informe a su médico. Preste atención a sus síntomas, si empeoran póngase en contacto con la sala de emergencias (por teléfono, sin salir de casa) y siga sus instrucciones.\n\nTraducción realizada con la versión gratuita del traductor www.DeepL.com/Translator",
-				"low": "Felicitaciones, sus síntomas son inconsistentes con el Covid-19. Es una buena noticia, pero no garantiza al 100% que no lo tengas o que estés bien. También hay muchas personas infectadas, pero sin ningún síntoma. Si duda de este resultado, le animamos a que contacte con su médico para que le haga más pruebas.",
-				"mid": "Advertencia, sus síntomas corresponden a una situación incierta, por lo que tal vez deba ponerse en contacto con su médico para una mayor verificación. No hay nada que temer. Le recomendamos que no salga al exterior (si está infectado se arriesga a infectar a otras personas) y que tome todas las precauciones para evitar contraer la infección o (si está infectado) infectar a otros.",
-				"name": "Las posibilidades de enfermar"
+				"high": "Cuidado, es **posible** que ya estés infectado. Así que recomendamos que te quedes en casa y evites infectar a otras personas. \n\nEl Covid-19 es tan insidioso, porque en muchos sujetos se manifiesta con síntomas leves o incluso ausentes, por lo que los infectados no sospechan de ser peligrosos y continúan con sus actividades normales, ayudando a propagar la epidemia.\n\nNo hay que tener miedo, la mayoría de los infectados no corren un grave peligro y se escapan con unos días de descanso, como en cualquier gripe. \nEn esta etapa, sin embargo, es esencial que te quedes en casa, limitando el contacto con otras personas para no infectarlas. Le recomendamos que **advierta a su médico**. \n\nTambién preste atención a sus síntomas, si empeoran llame a su médico (por teléfono, sin salir de casa) y siga sus instrucciones.",
+				"low": "Felicitaciones, tus síntomas son **poco compatibles** con el Covid-19, así que probablemente no estés infectado.\n\n**Es una buena noticia**, pero no garantiza al 100% que no estés infectado o que puedas bajar la guardia. También hay muchas personas infectadas, pero con pocos o ningún síntoma. Por eso le recomendamos que mantenga la guardia alta y sus precauciones.\n\nSi duda de este resultado, le animamos a que se ponga en contacto con su médico para que lo examine más a fondo.",
+				"mid": "Advertencia, sus síntomas corresponden a una **situación incierta**. \n\nAlgunos de sus síntomas corresponden a los de Covid-19, pero los datos no son suficientes para hacer una predicción.\n\n**No hay nada que temer**, pero como no estamos seguros, le recomendamos que se quede en casa y tome todas las precauciones para evitar infectar a otras personas. \n\nSi cree que está infectado, le recomendamos especialmente que se quede en casa y se ponga en contacto con su médico para que le haga más pruebas. Le recomendamos que no salga al exterior para evitar contraer la infección o infectar a otros.",
+				"name": "¿Está enfermo con Covid-19?"
 			},
 			"exposure": {
-				"high": "Advertencia, el resultado de la prueba indica una alta probabilidad de que esté infectado o corra el riesgo de infectarse pronto. Sin embargo, no hay que temer que en la mayoría de las personas infectadas la enfermedad tenga un curso como una gripe normal, mientras que sólo en un pequeño número de personas infectadas empeora y se vuelve peligrosa. Tanto si ya está infectado como si no, debe cambiar sus hábitos aumentando el cuidado que tiene para protegerse a sí mismo y a los que le rodean.",
-				"low": "Sus hábitos, su estilo de vida y su entorno le exponen a un bajo riesgo de infección, por lo que es poco probable (pero no imposible) que contraiga o contraiga el virus en un futuro próximo. \n\nSin embargo, no debe bajar la guardia, ya que la situación puede cambiar rápidamente y sin previo aviso, especialmente si mantiene sus hábitos, el número de casos en su vecindario puede aumentar, exponiéndole a un mayor riesgo de enfermarse.",
-				"mid": "Tenga cuidado, sus hábitos, su estilo de vida y el contexto en el que vive le exponen a un riesgo medio, por lo que es difícil predecir si ya ha contraído el virus o no, pero si no empieza a tomar más precauciones puede contraerlo pronto. Sin embargo, no hay que temer que en la mayoría de las personas infectadas la enfermedad tenga un curso como una gripe normal, mientras que sólo en un cierto porcentaje de personas infectadas empeora y se vuelve peligrosa. Por lo tanto, es importante que se proteja a sí mismo para no contraerlo y, si ya lo ha hecho, que proteja a los demás para no ser responsable de los riesgos a los que los expondría.",
-				"name": "Probabilidad de ser infectado"
+				"high": "Advertencia, sus hábitos, su estilo de vida y el contexto en el que vive le exponen a una **alta probabilidad** de que entre o haya entrado en contacto con el virus y lo contraiga. \n\nTanto si ya está infectado como si no, es importante que tome **precauciones adicionales** y cambie sus hábitos, aumentando el cuidado que tiene para protegerse a sí mismo y a los que le rodean. \n\nSu (alto) riesgo de ser infectado y contagioso a su vez lo expone a usted y a los que lo rodean a los peligros causados por el virus Covid-19. Por eso es especialmente importante que evite exponerse y se proteja de todas las maneras.",
+				"low": "Felicitaciones, sus hábitos, su estilo de vida y su entorno le exponen a un **bajo riesgo** de infección, por lo que es poco probable (pero no imposible) que contraiga o contraiga el virus en un futuro próximo. \n\nSin embargo, no debe bajar la guardia, ya que la situación puede cambiar rápidamente y sin previo aviso, especialmente si mantiene sus hábitos, el número de casos en su vecindario puede aumentar, exponiéndole a un mayor riesgo de enfermarse.",
+				"mid": "Ten cuidado, tus hábitos, estilo de vida y el contexto en el que vives te exponen a un **riesgo promedio**, \n\nPor lo tanto, es difícil predecir si ya ha contraído el virus o no, pero debería empezar a tomar más precauciones para reducir el riesgo de infección. \n\nPor eso es importante que te protejas para no contraerlo, o si ya lo tienes, protege a los demás para no ser responsable de los riesgos a los que los expones.",
+				"name": "¿Está en riesgo de infección?"
 			},
 			"gravity": {
-				"high": "Atención, el resultado de la prueba indica una alta probabilidad de que si tiene o si ha contraído el virus tendrá complicaciones, si no lo ha contraído ya le invitamos a que tenga un cuidado extremo en sus precauciones, para limitar el riesgo de infección. Si está infectado, por favor notifique a su médico, especificando su condición y siguiendo sus instrucciones.",
-				"low": "Su condición física y su salud general indican que es improbable que desarrolle consecuencias graves por el Covid-19. Son buenas noticias, pero también ha habido casos graves en personas perfectamente sanas. Así que es bueno tomar todas las precauciones, teniendo en cuenta también que podrías ser responsable de la infección de personas no tan afortunadas.",
-				"mid": "Advertencia, el resultado de la prueba indica que se corre un riesgo medio de desarrollar enfermedades graves por el virus, no se corre un riesgo completo de tener un curso grave, pero aún así hay que tener cuidado y tomar precauciones, ha habido casos graves incluso en personas perfectamente sanas. Además, todas las personas infectadas son también contagiosas y corren el riesgo de enfermar gravemente a otras personas.",
-				"name": "Si está infectado, probabilidad de complicaciones"
+				"high": "Atención, el resultado de la prueba indica una **alta probabilidad** de que si contrajeras el virus tendrías complicaciones.\n\nLe animamos a que controle sus síntomas, en caso de que empeoren póngase en contacto con su médico especificando su condición y siguiendo sus instrucciones.\n\nSi no tiene ningún síntoma, por favor tome precauciones extremas para limitar el riesgo de infección.",
+				"low": "Su condición física y su salud general indican que es **improbable** (pero no imposible) que desarrolle consecuencias graves del Covid-19. \n\nEs una buena noticia, pero no hay de bajar la guardia, también ha habido casos graves en personas perfectamente sanas. Así que es bueno tomar todas las precauciones, teniendo en cuenta también que podrías ser responsable de la infección de personas no tan afortunadas.",
+				"mid": "Advertencia, el resultado de la prueba indica que usted tiene un **riesgo promedio** de desarrollar condiciones graves por el virus.\n\nNo está completamente en riesgo de tener un curso serio, pero aún así debe ser cuidadoso y tomar sus precauciones, ha habido casos graves incluso en personas perfectamente sanas. Además, todos los infectados también son contagiosos y corren el riesgo de enfermar gravemente a otras personas.",
+				"name": "Si está infectado, ¿cuáles son las posibilidades de que se produzcan complicaciones?"
 			},
 			"high": "Alta probabilidad",
 			"low": "Baja probabilidad",
@@ -68,46 +68,46 @@
 			"breathing": {
 				"hard": "respiro con dificultad",
 				"question": "Respiración",
-				"well": "Respiro bien."
+				"well": "respiro bien"
 			},
 			"cardiovascular": {
-				"have": "Sufro de enfermedades cardiovasculares",
-				"none": "No sufro enfermedades cardiovasculares",
-				"question": "enfermedades cardiovasculares"
+				"have": "tengo enfermedades cardiovasculares",
+				"none": "no tengo enfermedades cardiovasculares",
+				"question": "Enfermedades cardiovasculares"
 			},
 			"chills": {
-				"have": "Tengo escalofríos",
-				"none": "No tengo escalofríos",
+				"have": "tengo escalofríos",
+				"none": "no tengo escalofríos",
 				"question": "Escalofríos"
 			},
 			"cholesterol": {
-				"have": "Sufro de colesterol alto",
-				"none": "No sufro de colesterol alto",
+				"have": "tengo colesterol alto",
+				"none": "no tengo colesterol alto",
 				"question": "Colesterol"
 			},
 			"conditions": {
-				"have": "Sufro de otras enfermedades",
-				"none": "No tengo otras enfermedades",
-				"question": "otras enfermedades"
+				"have": "padezco otras enfermedades",
+				"none": "no tengo otras enfermedades",
+				"question": "Otras enfermedades"
 			},
 			"contacts": {
-				"crowd": "He estado entre una multitud y la gente estaba cerca de mí",
-				"infected_no_protection": "He estado cerca de personas que se sabe que están infectadas con Covid-19 sin protección...",
-				"infected_with_protection": "He estado cerca de personas que se sabe que están infectadas con Covid-19, con protecciones",
-				"no_one": "No he conocido a nadie / no he salido de la casa en dos semanas.",
-				"normal": "He estado fuera y he mantenido una buena distancia de todos",
-				"question": "contactos recientes"
+				"crowd": "he estado e un lugar con una multitud de gente",
+				"infected_no_protection": "he estado cerca de personas infectadas de Covid-19, sin protecciones",
+				"infected_with_protection": "he estado cerca de personas infectadas de Covid-19, con protecciones",
+				"no_one": "no he visto a nadie / no he salido de la casa en dos semanas",
+				"normal": "he estado fuera de casa y he mantenido una buena distancia de los demás",
+				"question": "Contactos recientes"
 			},
 			"cough": {
 				"dry": "tos seca",
-				"none": "no hay tos",
+				"none": "no tengo tos",
 				"question": "Tos",
 				"wet": "tos húmeda"
 			},
 			"family": {
 				"exposed": "algunas de las personas con las que vivo tienen un alto riesgo de infección",
 				"question": "La gente que vive conmigo",
-				"safe": "la gente con la que vivo está a salvo"
+				"safe": "la gente con la que vivo no tienen muchos riesgos de infección"
 			},
 			"gender": {
 				"female": "mujer",
@@ -115,67 +115,67 @@
 				"question": "Género"
 			},
 			"general_conditions": {
-				"exhausted": "Me siento cansado / agotado",
-				"feel_great": "Me siento bien.",
+				"exhausted": "me encuentro cansado / agotado",
+				"feel_great": "me encuentro bien",
 				"question": "Condiciones generales"
 			},
 			"headache": {
-				"have": "Tengo dolor de cabeza",
-				"none": "No tengo dolor de cabeza.",
+				"have": "tengo dolor de cabeza",
+				"none": "no tengo dolor de cabeza",
 				"question": "Dolor de cabeza"
 			},
 			"hypertension": {
-				"have": "Sufro de hipertensión",
+				"have": "sufro de hipertensión",
 				"none": "mi presión sanguínea es buena",
-				"question": "hipertensión"
+				"question": "Hipertensión"
 			},
 			"immuno": {
-				"depressed": "Tengo problemas con mi sistema inmunológico ",
+				"depressed": "tengo problemas inmunológicos",
 				"normal": "mi sistema inmunológico está bien",
-				"question": "Su sistema inmunológico"
+				"question": "Sistema inmunológico"
 			},
 			"location": {
 				"great": "en mi vecindad hay un gran número de personas infectadas",
 				"no": "en mi vecindad no hay casos conocidos de infección",
 				"question": "Ubicación",
-				"remote": "Vivo en un área remota, en mi vecindad no hay nadie",
+				"remote": "vivo en un área remota, en mi vecindad no hay nadie",
 				"some": "en mi vecindad hay algunos casos de infección"
 			},
 			"missed_questions": "Te has perdido algunas preguntas obligatorias",
 			"mucus": {
-				"have": "Tengo un catarro",
-				"none": "No tengo catarro",
+				"have": "tengo catarro",
+				"none": "no tengo catarro",
 				"question": "Catarro"
 			},
 			"pains": {
-				"have": "Tengo dolores de la gripe",
-				"none": "No tengo dolores de la gripe",
-				"question": "Dolores de la gripe"
+				"have": "tengo los dolores típicos de la gripe",
+				"none": "no tengo los dolores típicos de la gripe",
+				"question": "Dolores típicos de la gripe"
 			},
 			"perception": {
-				"no_smell": "No puedo oler/saborear",
-				"ok": "Huelo y saboreo",
+				"no_smell": "he perdido la sensación del gusto y/o del olfato",
+				"ok": "tengo gusto y olfato normales",
 				"question": "Percepción"
 			},
 			"precautions": {
-				"distance": "Me mantengo a más de un metro de distancia de la gente",
-				"gloves": "Llevo guantes de látex cuando salgo de casa",
-				"mask": "Llevo la máscara cuando salgo de casa",
-				"precautions": "No tomo ninguna precaución",
+				"distance": "me mantengo a más de un metro de distancia de la gente",
+				"gloves": "llevo guantes de látex cuando salgo de casa",
+				"mask": "llevo mascarilla cuando salgo de casa",
+				"precautions": "no tomo ninguna precaución",
 				"question": "Precauciones",
-				"wash_hands_quick": "Me lavo las manos a menudo, pero de forma rápida",
-				"wash_hands_thoroughly": "Me lavo las manos a menudo y a fondo"
+				"wash_hands_quick": "me lavo las manos a menudo, pero de forma rápida",
+				"wash_hands_thoroughly": "me lavo las manos a menudo y a fondo"
 			},
 			"required": "Respuesta solicitada",
 			"temperature": {
 				"high": "fiebre alta",
 				"mid": "fiebre ligera",
-				"none": "no hay fiebre",
+				"none": "no tengo fiebre",
 				"question": "Fiebre"
 			},
 			"throat": {
 				"aches": "me duele la garganta",
-				"itches": "Siento una molestia en la garganta.",
+				"itches": "me molesta un poco la garganta",
 				"ok": "mi garganta está bien",
 				"question": "Garganta"
 			}

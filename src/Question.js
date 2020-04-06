@@ -9,7 +9,7 @@ const Question = (props) => {
   
   return(
     <div>  
-      <strong>{props.index}</strong>: {t(props.question.question)}
+      <strong>{props.index}</strong>. {t(props.question.question)}:
       {
         props.question.answers.map((answer) => 
             <Answer key={answer.id}

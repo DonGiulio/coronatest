@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
+import ReactMarkdown from 'react-markdown';
 
 import {Button, Alert} from 'reactstrap';
 
@@ -15,7 +16,8 @@ const Result = (t, points, category, explanation) =>
       <h2>{t(category.category)}</h2>
     </div>
     <div>
-      <h3>{t(explanation.title)}</h3> { t(explanation.description) }
+      <h3>{t(explanation.title)}</h3> 
+      <ReactMarkdown source={ t(explanation.description) } />
     </div>
   </Alert>
 

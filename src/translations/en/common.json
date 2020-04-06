@@ -1,7 +1,7 @@
 {
 	"main": {
 		"description": {
-			"alert": "Results of this test are just indicative and should not alarm you.\n\nIn case the test marks you as positive, it’s merely a recommendation to further explore your case and contact your healthcare professionals.\n\nIn case the test marks you as negative but you are still doubtful you are encouraged to seek help from your healthcare professionals.",
+			"alert": "Results of this test are just indicative and should not alarm you.\n\nIn case the test marks you as positive, the result is merely a recommendation to further explore your case and contact your healthcare professionals.\n\nIn case the test marks you as negative but you are still doubtful you are encouraged to seek help from your healthcare professionals.",
 			"message": "The test below has been developed to help you identify if your symptoms match with the typical Corona Virus (Covid-19) and give you a guide to better understand how to take your precautions.\n\nThis guide is by no means replacement for your healthcare system or doctor, it has merely been developed to help you understand better your situation."
 		},
 		"donate": {
@@ -20,7 +20,7 @@
 			}
 		},
 		"test": {
-			"text": "To ensure an accurate response you should answer the following questions to the best of your knowledge and understanding.\n\nThere are **no wrong answers**, the only wrong answer is the one you don't feel right with.",
+			"text": "The test below bases its results on statistical data on the current pandemic contagion, and on the recommendations of the World Health Organisation. The results therefore do not replace your doctor's advice, but they can still be intended as recommendations to keep you and those around you safe.\n\nTo ensure an accurate response you should answer the following questions to the best of your knowledge and understanding.\n\n**There are no wrong answers**",
 			"title": "The test"
 		},
 		"title": "Covid-19 Test"
@@ -34,22 +34,22 @@
 	"q": {
 		"category": {
 			"conditions": {
-				"high": "Warning, the test results indicates a high probability that you might be already infected. Don't worry, in the vast majority of cases there's no risk, and infected patients will heal within a few days as in any flu. It is paramount for you to stay at home and take all precautions to avoid infecting others. We strongly recommend you to contact your doctor and tell him/her your symptoms. You should also be mindful about how you feel, in case your conditions worsen, you should contact emergency (by phone, don't go out) and follow their instructions.",
-				"low": "Compliments, your symptoms show little compatibility with Covid-19 symptoms. This is good news, but doesn't give 100% guarantee that you are disease free or can lower your guard. There are many infected people without symptoms. So if you doubt of this result we encourage you to contact your doctor for further checks.",
-				"mid": "Warning, your results are uncertain, so we encourage you check with your doctor for further tests on your health. You should not worry now. We recommend you to stay at home and take all the precautions to avoid getting the infection or (in case you have it) infecting others.",
-				"name": "Probability of getting sick"
+				"high": "Careful, it is **possible** that you are already infected. So we recommend that you **stay home** and avoid infecting other people. \n\nCovid-19 is so insidious, because in many people it manifests itself with light or even no symptoms, so the infected do not suspect that they are dangerous and continue their normal activities, helping to spread the epidemic.\n\nThere is no need to be afraid, the majority of the infected are not in serious danger and get away with a few days' rest, as in any flu. \nAt this stage, however, it is essential that you stay at home, limiting contact with other people so as not to infect them. We recommend that you **call your doctor**. \n\nAlso pay attention to your symptoms, if they get worse call your doctor (by phone, without leaving home) and follow his instructions.",
+				"low": "Congratulations, your symptoms have a **low compatibility** with Covid-19, so you're probably not infected.\n\n**That's good news**, but it doesn't 100% guarantee that you're not infected or that you can let your guard down. There are also a lot of people infected, but with few or no symptoms at all. That's why we recommend you keep your guard up and your precautions high.\n\nIf you doubt this result we encourage you to contact your doctor for further examination.",
+				"mid": "Warning, your symptoms correspond to an **uncertain situation**.\n\nSome of your symptoms correspond to those of Covid-19, but the data is not sufficient to make a prediction.\n\nThere is **nothing to worry**, but as we are not certain, we recommend you stay at home and take all precautions to avoid infecting other people. \n\nIf you think you are infected, we especially recommend that you stay at home and contact your doctor for further checks. We recommend that you do not go out to avoid getting the infection or infecting others.",
+				"name": "Are you sick with Covid-19?"
 			},
 			"exposure": {
-				"high": "Warning, your results shows a high probability that you have already been infected, or might be infected soon. You should not worry though, in the vast majority of patients the infection is no different from a normal flu, and heals itself in a few days, while in few patients it will become something serious. Whether you are already infected or not, you immediately need to change your habits and rise your precautions, in order to protect yourself, and protect people around you from the infection. ",
-				"low": "Compliments, your habits, lifestyle and neighbourhood exposes you to a low risk of infection, it is unlikely (but not impossible) that you have been already or will soon be infected. \n\nYou should not lower your precautions though, the situation could change very quickly and without notice. In particular even though you might keep your guard high, your neighbours might become infected, exposing yourself to higher risks. ",
-				"mid": "Warning, your habits, lifestyle, and neighbourhood exposes you to a medium risk. Thus it is hard to say whether you have already been infected, but if you don't start immediately rising your precautions, it's possible that you might be infected soon. You should not worry now, in the vast majority of patients Covid-19 heals with no treatment, like a normal flu, while in just a minority it becomes something serious. So it is important that you protect yourself to stay safe and infection free. In case you are already infected you should still take extra precautions, so that you don't infect others.",
-				"name": "Probability of being infected"
+				"high": "Warning, your habits, lifestyle and the context in which you live expose you to a **high probability** that you will enter or have already come into contact with the virus and contract it. \n\nWhether you are already infected or not, it is important that you **take extra precautions** and change your habits, increasing the care you take in protecting yourself and those around you. \n\nYour (high) risk of being infected and becoming contagious in turn exposes you and those around you to the dangers caused by the Covid-19 virus. That's why it's especially important that you avoid exposing yourself and protect yourself in all ways. ",
+				"low": "Compliments, your habits, lifestyle and neighbourhood exposes you to a **low risk** of infection, it is unlikely (but not impossible) that you have been already or will soon be infected. \n\nYou should not lower your precautions though, the situation could change very quickly and without notice. In particular even though you might keep your guard high, your neighbours might become infected, exposing yourself to higher risks. ",
+				"mid": "Be careful, your habits, lifestyle and the context in which you live expose you to a **average risk**, \n\nSo it is difficult to predict whether or not you have already contracted the virus, but you should start taking more precautions to reduce the risk of infection. \n\nThat's why it's important that you protect yourself so that you don't contract it, or if you already have, protect others so that you're not responsible for any risks you expose them to.",
+				"name": "Are you at risk of being infected?"
 			},
 			"gravity": {
-				"high": "Warning, your result shows a high probability that, should you be infected, you would suffer complications. If you think you are infected you should contact your doctors explaining your conditions and follow their instructions. If you are not infected you should take your precautions to the extreme, to avoid being infected.",
-				"low": "Your physical and health conditions show that it is unlikely that when infected you develop serious symptoms from Covid-19. This is good news, but you should not lower your guard, there have been also some serious cases on otherwise healthy patients. It is therefore important to use all your precautions, also considering that you might become responsible of infecting others, who might be less fortunate than you are. ",
-				"mid": "Warning, your test shows that you have a medium risk of developing serious conditions from the infection. You are not completely risk free from serious conditions and complications from the disease. You need to keep up your precautions though, there have been a few serious cases on otherwise healthy people. Furthermore each and every infected is contagious, so don't risk infecting others. ",
-				"name": "If infected, probability of developing complications"
+				"high": "Warning, the test result indicates a **high probability** that if you contracted the virus you would have complications.\n\nWe encourage you to monitor your symptoms, in case of worsening contact your doctor specifying your conditions and following his instructions.\n\nIf you do not have any symptoms, please take extreme precautions to limit the risk of infection.",
+				"low": "Your physical condition and general health indicates that it is **unlikely** (but not impossible) that you would develop serious consequences from Covid-19. \n\nThis is good news, but you should not lower your guard, as there have also been serious cases in perfectly healthy people. So it is good to use all precautions, also considering that you could become responsible for the infection of not so lucky people.",
+				"mid": "Warning, the test result indicates that you are at **average risk** of developing serious conditions from the virus.\n\nYou are not completely at risk of having a serious course, but you must still be careful and take your precautions, there have been serious cases even in perfectly healthy people. In addition, everyone who is infected is also contagious and risks making other people seriously ill.",
+				"name": "If infected, what are the chances of developing complications?"
 			},
 			"high": "High probability",
 			"low": "Low probability",
@@ -73,7 +73,7 @@
 			"cardiovascular": {
 				"have": "I suffer from cardiovascular diseases",
 				"none": "I do not suffer from cardiovascular diseases",
-				"question": "cardiovascular diseases"
+				"question": "Cardiovascular diseases"
 			},
 			"chills": {
 				"have": "I have chills",
@@ -88,15 +88,15 @@
 			"conditions": {
 				"have": "I have other conditions",
 				"none": "I don't have pre existing conditions",
-				"question": "other conditions"
+				"question": "Other conditions"
 			},
 			"contacts": {
-				"crowd": "I have been out within a crowd and people were near me",
+				"crowd": "I have been out in a crowd",
 				"infected_no_protection": "I have been in the vicinity of people known to be infected with Covid-19 without protections",
 				"infected_with_protection": "I've been in the vicinity of people known to be infected with Covid-19, with protections",
 				"no_one": "I met no one / I haven't been out for two weeks",
 				"normal": "I have been out and I kept a good distance from everyone",
-				"question": "recent contacts"
+				"question": "Recent contacts"
 			},
 			"cough": {
 				"dry": "dry cough",
@@ -127,12 +127,12 @@
 			"hypertension": {
 				"have": "I suffer from hypertension",
 				"none": "my blood pressure is good",
-				"question": "hypertension"
+				"question": "Hypertension"
 			},
 			"immuno": {
 				"depressed": "I have problems with my immune system ",
 				"normal": "my immune system is ok",
-				"question": "Your immune system"
+				"question": "Immune system"
 			},
 			"location": {
 				"great": "in my vicinity there is a great number of infected people",
