@@ -25,8 +25,7 @@ class App extends React.Component {
     async function fetchData () {
       try {
         const response = await fetch('/access', {method: 'PUT' });
-        console.log("response received");
-        console.log(response);
+        console.log("response received", response);
       } catch (err) {
         console.log(err.message);
       }

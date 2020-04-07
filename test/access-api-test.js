@@ -10,14 +10,15 @@ test('Start', async t => {
   t.ok(end, 'Sandbox started')
 })
 
-test('get /api', async t => {
+test('put /accesses', async t => {
   t.plan(2)
   try {
-    let result = await tiny.get({url: `${base}/api`})
-    t.ok(result, 'Got API response', console.log(result.body))
+    let result = await tiny.get({url: `${base}/accesses`, method: "put"})
+    t.ok(result, 'Got API response')
+    console.log("RESPONSE : " , result);
     t.equal(
       result.body.message,
-      'Hello from your Begin API!',
+      'ok',
       'API response should match.'
     )
   } catch (err) {
