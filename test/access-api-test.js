@@ -10,7 +10,7 @@ test('Start', async t => {
   t.ok(end, 'Sandbox started')
 })
 
-test('put /accesses', async t => {
+test.skip('put /accesses', async t => {
   t.plan(2)
   try {
     let result = await tiny.get({url: `${base}/accesses`, method: "put"})
