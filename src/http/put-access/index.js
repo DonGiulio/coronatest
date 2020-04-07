@@ -20,6 +20,15 @@ exports.handler = async function http (req) {
       result = await data.set({table, scopeID, dataID})
     } catch(err) {
       console.log(err);
+      return {
+      headers: {
+        'content-type': 'application/json; charset=utf8',
+        'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
+      },
+      body: JSON.stringify({
+        message: 'problem: ',
+        cause: err
+       })
     }
 
     console.log("result ", result);
