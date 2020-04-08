@@ -1,5 +1,5 @@
 @app
-Covid-19_Test
+covid19-test
 
 @static
 folder build
