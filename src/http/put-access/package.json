@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "@begin/data": "^1.2.0",
-    "date-and-time": "^0.13.1"
+    "date-and-time": "^0.14.2"
   }
 }
